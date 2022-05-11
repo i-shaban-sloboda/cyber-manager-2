@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": [
+    "effector"
+  ],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "plugin:effector/recommended",
+    "plugin:effector/react",
+    "plugin:effector/scope"
+  ],
+  "rules": {
+    "import/no-anonymous-default-export": 0
+  }
 }

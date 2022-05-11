@@ -15,11 +15,11 @@ import {
     Stack,
 } from '@mui/material'
 
-import styles from './Login.module.scss'
+import styles from './Registration.module.scss'
 
 export interface Props {}
 
-export const Login: FC<Props> = memo((props) => {
+export const Registration: FC<Props> = memo((props) => {
     const [showPassword, setPassDisplayState] = useState(false)
     const baseClasses = classNames(styles.base, styles.base__stretched)
     const handleClickShowPassword = useCallback(() => {
@@ -33,8 +33,8 @@ export const Login: FC<Props> = memo((props) => {
     return (
         <div className={baseClasses}>
             <Head>
-                <title>Cyber Manager 2: LOGIN</title>
-                <meta name="description" content="Login page" />
+                <title>Cyber Manager 2: REGISTRATION</title>
+                <meta name="description" content="Registration page" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <UnauthorizedHeader />
@@ -65,13 +65,34 @@ export const Login: FC<Props> = memo((props) => {
                             }
                         />
                     </FormControl>
+                    <FormControl variant="standard">
+                        <InputLabel htmlFor="repeatPassword">Повторите пароль</InputLabel>
+                        <Input
+                            id="repeatPassword"
+                            name="repeatPassword"
+                            autoComplete="repeatPassword"
+                            type={showPassword ? 'text' : 'password'}
+                            endAdornment={
+                                <InputAdornment position="end">
+                                    <IconButton
+                                        sx={{ mb: 1 }}
+                                        aria-label="toggle password visibility"
+                                        onClick={handleClickShowPassword}
+                                        onMouseDown={handleMouseDownPassword}
+                                    >
+                                        {showPassword ? <VisibilityOff /> : <Visibility />}
+                                    </IconButton>
+                                </InputAdornment>
+                            }
+                        />
+                    </FormControl>
                     <Button
                         type="submit"
                         variant="text"
                         color="secondary"
                         sx={{ alignSelf: 'end' }}
                     >
-                        Войти
+                        Зарегистрироваться
                     </Button>
                 </Stack>
             </form>

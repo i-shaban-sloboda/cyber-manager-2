@@ -58,7 +58,7 @@ export const Login: FC<Props> = memo((props) => {
             </Head>
             <UnauthorizedHeader />
             <form className={styles.form} onSubmit={handleSubmit}>
-                <Stack sx={{ width: 480 }}>
+                <Stack gap={1} sx={{ width: 480 }}>
                     <FormControl
                         variant="standard"
                         error={!!username && !!errors.username && !!touched.username}

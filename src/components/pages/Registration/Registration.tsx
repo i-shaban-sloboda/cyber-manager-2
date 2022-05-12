@@ -17,6 +17,7 @@ const RegistrationSchema = Yup.object().shape({
     repeatPassword: Yup.string()
         .min(4, 'Too Short!')
         .max(30, 'Too Long!')
+        .oneOf([Yup.ref('password'), null], 'Пароли должны совпадать')
         .required('Обязательное поле'),
 })
 
@@ -64,7 +65,7 @@ export const Registration: FC<Props> = memo((props) => {
             </Head>
             <UnauthorizedHeader />
             <form className={styles.form} onSubmit={handleSubmit}>
-                <Stack sx={{ width: 480 }}>
+                <Stack gap={1} sx={{ width: 480 }}>
                     <FormControl
                         variant="standard"
                         error={!!username && !!errors.username && !!touched.username}

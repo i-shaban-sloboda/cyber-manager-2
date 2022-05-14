@@ -16,6 +16,9 @@
 # generated content
 next.config.js
 $path.js
+/public/robots.txt
+/public/sitemap.xml
+/public/sitemap-0.xml
 
 # production
 /build

@@ -1,22 +1,24 @@
+import { BuiltInProviderType } from 'next-auth/providers'
+import { signIn } from 'next-auth/react'
+import { ClientSafeProvider, LiteralUnion } from 'next-auth/react/types'
 import Head from 'next/head'
-import React, { FC, memo } from 'react'
+import React, { FC, Fragment, memo } from 'react'
 
 import classNames from 'classnames'
 
-import { UnauthorizedHeader } from '../../Header/UnauthorizedHeader'
+import { pagesPath } from '../../../utils/$path'
 import { PasswordVisibilitySwitcher } from '../../PasswordVisibilitySwitcher/PasswordVisibilitySwitcher'
+import { UnauthorizedHeader } from '../../UnauthorizedHeader/UnauthorizedHeader'
+import { LoginSchema } from './utils'
 import { Button, FormControl, FormHelperText, Input, InputLabel, Stack } from '@mui/material'
 import { useFormik } from 'formik'
-import * as Yup from 'yup'
 
 import styles from './Login.module.scss'
 
-const LoginSchema = Yup.object().shape({
-    username: Yup.string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
-    password: Yup.string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
-})
-
-export interface Props {}
+export interface Props {
+    readonly csrfToken: string
+    readonly providers: Record<LiteralUnion<BuiltInProviderType, string>, ClientSafeProvider>
+}
 
 export interface Inputs {
     readonly username: string
@@ -24,7 +26,7 @@ export interface Inputs {
     readonly showPassword: boolean
 }
 
-export const Login: FC<Props> = memo((props) => {
+export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
     const baseClasses = classNames(styles.base, styles.base__stretched)
     const formik = useFormik<Inputs>({
         initialValues: {
@@ -33,11 +35,18 @@ export const Login: FC<Props> = memo((props) => {
             showPassword: false,
         },
         validationSchema: LoginSchema,
-        onSubmit: (values, { setSubmitting }) => {
-            setTimeout(() => {
-                alert(JSON.stringify(values, null, 2))
+        onSubmit: async ({ username, password }, { setSubmitting }) => {
+            try {
+                const response = await signIn('credentials', {
+                    username,
+                    password,
+                    callbackUrl: pagesPath.lobby.$url().pathname,
+                })
+                setSubmitting(true)
+            } catch (e) {
+                console.error(`>> error`, e)
                 setSubmitting(false)
-            }, 400)
+            }
         },
     })
     const {
@@ -57,62 +66,91 @@ export const Login: FC<Props> = memo((props) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <UnauthorizedHeader />
-            <form className={styles.form} onSubmit={handleSubmit}>
+            <div className={styles.content}>
+                <form onSubmit={handleSubmit}>
+                    <Input name="csrfToken" defaultValue={csrfToken} type="hidden" />
+                    <Stack gap={1} sx={{ width: 480 }}>
+                        <FormControl
+                            variant="standard"
+                            error={!!username && !!errors.username && !!touched.username}
+                        >
+                            <InputLabel htmlFor="username">Имя *</InputLabel>
+                            <Input
+                                id="username"
+                                name="username"
+                                autoComplete="username"
+                                value={username}
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                aria-describedby="username-error-text"
+                            />
+                            {errors.username && touched.username && (
+                                <FormHelperText id="username-error-text">
+                                    {errors.username}
+                                </FormHelperText>
+                            )}
+                        </FormControl>
+                        <FormControl
+                            variant="standard"
+                            error={!!password && !!errors.password && !!touched.password}
+                        >
+                            <InputLabel htmlFor="password">Пароль *</InputLabel>
+                            <Input
+                                id="password"
+                                name="password"
+                                autoComplete="password"
+                                type={showPassword ? 'text' : 'password'}
+                                value={password}
+                                onChange={handleChange}
+                                onBlur={handleBlur}
+                                endAdornment={
+                                    <PasswordVisibilitySwitcher
+                                        name="showPassword"
+                                        formik={formik}
+                                    />
+                                }
+                                aria-describedby="password-error-text"
+                            />
+                            {errors.password && touched.password && (
+                                <FormHelperText id="password-error-text">
+                                    {errors.password}
+                                </FormHelperText>
+                            )}
+                        </FormControl>
+                        <Button
+                            type="submit"
+                            variant="text"
+                            color="secondary"
+                            sx={{ alignSelf: 'end', mt: 2 }}
+                        >
+                            Войти
+                        </Button>
+                    </Stack>
+                </form>
                 <Stack gap={1} sx={{ width: 480 }}>
-                    <FormControl
-                        variant="standard"
-                        error={!!username && !!errors.username && !!touched.username}
-                    >
-                        <InputLabel htmlFor="username">Имя *</InputLabel>
-                        <Input
-                            id="username"
-                            name="username"
-                            autoComplete="username"
-                            value={username}
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            aria-describedby="username-error-text"
-                        />
-                        {errors.username && touched.username && (
-                            <FormHelperText id="username-error-text">
-                                {errors.username}
-                            </FormHelperText>
-                        )}
-                    </FormControl>
-                    <FormControl
-                        variant="standard"
-                        error={!!password && !!errors.password && !!touched.password}
-                    >
-                        <InputLabel htmlFor="password">Пароль *</InputLabel>
-                        <Input
-                            id="password"
-                            name="password"
-                            autoComplete="password"
-                            type={showPassword ? 'text' : 'password'}
-                            value={password}
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            endAdornment={
-                                <PasswordVisibilitySwitcher name="showPassword" formik={formik} />
-                            }
-                            aria-describedby="password-error-text"
-                        />
-                        {errors.password && touched.password && (
-                            <FormHelperText id="password-error-text">
-                                {errors.password}
-                            </FormHelperText>
-                        )}
-                    </FormControl>
-                    <Button
-                        type="submit"
-                        variant="text"
-                        color="secondary"
-                        sx={{ alignSelf: 'end', mt: 2 }}
-                    >
-                        Войти
-                    </Button>
+                    {Object.values(providers)
+                        .filter(({ id }) => id !== 'credentials')
+                        .map(({ name, id }) => (
+                            <Fragment key={id}>
+                                <div className={styles.delimiter}>
+                                    <span>or</span>
+                                </div>
+
+                                <Button
+                                    variant="text"
+                                    color="secondary"
+                                    onClick={() =>
+                                        signIn(id, {
+                                            callbackUrl: pagesPath.lobby.$url().pathname,
+                                        })
+                                    }
+                                >
+                                    with {name}
+                                </Button>
+                            </Fragment>
+                        ))}
                 </Stack>
-            </form>
+            </div>
         </div>
     )
 })

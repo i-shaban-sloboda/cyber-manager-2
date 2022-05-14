@@ -1,4 +1,7 @@
 export const pagesPath = {
+  "lobby": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/lobby' as const, hash: url?.hash })
+  },
   "login": {
     $url: (url?: { hash?: string }) => ({ pathname: '/login' as const, hash: url?.hash })
   },

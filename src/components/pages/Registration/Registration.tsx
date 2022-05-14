@@ -1,25 +1,18 @@
+import { useSession } from 'next-auth/react'
 import Head from 'next/head'
-import React, { FC, memo } from 'react'
+import { useRouter } from 'next/router'
+import React, { FC, memo, useEffect } from 'react'
 
 import classNames from 'classnames'
 
-import { UnauthorizedHeader } from '../../Header/UnauthorizedHeader'
+import { pagesPath } from '../../../utils/$path'
 import { PasswordVisibilitySwitcher } from '../../PasswordVisibilitySwitcher/PasswordVisibilitySwitcher'
+import { UnauthorizedHeader } from '../../UnauthorizedHeader/UnauthorizedHeader'
+import { RegistrationSchema } from './utils'
 import { Button, FormControl, FormHelperText, Input, InputLabel, Stack } from '@mui/material'
 import { useFormik } from 'formik'
-import * as Yup from 'yup'
 
 import styles from './Registration.module.scss'
-
-const RegistrationSchema = Yup.object().shape({
-    username: Yup.string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
-    password: Yup.string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
-    repeatPassword: Yup.string()
-        .min(4, 'Too Short!')
-        .max(30, 'Too Long!')
-        .oneOf([Yup.ref('password'), null], 'Пароли должны совпадать')
-        .required('Обязательное поле'),
-})
 
 export interface Props {}
 
@@ -31,6 +24,8 @@ export interface Inputs {
 }
 
 export const Registration: FC<Props> = memo((props) => {
+    const router = useRouter()
+    const { status } = useSession()
     const baseClasses = classNames(styles.base, styles.base__stretched)
     const formik = useFormik<Inputs>({
         initialValues: {
@@ -56,7 +51,13 @@ export const Registration: FC<Props> = memo((props) => {
         errors,
     } = formik
 
-    return (
+    useEffect(() => {
+        if (status === 'authenticated') {
+            router.push(pagesPath.lobby.$url().pathname)
+        }
+    }, [status, router])
+
+    return status === 'unauthenticated' ? (
         <div className={baseClasses}>
             <Head>
                 <title>Cyber Manager 2: REGISTRATION</title>
@@ -147,5 +148,5 @@ export const Registration: FC<Props> = memo((props) => {
                 </Stack>
             </form>
         </div>
-    )
+    ) : null
 })

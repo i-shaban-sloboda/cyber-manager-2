@@ -1,4 +1,5 @@
 import { signOut, useSession } from 'next-auth/react'
+import { useRouter } from 'next/router'
 import React, { FC, MouseEvent, memo, useCallback, useState } from 'react'
 
 import { pagesPath } from '../../utils/$path'
@@ -18,6 +19,7 @@ export interface Props {}
 
 export const AuthorizedHeader: FC<Props> = memo((props) => {
     const { data } = useSession()
+    const router = useRouter()
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
     const open = Boolean(anchorEl)
     const handleClick = useCallback((event: MouseEvent<HTMLElement>) => {
@@ -33,7 +35,15 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
             }),
         [],
     )
-
+    const handleApplicationSettingsClick = useCallback(
+        () => router.push(pagesPath.settings.$url().pathname),
+        [router],
+    )
+    const handleProfileSettingsClick = useCallback(
+        () => router.push(pagesPath.profile.$url().pathname),
+        [router],
+    )
+    console.log(`>> data ${JSON.stringify(data, null, 4)}`)
     return (
         <Stack
             gap={2}
@@ -89,14 +99,12 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
                 transformOrigin={{ horizontal: 'right', vertical: 'top' }}
                 anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
             >
-                <MenuItem>
-                    <Avatar /> Profile
-                </MenuItem>
-                <MenuItem>
-                    <Avatar /> My account
+                <MenuItem onClick={handleProfileSettingsClick}>
+                    <Avatar alt={data?.user?.name!} src={data?.user?.image!} />
+                    Профиль
                 </MenuItem>
                 <Divider />
-                <MenuItem>
+                <MenuItem onClick={handleApplicationSettingsClick}>
                     <ListItemIcon>
                         <Settings fontSize="small" />
                     </ListItemIcon>

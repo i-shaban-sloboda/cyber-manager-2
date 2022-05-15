@@ -1,7 +1,6 @@
-import { useSession } from 'next-auth/react'
+import { signIn, useSession } from 'next-auth/react'
 import Head from 'next/head'
-import { useRouter } from 'next/router'
-import React, { FC, memo, useEffect } from 'react'
+import React, { FC, memo } from 'react'
 
 import classNames from 'classnames'
 
@@ -18,7 +17,6 @@ import styles from './Registration.module.scss'
 export interface Props {}
 
 export const Registration: FC<Props> = memo((props) => {
-    const router = useRouter()
     const { status } = useSession()
     const baseClasses = classNames(styles.base, styles.base__stretched)
     const formik = useFormik<RegistrationInputs>({
@@ -35,12 +33,19 @@ export const Registration: FC<Props> = memo((props) => {
             setSubmitting(true)
 
             try {
-                const response = await apiClient.post('/api/users', {
+                const regResponse = await apiClient.post('/api/users', {
                     name,
                     email,
                     password,
                 })
-                console.log(`>> 111 ${JSON.stringify(response, null, 4)}`)
+
+                const loginResponse = await signIn('credentials', {
+                    name,
+                    password,
+                    callbackUrl: pagesPath.lobby.$url().pathname,
+                })
+                console.log(`>> regResponse ${JSON.stringify(regResponse, null, 4)}`)
+                console.log(`>> loginResponse ${JSON.stringify(loginResponse, null, 4)}`)
             } catch (e) {
                 console.log(`>> error ${JSON.stringify(e, null, 4)}`)
             }
@@ -56,12 +61,6 @@ export const Registration: FC<Props> = memo((props) => {
         touched,
         errors,
     } = formik
-
-    useEffect(() => {
-        if (status === 'authenticated') {
-            router.push(pagesPath.lobby.$url().pathname)
-        }
-    }, [status, router])
 
     return status === 'unauthenticated' ? (
         <div className={baseClasses}>

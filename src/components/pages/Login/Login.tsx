@@ -9,7 +9,7 @@ import classNames from 'classnames'
 import { pagesPath } from '../../../utils/$path'
 import { PasswordVisibilitySwitcher } from '../../PasswordVisibilitySwitcher/PasswordVisibilitySwitcher'
 import { UnauthorizedHeader } from '../../UnauthorizedHeader/UnauthorizedHeader'
-import { LoginSchema } from './utils'
+import { LoginInputs, LoginSchema } from './utils'
 import { Button, FormControl, FormHelperText, Input, InputLabel, Stack } from '@mui/material'
 import { useFormik } from 'formik'
 
@@ -20,15 +20,9 @@ export interface Props {
     readonly providers: Record<LiteralUnion<BuiltInProviderType, string>, ClientSafeProvider>
 }
 
-export interface Inputs {
-    readonly username: string
-    readonly password: string
-    readonly showPassword: boolean
-}
-
 export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
     const baseClasses = classNames(styles.base, styles.base__stretched)
-    const formik = useFormik<Inputs>({
+    const formik = useFormik<LoginInputs>({
         initialValues: {
             username: '',
             password: '',
@@ -74,7 +68,7 @@ export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
                             variant="standard"
                             error={!!username && !!errors.username && !!touched.username}
                         >
-                            <InputLabel htmlFor="username">Имя *</InputLabel>
+                            <InputLabel htmlFor="username">Введите Имя *</InputLabel>
                             <Input
                                 id="username"
                                 name="username"
@@ -94,7 +88,7 @@ export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
                             variant="standard"
                             error={!!password && !!errors.password && !!touched.password}
                         >
-                            <InputLabel htmlFor="password">Пароль *</InputLabel>
+                            <InputLabel htmlFor="password">Введите Пароль *</InputLabel>
                             <Input
                                 id="password"
                                 name="password"
@@ -132,8 +126,8 @@ export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
                         .filter(({ id }) => id !== 'credentials')
                         .map(({ name, id }) => (
                             <Fragment key={id}>
-                                <div className={styles.delimiter}>
-                                    <span>or</span>
+                                <div className={styles.divider}>
+                                    <span>или</span>
                                 </div>
 
                                 <Button
@@ -145,7 +139,7 @@ export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
                                         })
                                     }
                                 >
-                                    with {name}
+                                    с помощью {name}
                                 </Button>
                             </Fragment>
                         ))}

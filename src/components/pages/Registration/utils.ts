@@ -1,11 +1,18 @@
-import * as Yup from 'yup'
+import { InferType, object, ref, string } from 'yup'
 
-export const RegistrationSchema = Yup.object().shape({
-    username: Yup.string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
-    password: Yup.string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
-    repeatPassword: Yup.string()
+export const RegistrationFESchema = object().shape({
+    name: string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
+    email: string().email().required('Обязательное поле'),
+    password: string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
+    repeatPassword: string()
         .min(4, 'Too Short!')
         .max(30, 'Too Long!')
-        .oneOf([Yup.ref('password'), null], 'Пароли должны совпадать')
+        .oneOf([ref('password'), null], 'Пароли должны совпадать')
         .required('Обязательное поле'),
 })
+
+export const RegistrationBESchema = RegistrationFESchema.omit(['repeatPassword'])
+
+export type RegistrationInputs = InferType<typeof RegistrationFESchema> & {
+    readonly showPassword: boolean
+}

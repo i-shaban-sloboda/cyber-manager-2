@@ -5,10 +5,11 @@ import React, { FC, memo, useEffect } from 'react'
 
 import classNames from 'classnames'
 
+import { apiClient } from '../../../lib/apiClient'
 import { pagesPath } from '../../../utils/$path'
 import { PasswordVisibilitySwitcher } from '../../PasswordVisibilitySwitcher/PasswordVisibilitySwitcher'
 import { UnauthorizedHeader } from '../../UnauthorizedHeader/UnauthorizedHeader'
-import { RegistrationSchema } from './utils'
+import { RegistrationFESchema, RegistrationInputs } from './utils'
 import { Button, FormControl, FormHelperText, Input, InputLabel, Stack } from '@mui/material'
 import { useFormik } from 'formik'
 
@@ -16,37 +17,42 @@ import styles from './Registration.module.scss'
 
 export interface Props {}
 
-export interface Inputs {
-    readonly username: string
-    readonly password: string
-    readonly repeatPassword: string
-    readonly showPassword: boolean
-}
-
 export const Registration: FC<Props> = memo((props) => {
     const router = useRouter()
     const { status } = useSession()
     const baseClasses = classNames(styles.base, styles.base__stretched)
-    const formik = useFormik<Inputs>({
+    const formik = useFormik<RegistrationInputs>({
+        // @ts-ignore
         initialValues: {
-            username: '',
+            name: '',
+            email: '',
             password: '',
             repeatPassword: '',
             showPassword: false,
         },
-        validationSchema: RegistrationSchema,
-        onSubmit: (values, { setSubmitting }) => {
-            setTimeout(() => {
-                alert(JSON.stringify(values, null, 2))
-                setSubmitting(false)
-            }, 400)
+        validationSchema: RegistrationFESchema,
+        onSubmit: async ({ name, email, password }, { setSubmitting }) => {
+            setSubmitting(true)
+
+            try {
+                const response = await apiClient.post('/api/users', {
+                    name,
+                    email,
+                    password,
+                })
+                console.log(`>> 111 ${JSON.stringify(response, null, 4)}`)
+            } catch (e) {
+                console.log(`>> error ${JSON.stringify(e, null, 4)}`)
+            }
+
+            setSubmitting(false)
         },
     })
     const {
         handleChange,
         handleBlur,
         handleSubmit,
-        values: { username, password, repeatPassword, showPassword },
+        values: { name, email, password, repeatPassword, showPassword },
         touched,
         errors,
     } = formik
@@ -69,22 +75,38 @@ export const Registration: FC<Props> = memo((props) => {
                 <Stack gap={1} sx={{ width: 480 }}>
                     <FormControl
                         variant="standard"
-                        error={!!username && !!errors.username && !!touched.username}
+                        error={!!name && !!errors.name && !!touched.name}
                     >
-                        <InputLabel htmlFor="username">Имя *</InputLabel>
+                        <InputLabel htmlFor="name">Имя *</InputLabel>
                         <Input
-                            id="username"
-                            name="username"
-                            autoComplete="username"
-                            value={username}
+                            id="name"
+                            name="name"
+                            autoComplete="name"
+                            value={name}
                             onChange={handleChange}
                             onBlur={handleBlur}
-                            aria-describedby="username-error-text"
+                            aria-describedby="name-error-text"
                         />
-                        {errors.username && touched.username && (
-                            <FormHelperText id="username-error-text">
-                                {errors.username}
-                            </FormHelperText>
+                        {errors.name && touched.name && (
+                            <FormHelperText id="name-error-text">{errors.name}</FormHelperText>
+                        )}
+                    </FormControl>
+                    <FormControl
+                        variant="standard"
+                        error={!!email && !!errors.email && !!touched.email}
+                    >
+                        <InputLabel htmlFor="email">Электронная почта *</InputLabel>
+                        <Input
+                            id="email"
+                            name="email"
+                            autoComplete="email"
+                            value={email}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            aria-describedby="email-error-text"
+                        />
+                        {errors.email && touched.email && (
+                            <FormHelperText id="email-error-text">{errors.email}</FormHelperText>
                         )}
                     </FormControl>
                     <FormControl

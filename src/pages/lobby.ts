@@ -1,20 +1,20 @@
-import { GetServerSideProps } from 'next'
-import { getSession } from 'next-auth/react'
+import { getSession, useSession } from 'next-auth/react'
 
 import { Lobby } from '../components/pages/Lobby/Lobby'
-import { pagesPath } from '../utils/$path'
+import { $data } from '../models/test'
+import { protectedPage } from '../utils/page'
+import { fork, serialize } from 'effector'
 
 export default Lobby
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getServerSideProps = protectedPage(async (context) => {
     const session = await getSession(context)
+    const scope = fork({
+        // @ts-ignore
+        values: [[$data, session?.user?.id]],
+    })
 
-    return session
-        ? { props: {} }
-        : {
-              redirect: {
-                  destination: pagesPath.login.$url().pathname,
-                  permanent: false,
-              },
-          }
-}
+    const effector = serialize(scope)
+
+    return { props: { effector } }
+})

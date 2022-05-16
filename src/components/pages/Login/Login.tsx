@@ -1,8 +1,9 @@
+import { NextPage } from 'next'
 import { BuiltInProviderType } from 'next-auth/providers'
 import { signIn } from 'next-auth/react'
 import { ClientSafeProvider, LiteralUnion } from 'next-auth/react/types'
 import Head from 'next/head'
-import React, { FC, Fragment, memo } from 'react'
+import React, { Fragment, memo } from 'react'
 
 import classNames from 'classnames'
 
@@ -17,7 +18,7 @@ export interface Props {
     readonly providers: Record<LiteralUnion<BuiltInProviderType, string>, ClientSafeProvider>
 }
 
-export const Login: FC<Props> = memo(({ csrfToken, providers }) => {
+export const Login: NextPage<Props> = memo(({ csrfToken, providers }) => {
     const baseClasses = classNames(styles.base, styles.base__stretched)
 
     return (

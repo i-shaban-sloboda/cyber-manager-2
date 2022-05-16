@@ -5,7 +5,7 @@ import createEmotionCache from '../createEmotionCache'
 import theme from '../theme'
 import createEmotionServer from '@emotion/server/create-instance'
 
-export default class MyDocument extends Document<{ emotionStyleTags: JSX.Element[] }> {
+const MyDocument = class MyDocument extends Document<{ emotionStyleTags: JSX.Element[] }> {
     // `getInitialProps` belongs to `_document` (instead of `_app`),
     // it's compatible with static-site generation (SSG).
     static getInitialProps = async (ctx: DocumentContext) => {
@@ -88,3 +88,4 @@ export default class MyDocument extends Document<{ emotionStyleTags: JSX.Element
         )
     }
 }
+export default MyDocument

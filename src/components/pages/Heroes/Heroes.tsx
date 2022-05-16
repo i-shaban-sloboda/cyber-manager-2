@@ -1,12 +1,13 @@
+import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
-import React, { FC, memo } from 'react'
+import React, { memo } from 'react'
 
 import { PageLayout } from '../../PageLayout/PageLayout'
 import { Typography } from '@mui/material'
 
 export interface Props {}
 
-export const Heroes: FC<Props> = memo((props) => {
+export const Heroes: NextPage<Props> = memo((props) => {
     const session = useSession()
 
     return (

@@ -8,12 +8,13 @@ import { AuthorizedHeader } from '../AuthorizedHeader/AuthorizedHeader'
 import styles from './PageLayout.module.scss'
 
 export interface Props {
+    className?: string
     seoTitle: string
     seoDescription: string
 }
 
 export const PageLayout: FC<PropsWithChildren<Props>> = memo(
-    ({ children, seoTitle, seoDescription }) => {
+    ({ children, seoTitle, seoDescription, className }) => {
         // hack for FOUC. Prevents flickering for client only rendered stuff in the interim.
         const [mounted, setMounted] = useState(false)
         const baseClasses = classNames(styles.base, styles.base__stretched, {
@@ -24,6 +25,7 @@ export const PageLayout: FC<PropsWithChildren<Props>> = memo(
 
         useEffect(() => setMounted(true), [])
 
+        const contentClasses = classNames(styles.content, className)
         return (
             <div className={baseClasses}>
                 <Head>
@@ -31,7 +33,7 @@ export const PageLayout: FC<PropsWithChildren<Props>> = memo(
                     <meta name="description" content={seoDescription} />
                 </Head>
                 <AuthorizedHeader />
-                <div className={styles.content}>{children}</div>
+                <div className={contentClasses}>{children}</div>
             </div>
         )
     },

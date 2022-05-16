@@ -1,6 +1,7 @@
+import { NextPage } from 'next'
 import { signIn, useSession } from 'next-auth/react'
 import Head from 'next/head'
-import React, { FC, memo } from 'react'
+import React, { memo } from 'react'
 
 import classNames from 'classnames'
 
@@ -16,7 +17,7 @@ import styles from './Registration.module.scss'
 
 export interface Props {}
 
-export const Registration: FC<Props> = memo((props) => {
+export const Registration: NextPage<Props> = memo((props) => {
     const { status } = useSession()
     const baseClasses = classNames(styles.base, styles.base__stretched)
     const formik = useFormik<RegistrationInputs>({

@@ -65,7 +65,7 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
                 }}
             >
                 {pages.map(({ title, url }) => (
-                    <Button color="secondary">
+                    <Button color="secondary" key={title}>
                         <Link key={title} href={url}>
                             <Typography
                                 variant="subtitle1"

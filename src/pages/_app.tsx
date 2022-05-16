@@ -10,7 +10,7 @@ import { EmotionCache } from '@emotion/cache'
 import CssBaseline from '@mui/material/CssBaseline'
 import { ThemeProvider } from '@mui/material/styles'
 
-import '../styles/globals.css'
+import '../styles/globals.scss'
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache()

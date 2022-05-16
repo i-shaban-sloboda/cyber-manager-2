@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, { FC, PropsWithChildren, memo } from 'react'
+import React, { FC, PropsWithChildren, memo, useEffect, useState } from 'react'
 
 import classNames from 'classnames'
 
@@ -14,14 +14,21 @@ export interface Props {
 
 export const PageLayout: FC<PropsWithChildren<Props>> = memo(
     ({ children, seoTitle, seoDescription }) => {
-        const baseClasses = classNames(styles.base, styles.base__stretched)
+        // hack for FOUC. Prevents flickering for client only rendered stuff in the interim.
+        const [mounted, setMounted] = useState(false)
+        const baseClasses = classNames(styles.base, styles.base__stretched, {
+            // we can shortcut that logic, but i wanna make more obvious
+            [styles.base__hidden]: !mounted,
+            [styles.base__visible]: mounted,
+        })
+
+        useEffect(() => setMounted(true), [])
 
         return (
             <div className={baseClasses}>
                 <Head>
                     <title>{seoTitle}</title>
                     <meta name="description" content={seoDescription} />
-                    <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <AuthorizedHeader />
                 <div className={styles.content}>{children}</div>

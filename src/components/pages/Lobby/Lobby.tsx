@@ -5,7 +5,7 @@ import React, { FC, memo } from 'react'
 import classNames from 'classnames'
 
 import { AuthorizedHeader } from '../../AuthorizedHeader/AuthorizedHeader'
-import { Typography } from '@mui/material'
+import { Button, Typography } from '@mui/material'
 
 import styles from './Lobby.module.scss'
 
@@ -27,6 +27,13 @@ export const Lobby: FC<Props> = memo((props) => {
                 <Typography variant="h3">
                     Hello {session?.data?.user?.name}, you are in lobby!
                 </Typography>
+                <Button
+                    variant="contained"
+                    color="secondary"
+                    sx={{ position: 'absolute', bottom: 40, left: 40 }}
+                >
+                    Найти игру
+                </Button>
             </div>
         </div>
     )

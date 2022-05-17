@@ -11,19 +11,19 @@ datasource db {
 }
 
 model Account {
-  id                 String  @id @default(cuid())
-  userId             String
-  type               String
-  provider           String
-  providerAccountId  String
-  refresh_token_expires_in      Int?
-  refresh_token      String?  @db.Text
-  access_token       String?  @db.Text
-  expires_at         Int?
-  token_type         String?
-  scope              String?
-  id_token           String?  @db.Text
-  session_state      String?
+  id                       String  @id @default(cuid())
+  userId                   String
+  type                     String
+  provider                 String
+  providerAccountId        String
+  refresh_token_expires_in Int?
+  refresh_token            String? @db.Text
+  access_token             String? @db.Text
+  expires_at               Int?
+  token_type               String?
+  scope                    String?
+  id_token                 String? @db.Text
+  session_state            String?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -54,4 +54,58 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
+}
+
+model Hero {
+  id                Int            @id @default(autoincrement())
+  name              String         @unique
+  primary_attr      HeroAttribute
+  attack_type       HeroAttackType
+  roles             HeroRole[]
+  img               String         @unique
+  icon              String         @unique
+  base_health       Int
+  base_health_regen Decimal
+  base_mana         Int
+  base_mana_regen   Decimal
+  base_armor        Decimal
+  base_mr           Int
+  base_attack_min   Int
+  base_attack_max   Int
+  base_str          Int
+  base_agi          Int
+  base_int          Int
+  str_gain          Decimal
+  agi_gain          Decimal
+  int_gain          Decimal
+  attack_range      Int
+  projectile_speed  Int
+  attack_rate       Decimal
+  move_speed        Int
+  turn_rate         Decimal
+  cm_enabled        Boolean
+  legs              Int
+}
+
+enum HeroAttribute {
+  AGILITY
+  STREIGHT
+  INTELLECT
+}
+
+enum HeroAttackType {
+  MELEE
+  RANGE
+}
+
+enum HeroRole {
+  CARRY
+  ESCAPE
+  NUKER
+  INITIATOR
+  DURABLE
+  DISABLER
+  JUNGLER
+  SUPPORT
+  PUSHER
 }

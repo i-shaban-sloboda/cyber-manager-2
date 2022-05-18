@@ -1,5 +1,8 @@
 export const pagesPath = {
   "heroes": {
+    _id: (id: string | number) => ({
+      $url: (url?: { hash?: string }) => ({ pathname: '/heroes/[id]' as const, query: { id }, hash: url?.hash })
+    }),
     $url: (url?: { hash?: string }) => ({ pathname: '/heroes' as const, hash: url?.hash })
   },
   "library": {

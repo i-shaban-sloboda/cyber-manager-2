@@ -34,7 +34,7 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
             justifyContent="end"
             sx={{ p: '16px 32px' }}
         >
-            <Link href={pagesPath.lobby.$url().pathname}>
+            <Link href={pagesPath.lobby.$url()}>
                 <Typography
                     variant="h6"
                     noWrap

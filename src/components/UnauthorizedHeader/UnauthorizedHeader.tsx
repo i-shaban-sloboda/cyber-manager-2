@@ -26,7 +26,7 @@ export const UnauthorizedHeader: FC<Props> = memo((props) => {
             )}
             {router.pathname === pagesPath.login.$url().pathname && (
                 <Button variant="text" color="secondary">
-                    <Link href={pagesPath.registration.$url().pathname}>
+                    <Link href={pagesPath.registration.$url()}>
                         <a className="mimic-link">Зарегистрироваться</a>
                     </Link>
                 </Button>

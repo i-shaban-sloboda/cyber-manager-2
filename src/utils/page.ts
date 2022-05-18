@@ -2,9 +2,12 @@ import { GetServerSideProps } from 'next'
 import { getSession } from 'next-auth/react'
 
 import { pagesPath } from './$path'
+import { ParsedUrlQuery } from 'querystring'
 
 export const protectedPage =
-    (callback: GetServerSideProps): GetServerSideProps =>
+    <P, Q extends ParsedUrlQuery = ParsedUrlQuery>(
+        callback: GetServerSideProps<P, Q>,
+    ): GetServerSideProps<P, Q> =>
     async (context) => {
         const session = await getSession(context)
 

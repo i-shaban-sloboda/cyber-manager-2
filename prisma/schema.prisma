@@ -65,24 +65,24 @@ model Hero {
   img               String         @unique
   icon              String         @unique
   base_health       Int
-  base_health_regen Decimal
+  base_health_regen Float
   base_mana         Int
-  base_mana_regen   Decimal
-  base_armor        Decimal
+  base_mana_regen   Float
+  base_armor        Float
   base_mr           Int
   base_attack_min   Int
   base_attack_max   Int
   base_str          Int
   base_agi          Int
   base_int          Int
-  str_gain          Decimal
-  agi_gain          Decimal
-  int_gain          Decimal
+  str_gain          Float
+  agi_gain          Float
+  int_gain          Float
   attack_range      Int
   projectile_speed  Int
-  attack_rate       Decimal
+  attack_rate       Float
   move_speed        Int
-  turn_rate         Decimal
+  turn_rate         Float
   cm_enabled        Boolean
   legs              Int
 }

@@ -18,7 +18,7 @@
     "lint": "next lint"
   },
   "prisma": {
-    "seed": "node --loader ts-paths-esm-loader --experimental-specifier-resolution=node ./prisma/seed.ts"
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} ./prisma/seed.ts"
   },
   "dependencies": {
     "@emotion/cache": "latest",

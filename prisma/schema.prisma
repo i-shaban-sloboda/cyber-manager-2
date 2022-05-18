@@ -46,6 +46,8 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
+  game          Game?     @relation(references: [id], fields: [gameId])
+  gameId        String?
 }
 
 model VerificationToken {
@@ -108,4 +110,19 @@ enum HeroRole {
   JUNGLER
   SUPPORT
   PUSHER
+}
+
+model Game {
+  id       String    @id @default(cuid())
+  state    GameState @default(INITIALIZE)
+  users    User[]
+  started  DateTime  @default(now())
+  finished DateTime?
+}
+
+enum GameState {
+  INITIALIZE
+  IN_PROGRESS
+  PROCESSED
+  FINISHED
 }

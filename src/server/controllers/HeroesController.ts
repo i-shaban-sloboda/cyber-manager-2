@@ -1,10 +1,10 @@
-import prisma from '../lib/prisma'
+import prisma from '../../lib/prisma'
 
 export class HeroesController {
-    public getAllHeroes() {
+    public getAll() {
         return prisma.hero.findMany()
     }
-    public getHeroById(id: number) {
+    public getById(id: number) {
         return prisma.hero.findFirst({
             where: {
                 id,

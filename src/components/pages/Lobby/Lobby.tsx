@@ -1,11 +1,13 @@
 import { useEvent, useStore } from 'effector-react/scope'
 import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
-import React, { memo, useCallback } from 'react'
+import React from 'react'
 
-import { $data, buttonClicked } from '../../../models/test'
+import { $isLookingForTheGame, startGame } from '../../../models/game'
 import { PageLayout } from '../../PageLayout/PageLayout'
-import { Button, Typography } from '@mui/material'
+import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi'
+import LoadingButton from '@mui/lab/LoadingButton'
+import { Typography } from '@mui/material'
 
 import styles from './Lobby.module.scss'
 
@@ -13,13 +15,8 @@ export interface Props {}
 
 export const Lobby: NextPage<Props> = (props) => {
     const session = useSession()
-    const data = useStore($data)
-    const event = useEvent(buttonClicked)
-    const handleClick = () => {
-        // @ts-ignore
-        event(session?.data?.user?.name)
-        // buttonClicked(session?.data?.user?.id)
-    }
+    const isLookingForTheGame = useStore($isLookingForTheGame)
+    const handleClick = useEvent(startGame)
 
     return (
         <PageLayout
@@ -30,16 +27,18 @@ export const Lobby: NextPage<Props> = (props) => {
             <Typography variant="h3">
                 Hello {session?.data?.user?.name}, you are in lobby!
             </Typography>
-            <h2>Store state: {JSON.stringify({ data })}</h2>
             <h2>Session state: {JSON.stringify({ session })}</h2>
-            <Button
-                variant="contained"
+            <LoadingButton
+                onClick={handleClick}
+                startIcon={<SportsKabaddiIcon />}
+                loading={isLookingForTheGame}
+                loadingPosition="start"
+                variant={isLookingForTheGame ? 'outlined' : 'contained'}
                 color="secondary"
                 sx={{ position: 'absolute', bottom: 40, left: 40 }}
-                onClick={handleClick}
             >
-                Найти игру
-            </Button>
+                {isLookingForTheGame ? 'Ожидайте, ищем игру...' : 'Найти игру'}
+            </LoadingButton>
         </PageLayout>
     )
 }

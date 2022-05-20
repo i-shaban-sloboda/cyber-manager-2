@@ -11,10 +11,13 @@ export class UsersController {
         return prisma.user.findMany()
     }
 
-    public getById(id: string) {
+    public getById(id: string, includeGame?: boolean) {
         return prisma.user.findFirst({
             where: {
                 id,
+            },
+            include: {
+                game: includeGame,
             },
         })
     }

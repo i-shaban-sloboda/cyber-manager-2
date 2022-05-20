@@ -4,6 +4,7 @@ import { useSession } from 'next-auth/react'
 import React from 'react'
 
 import {
+    $game,
     $isGamePreventing,
     $isLookingForTheGame,
     startGameSearching,
@@ -21,6 +22,7 @@ export interface Props {}
 
 export const Lobby: NextPage<Props> = (props) => {
     const session = useSession()
+    const game = useStore($game)
     const isLookingForTheGame = useStore($isLookingForTheGame)
     const isGamePreventing = useStore($isGamePreventing)
     const handleStarGameClick = useEvent(startGameSearching)
@@ -35,7 +37,9 @@ export const Lobby: NextPage<Props> = (props) => {
             <Typography variant="h3">
                 Hello {session?.data?.user?.name}, you are in lobby!
             </Typography>
-            <h2>Session state: {JSON.stringify({ session })}</h2>
+            <h5>Session state: {JSON.stringify({ session })}</h5>
+            <hr />
+            <h5>Game state: {JSON.stringify({ game })}</h5>
             <Stack direction="row" gap={1} sx={{ position: 'absolute', bottom: 40, left: 40 }}>
                 <LoadingButton
                     onClick={handleStarGameClick}

@@ -14,7 +14,8 @@ import { PageLayout } from '../../PageLayout/PageLayout'
 import CloseIcon from '@mui/icons-material/Close'
 import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi'
 import LoadingButton from '@mui/lab/LoadingButton'
-import { Button, Stack, Typography } from '@mui/material'
+import { Avatar, Button, Stack, Typography } from '@mui/material'
+import { User } from '@prisma/client'
 
 import styles from './Lobby.module.scss'
 
@@ -34,9 +35,26 @@ export const Lobby: NextPage<Props> = (props) => {
             seoDescription="Lobby page"
             className={styles.base}
         >
-            <Typography variant="h3">
+            <Typography variant="h3" sx={{ alignSelf: 'center' }}>
                 Hello {session?.data?.user?.name}, you are in lobby!
             </Typography>
+            <Stack gap={2} component="ul" sx={{ ml: 4, mt: 4 }}>
+                {/* @ts-ignore */}
+                {game?.users.map((user: User) => {
+                    return (
+                        <Stack
+                            direction="row"
+                            gap={1}
+                            component="li"
+                            key={user.id}
+                            alignItems="center"
+                        >
+                            <Avatar alt={user?.name!} src={user?.image!} />
+                            <Typography variant="h6">{user?.name}</Typography>
+                        </Stack>
+                    )
+                })}
+            </Stack>
             <h5>Session state: {JSON.stringify({ session })}</h5>
             <hr />
             <h5>Game state: {JSON.stringify({ game })}</h5>

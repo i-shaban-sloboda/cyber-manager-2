@@ -1,9 +1,8 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { getSession } from 'next-auth/react'
 
 import { RegistrationBESchema } from '../../components/pages/Registration/utils'
-import prisma from '../../lib/prisma'
+import { usersController } from '../../server/controllers'
 import { withDefaultErrorHandling } from '../../utils/api'
 import bcrypt from 'bcrypt'
 import { StatusCodes } from 'http-status-codes'
@@ -15,7 +14,7 @@ export async function handler(req: NextApiRequest, res: NextApiResponse) {
             if (!session) {
                 return res.status(StatusCodes.UNAUTHORIZED).end()
             }
-            const users = await prisma.user.findMany()
+            const users = await usersController.getAll()
 
             return res.status(StatusCodes.OK).json(users)
         }
@@ -24,13 +23,10 @@ export async function handler(req: NextApiRequest, res: NextApiResponse) {
                 const { name, email, password } = await RegistrationBESchema.validate(req.body)
                 // TODO: check that user with same name not exists
                 const hash = await bcrypt.hash(password, 10)
-                const user = await prisma.user.create({
-                    data: {
-                        name,
-                        // password: hash,
-                        email,
-                        image: '',
-                    },
+                const user = await usersController.create({
+                    // password: hash,
+                    name,
+                    email,
                 })
 
                 return res.status(StatusCodes.OK).json({ userId: user.id })

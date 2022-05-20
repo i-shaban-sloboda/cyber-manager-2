@@ -1,32 +1,48 @@
 import { apiClient } from '../lib/apiClient'
 import { Nullable } from '../utils/types'
 import { Game } from '@prisma/client'
-import { combine, createEvent, createStore, sample } from 'effector'
-import { createEffect } from 'effector/compat'
+import { combine, createEffect, createEvent, createStore, sample } from 'effector'
 
-export const startGame = createEvent('start game')
+export const startGameSearching = createEvent('start game searching')
+export const stopGameSearching = createEvent('stop game searching')
 
-export const startGameFx = createEffect({
-    name: 'start game request',
+export const startGameSearchingFx = createEffect({
+    name: 'start game searching request',
     handler: async () => {
         return apiClient.post<Game>('/api/games')
     },
 })
 
-export const $game = createStore<Nullable<Game>>(null).on(
-    startGameFx.doneData,
-    (_, data) => data.data,
-)
+export const stopGameSearchingFx = createEffect({
+    name: 'stop game searching request',
+    handler: async (gameId: string) => {
+        return apiClient.delete<Game>(`/api/games/${gameId}`)
+    },
+})
 
-export const $isLookingForTheGame = combine($game, startGameFx.pending, (...args) =>
+export const $game = createStore<Nullable<Game>>(null)
+    .on(startGameSearchingFx.doneData, (_, data) => data.data)
+    .reset(stopGameSearchingFx.doneData)
+
+export const $isLookingForTheGame = combine($game, startGameSearchingFx.pending, (...args) =>
     args.some((value) => value),
 )
+
+export const $isGamePreventing = stopGameSearchingFx.pending
 
 $game.watch((params) => {
     console.log(`>> game ${JSON.stringify(params, null, 4)}`)
 })
 
 sample({
-    clock: startGame,
-    target: startGameFx,
+    clock: startGameSearching,
+    target: startGameSearchingFx,
+})
+
+sample({
+    clock: stopGameSearching,
+    source: $game,
+    filter: (game) => !!game,
+    fn: (game) => game!.id,
+    target: stopGameSearchingFx,
 })

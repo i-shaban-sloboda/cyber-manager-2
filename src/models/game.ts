@@ -1,3 +1,4 @@
+import { socketIOController } from '../client'
 import { apiClient } from '../lib/apiClient'
 import { Nullable } from '../utils/types'
 import { Game } from '@prisma/client'
@@ -9,13 +10,22 @@ export const stopGameSearching = createEvent('stop game searching')
 export const startGameSearchingFx = createEffect({
     name: 'start game searching request',
     handler: async () => {
-        return apiClient.post<Game>('/api/games')
+        // init socket
+        await apiClient.get('/api/socketio')
+
+        const response = await apiClient.post<Game>('/api/games')
+
+        socketIOController.connect(response.data.id)
+
+        return response
     },
 })
 
 export const stopGameSearchingFx = createEffect({
     name: 'stop game searching request',
     handler: async (gameId: string) => {
+        socketIOController.disconnect()
+
         return apiClient.delete<Game>(`/api/games/${gameId}`)
     },
 })

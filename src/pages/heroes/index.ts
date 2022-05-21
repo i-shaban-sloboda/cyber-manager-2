@@ -1,15 +1,16 @@
 import { Heroes } from '../../components/pages/Heroes/Heroes'
-import { $heroes } from '../../models/heroes'
-import { heroesController } from '../../server/controllers'
+import { requestHeroesFx } from '../../models/heroes'
 import { protectedPage } from '../../utils/page'
-import { fork, serialize } from 'effector'
+import { allSettled, fork, serialize } from 'effector'
 
 export default Heroes
 
+// TODO: rework to static props
 export const getServerSideProps = protectedPage(async (context) => {
-    const scope = fork({
-        values: [[$heroes, await heroesController.getAll()]],
-    })
+    const scope = fork()
+
+    await allSettled(requestHeroesFx, { scope })
+
     const effector = serialize(scope)
 
     return { props: { effector } }

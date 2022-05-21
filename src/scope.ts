@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 
+import './models'
 import { Scope, fork, serialize } from 'effector'
 
 export const isBrowser = typeof window !== 'undefined'

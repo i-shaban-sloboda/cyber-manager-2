@@ -34,6 +34,7 @@ export const Registration: NextPage<Props> = memo((props) => {
             setSubmitting(true)
 
             try {
+                // TODO: replace inline request with effect
                 const regResponse = await apiClient.post('/api/users', {
                     name,
                     email,

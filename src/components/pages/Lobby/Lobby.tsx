@@ -10,6 +10,7 @@ import {
     startGameSearching,
     stopGameSearching,
 } from '../../../models/game'
+import { $user } from '../../../models/user'
 import { PageLayout } from '../../PageLayout/PageLayout'
 import CloseIcon from '@mui/icons-material/Close'
 import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi'
@@ -24,6 +25,7 @@ export interface Props {}
 export const Lobby: NextPage<Props> = (props) => {
     const session = useSession()
     const game = useStore($game)
+    const user = useStore($user)
     const isLookingForTheGame = useStore($isLookingForTheGame)
     const isGamePreventing = useStore($isGamePreventing)
     const handleStarGameClick = useEvent(startGameSearching)
@@ -55,9 +57,11 @@ export const Lobby: NextPage<Props> = (props) => {
                     )
                 })}
             </Stack>
-            <h5>Session state: {JSON.stringify({ session })}</h5>
+            <h5>User: {JSON.stringify(user)}</h5>
             <hr />
-            <h5>Game state: {JSON.stringify({ game })}</h5>
+            <h5>Session state: {JSON.stringify(session)}</h5>
+            <hr />
+            <h5>Game state: {JSON.stringify(game)}</h5>
             <Stack direction="row" gap={1} sx={{ position: 'absolute', bottom: 40, left: 40 }}>
                 <LoadingButton
                     onClick={handleStarGameClick}

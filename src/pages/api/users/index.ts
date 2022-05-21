@@ -1,9 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { getSession } from 'next-auth/react'
 
-import { RegistrationBESchema } from '../../components/pages/Registration/utils'
-import { usersController } from '../../server/controllers'
-import { withDefaultErrorHandling } from '../../utils/api'
+import { RegistrationBESchema } from '../../../components/pages/Registration/utils'
+import { usersController } from '../../../server/controllers'
+import { withDefaultErrorHandling } from '../../../utils/api'
 import bcrypt from 'bcrypt'
 import { StatusCodes } from 'http-status-codes'
 

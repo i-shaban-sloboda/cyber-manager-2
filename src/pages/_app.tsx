@@ -5,7 +5,9 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import * as React from 'react'
 
+import { InitEffector } from '../components/InitEffector/InitEffector'
 import createEmotionCache from '../createEmotionCache'
+import '../models'
 import { useScope } from '../scope'
 import theme from '../theme'
 import { EmotionCache } from '@emotion/cache'
@@ -38,6 +40,7 @@ function MyApp({
                     <ThemeProvider theme={theme}>
                         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
                         <CssBaseline />
+                        <InitEffector />
                         <Component {...pageProps} />
                     </ThemeProvider>
                 </CacheProvider>

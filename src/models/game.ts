@@ -10,14 +10,7 @@ export const stopGameSearching = createEvent('stop game searching')
 export const startGameSearchingFx = createEffect({
     name: 'start game searching request',
     handler: async () => {
-        // init socket
-        await apiClient.get('/api/socketio')
-
-        const response = await apiClient.post<Game>('/api/games')
-
-        socketIOController.connect(response.data.id)
-
-        return response
+        return await apiClient.post<Game>('/api/games')
     },
 })
 
@@ -37,6 +30,22 @@ export const requestGameFx = createEffect({
     },
 })
 
+export const connectToSocketFx = createEffect({
+    name: 'connect to socket',
+    handler: async (gameId: string) => {
+        // init socket
+        await apiClient.get('/api/socketio')
+        socketIOController.connect(gameId)
+    },
+})
+
+export const disconnectFromSocketFx = createEffect({
+    name: 'disconnect from socket',
+    handler: async () => {
+        socketIOController.disconnect()
+    },
+})
+
 export const $game = createStore<Nullable<Game>>(null)
     .on(requestGameFx.doneData, (_, data) => data.data)
     .on(startGameSearchingFx.doneData, (_, data) => data.data)
@@ -48,6 +57,6 @@ export const $isLookingForTheGame = combine($game, startGameSearchingFx.pending,
 
 export const $isGamePreventing = stopGameSearchingFx.pending
 
-$game.watch((params) => {
-    console.log(`>> game ${JSON.stringify(params, null, 4)}`)
-})
+// $game.watch((params) => {
+//     console.log(`>> game ${JSON.stringify(params, null, 4)}`)
+// })

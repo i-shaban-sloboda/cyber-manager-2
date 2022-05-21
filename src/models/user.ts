@@ -12,7 +12,7 @@ export const requestUserFx = createEffect({
 })
 
 export const $user = createStore<User>({} as User).on(requestUserFx.doneData, (_, { data }) => data)
-
-$user.watch((state) => {
-    console.log(`>> $user ${JSON.stringify(state, null, 4)}`)
-})
+//
+// $user.watch((state) => {
+//     console.log(`>> $user ${JSON.stringify(state, null, 4)}`)
+// })

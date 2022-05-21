@@ -19,7 +19,7 @@ export default async (req: NextApiRequest, res: NextApiResponseServerIO) => {
             path: '/api/socketio',
         })
         io.on('connection', (socket) => {
-            console.log('>> a user connected', socket.id, socket.client)
+            console.log('>> a user connected', socket.id)
 
             socket.on('disconnect', (event) => {
                 console.log('>> user disconnected', event)

@@ -2,7 +2,7 @@ import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
 import React, { memo } from 'react'
 
-import { Nullable } from '../../../utils/types'
+import { Nullable } from '../../../types'
 import { PageLayout } from '../../PageLayout/PageLayout'
 import { Typography } from '@mui/material'
 import { Hero as HeroType } from '@prisma/client'

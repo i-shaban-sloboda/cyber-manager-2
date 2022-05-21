@@ -1,6 +1,6 @@
 import { socketIOController } from '../client'
 import { apiClient } from '../lib/apiClient'
-import { Nullable } from '../utils/types'
+import { Nullable } from '../types'
 import { Game } from '@prisma/client'
 import { combine, createEffect, createEvent, createStore } from 'effector'
 
@@ -32,10 +32,18 @@ export const requestGameFx = createEffect({
 
 export const connectToSocketFx = createEffect({
     name: 'connect to socket',
-    handler: async (gameId: string) => {
+    handler: async ({
+        userId,
+        userName,
+        gameId,
+    }: {
+        userId: string
+        userName: string
+        gameId: string
+    }) => {
         // init socket
         await apiClient.get('/api/socketio')
-        socketIOController.connect(gameId)
+        socketIOController.connect(userId, userName, gameId)
     },
 })
 

@@ -1,6 +1,6 @@
-import { NextApiResponseServerIO } from '../../types/next'
 import { NextApiRequest } from 'next'
 
+import { NextApiResponseServerIO } from '../../types'
 import { Server as NetServer } from 'http'
 import { Server as ServerIO } from 'socket.io'
 
@@ -19,9 +19,15 @@ export default async (req: NextApiRequest, res: NextApiResponseServerIO) => {
             path: '/api/socketio',
         })
         io.on('connection', (socket) => {
-            console.log('>> a user connected', socket.id)
+            const { userId, userName, gameId } = socket.handshake.query
+            console.log(`>> a user connected ${userName}:${userId} to ${gameId}`)
 
+            socket.broadcast.emit('a user connected', `${userName}:${userId}`)
+            socket.on('hello', (msg) => {
+                socket.emit('hello', `${userName}:${userId}`)
+            })
             socket.on('disconnect', (event) => {
+                socket.broadcast.emit('a user disconnected', `${userName}:${userId}`)
                 console.log('>> user disconnected', event)
             })
         })

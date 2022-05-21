@@ -1,3 +1,4 @@
+import { isBrowser } from '../scope'
 import {
     $game,
     connectToSocketFx,
@@ -9,7 +10,7 @@ import {
     stopGameSearchingFx,
 } from './game'
 import { initClient } from './initialize'
-import { requestUserFx } from './user'
+import { $user, requestUserFx } from './user'
 import { sample } from 'effector'
 
 sample({
@@ -32,22 +33,26 @@ sample({
     target: requestGameFx,
 })
 
-sample({
-    clock: [startGameSearchingFx.doneData, requestGameFx.doneData],
-    filter: ({ data }) => !!data?.id,
-    fn: ({ data }) => data!.id,
-    target: connectToSocketFx,
-})
+if (isBrowser) {
+    sample({
+        clock: [startGameSearchingFx.doneData, requestGameFx.doneData],
+        source: $user,
+        filter: (_, { data }) => !!data?.id,
+        fn: (user, { data }) => ({ userId: user.id!, userName: user.name!, gameId: data!.id }),
+        target: connectToSocketFx,
+    })
 
-sample({
-    clock: stopGameSearchingFx.doneData,
-    target: disconnectFromSocketFx,
-})
+    sample({
+        clock: stopGameSearchingFx.doneData,
+        target: disconnectFromSocketFx,
+    })
 
-sample({
-    clock: initClient,
-    source: $game,
-    filter: (game) => !!game,
-    fn: (game) => game!.id,
-    target: connectToSocketFx,
-})
+    sample({
+        clock: initClient,
+        source: [$user, $game],
+        filter: ([_, game]) => !!game,
+        // @ts-ignore
+        fn: ([user, game]) => ({ userId: user.id!, userName: user.name!, gameId: game!.id }),
+        target: connectToSocketFx,
+    })
+}

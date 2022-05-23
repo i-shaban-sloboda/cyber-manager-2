@@ -5,7 +5,7 @@ import React, { FC, memo } from 'react'
 import { pagesPath } from '../../utils/$path'
 import { SettingsMenu } from './components/SettingsMenu/SettingsMenu'
 import AdbIcon from '@mui/icons-material/Adb'
-import { Box, Button, Divider, Stack, Typography } from '@mui/material'
+import { Button, Divider, Stack, Typography } from '@mui/material'
 
 export interface Props {}
 const pages = [
@@ -23,6 +23,8 @@ const pages = [
     },
 ]
 
+// TODO: black\light themes switcher
+// TODO: add localization switcher
 export const AuthorizedHeader: FC<Props> = memo((props) => {
     const { data } = useSession()
 

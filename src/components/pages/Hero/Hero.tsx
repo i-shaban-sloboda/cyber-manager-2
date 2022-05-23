@@ -13,6 +13,7 @@ export interface Props {
     hero: Nullable<HeroType>
 }
 
+// TODO: add page skeleton
 export const Hero: NextPage<Props> = memo(({ hero }) => {
     const session = useSession()
 

@@ -14,6 +14,7 @@ import styles from './Heroes.module.scss'
 
 export interface Props {}
 
+// TODO: add hero's filters
 export const Heroes: NextPage<Props> = memo((props) => {
     const session = useSession()
     const heroes = useStore($heroes)

@@ -1,0 +1,140 @@
+.base {
+    --avatar-offset: 100px;
+    --intro-animation-duration: 5s;
+}
+
+.playerAvatar {
+    position: absolute;
+    top: 21px;
+    right: 37px;
+
+    animation: playerAvatarIntro var(--intro-animation-duration) forwards;
+
+    .base__enemyMatched & {
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+        outline: 2px rgba(255, 255, 255, .3) solid;
+
+        animation: playerAvatarMatched var(--intro-animation-duration) forwards;
+    }
+}
+
+.enemyAvatar {
+    position: absolute;
+    top: calc(50% - 20px);
+    right: calc(50% - 20px);
+    outline: 2px rgba(255, 255, 255, .3) solid;
+
+    animation: enemyAvatarIntro var(--intro-animation-duration) forwards;
+}
+
+.vsIcon {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 0);
+
+    .base__enemyMatched & {
+        animation: vsIconIntro var(--intro-animation-duration) forwards;
+    }
+}
+
+.buttons {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+@keyframes playerAvatarIntro {
+    0% {
+        outline: 4px rgba(255, 255, 255, .0) solid;
+    }
+    10% {
+        outline: 4px rgba(255, 255, 255, .0) solid;
+    }
+    20% {
+        outline: 4px rgba(255, 255, 255, .8) solid;
+    }
+    30% {
+        outline: 2px rgba(255, 255, 255, .8) solid;
+        top: 21px;
+        right: 37px;
+    }
+    60% {
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+    }
+
+    100% {
+        outline: 2px rgba(255, 255, 255, .3) solid;
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+    }
+}
+
+@keyframes playerAvatarMatched {
+    0% {
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+    }
+    5% {
+        top: calc(50% - 30px);
+    }
+    10% {
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+    }
+    20% {
+        right: calc(50% - 20px + var(--avatar-offset));
+    }
+    60% {
+    }
+
+    100% {
+        right: calc(50% - 20px + var(--avatar-offset));
+    }
+}
+
+@keyframes enemyAvatarIntro {
+    0% {
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+    }
+    5% {
+        top: calc(50% - 30px);
+    }
+    10% {
+        top: calc(50% - 20px);
+        right: calc(50% - 20px);
+    }
+    20% {
+        right: calc(50% - 20px - var(--avatar-offset));
+    }
+    60% {
+    }
+
+    100% {
+        right: calc(50% - 20px - var(--avatar-offset));
+    }
+}
+
+@keyframes vsIconIntro {
+    0% {
+        opacity: 0;
+        transform: translate(50%, 0);
+    }
+    10% {
+        opacity: 0;
+        transform: translate(50%, 0);
+    }
+    20% {
+        opacity: 1;
+        transform: translate(50%, -50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(50%, -50%);
+    }
+}

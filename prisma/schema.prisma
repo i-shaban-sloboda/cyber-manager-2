@@ -114,15 +114,16 @@ enum HeroRole {
 
 model Game {
   id       String    @id @default(cuid())
-  state    GameState @default(INITIALIZE)
+  state    GameState @default(MATHING)
   users    User[]
   started  DateTime  @default(now())
   finished DateTime?
 }
 
 enum GameState {
-  INITIALIZE
+  MATHING
+  PICKING
   IN_PROGRESS
-  PROCESSED
+  PROCESSING
   FINISHED
 }

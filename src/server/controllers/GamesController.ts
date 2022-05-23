@@ -20,7 +20,7 @@ export class GamesController {
     public async addUser(userId: string) {
         const game = await prisma.game.findFirst({
             where: {
-                state: GameState.INITIALIZE,
+                state: GameState.MATHING,
             },
         })
 

@@ -8,14 +8,13 @@ import {
     $isGamePreventing,
     $isLookingForTheGame,
     startGameSearching,
-    stopGameSearching,
 } from '../../../models/game'
 import { $user } from '../../../models/user'
 import { PageLayout } from '../../PageLayout/PageLayout'
-import CloseIcon from '@mui/icons-material/Close'
+import { SearchGameOverlay } from '../../popups/SearchGameOverlay/SearchGameOverlay'
 import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi'
 import LoadingButton from '@mui/lab/LoadingButton'
-import { Avatar, Button, Stack, Typography } from '@mui/material'
+import { Avatar, Stack, Typography } from '@mui/material'
 import { User } from '@prisma/client'
 
 import styles from './Lobby.module.scss'
@@ -29,7 +28,6 @@ export const Lobby: NextPage<Props> = (props) => {
     const isLookingForTheGame = useStore($isLookingForTheGame)
     const isGamePreventing = useStore($isGamePreventing)
     const handleStarGameClick = useEvent(startGameSearching)
-    const handleStopGameClick = useEvent(stopGameSearching)
 
     return (
         <PageLayout
@@ -57,33 +55,32 @@ export const Lobby: NextPage<Props> = (props) => {
                     )
                 })}
             </Stack>
-            <h5>User: {JSON.stringify(user)}</h5>
-            <hr />
-            <h5>Session state: {JSON.stringify(session)}</h5>
-            <hr />
-            <h5>Game state: {JSON.stringify(game)}</h5>
-            <Stack direction="row" gap={1} sx={{ position: 'absolute', bottom: 40, left: 40 }}>
+            {/*<h5>User: {JSON.stringify(user)}</h5>*/}
+            {/*<hr />*/}
+            {/*<h5>Session state: {JSON.stringify(session)}</h5>*/}
+            {/*<hr />*/}
+            {/*<h5>Game state: {JSON.stringify(game)}</h5>*/}
+            <Stack
+                direction="row"
+                gap={1}
+                sx={{
+                    position: 'absolute',
+                    bottom: 40,
+                    left: 40,
+                    display: isLookingForTheGame || isGamePreventing ? 'none' : 'flex',
+                }}
+            >
                 <LoadingButton
                     onClick={handleStarGameClick}
                     startIcon={<SportsKabaddiIcon />}
-                    loading={isLookingForTheGame}
                     loadingPosition="start"
-                    variant={isLookingForTheGame ? 'outlined' : 'contained'}
+                    variant="contained"
                     color="secondary"
                 >
-                    {isLookingForTheGame ? 'Ожидайте, ищем игру...' : 'Найти игру'}
+                    Найти игру
                 </LoadingButton>
-                {isLookingForTheGame && (
-                    <Button
-                        color="secondary"
-                        variant="contained"
-                        onClick={handleStopGameClick}
-                        disabled={isGamePreventing}
-                    >
-                        <CloseIcon />
-                    </Button>
-                )}
             </Stack>
+            <SearchGameOverlay />
         </PageLayout>
     )
 }

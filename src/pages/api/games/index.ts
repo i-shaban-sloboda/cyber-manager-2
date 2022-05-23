@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { getSession } from 'next-auth/react'
 
-import { gamesController, usersController } from '../../../server/controllers'
+import { gamesController } from '../../../server/controllers'
 import { withDefaultErrorHandling } from '../../../utils/api'
 import { StatusCodes } from 'http-status-codes'
 

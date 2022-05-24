@@ -1,11 +1,17 @@
+import { useEvent } from 'effector-react/scope'
 import { useSession } from 'next-auth/react'
 import Link from 'next/link'
 import React, { FC, memo } from 'react'
 
+import { toggleMuiTheme } from '../../models/ui'
 import { pagesPath } from '../../utils/$path'
 import { SettingsMenu } from './components/SettingsMenu/SettingsMenu'
 import AdbIcon from '@mui/icons-material/Adb'
-import { Button, Divider, Stack, Typography } from '@mui/material'
+import Brightness4Icon from '@mui/icons-material/Brightness4'
+import Brightness7Icon from '@mui/icons-material/Brightness7'
+import { Button, Divider, IconButton, Stack, Typography, useTheme } from '@mui/material'
+
+import styles from './AuthorizedHeader.module.scss'
 
 export interface Props {}
 const pages = [
@@ -23,10 +29,11 @@ const pages = [
     },
 ]
 
-// TODO: black\light themes switcher
 // TODO: add localization switcher
 export const AuthorizedHeader: FC<Props> = memo((props) => {
     const { data } = useSession()
+    const theme = useTheme()
+    const handleMUIThemeToggle = useEvent(toggleMuiTheme)
 
     return (
         <Stack
@@ -37,23 +44,7 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
             sx={{ p: '16px 32px' }}
         >
             <Link href={pagesPath.lobby.$url()}>
-                <Typography
-                    variant="h6"
-                    noWrap
-                    component="a"
-                    sx={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 2,
-                        fontFamily: 'monospace',
-                        fontWeight: 700,
-                        letterSpacing: '.3rem',
-                        color: 'inherit',
-                        textDecoration: 'none',
-                        userSelect: 'none',
-                        cursor: 'pointer',
-                    }}
-                >
+                <Typography className={styles.logo} variant="h6" noWrap component="a">
                     <AdbIcon />
                     LOGO
                 </Typography>
@@ -83,6 +74,9 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
                     </Button>
                 ))}
             </Stack>
+            <IconButton sx={{ ml: 1 }} onClick={handleMUIThemeToggle} color="inherit">
+                {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+            </IconButton>
             Привет {data?.user?.name!}!
             <SettingsMenu />
         </Stack>

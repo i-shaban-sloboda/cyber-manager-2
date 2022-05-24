@@ -5,9 +5,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [https://i-shaban-sloboda.github.io/cyber-manager-2/](https://i-shaban-sloboda.github.io/cyber-manager-2/) with your browser to see the result.
+Then init db and seed it with mock data:
+```bash
+yarn prisma:init
+```
+Open [http://localhost:3000/](http://localhost:3000/) with your browser to see the result.
+
+## Prisma studio
+
+To run prisma studio execute:
+```bash
+yarn prisma:studio
+```
+Open [http://localhost:5555/](http://localhost:5555/) with your browser to see the result.

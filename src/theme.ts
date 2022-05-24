@@ -27,42 +27,44 @@ declare module '@mui/material/Typography' {
     }
 }
 
-// A custom theme for this app
-export default createTheme({
-    typography: {
-        fontFamily: ['Sk-Modernist', 'sans-serif'].join(','),
-        pageTitle: {
-            fontSize: 40,
-            fontWeight: 700,
-            lineHeight: '40px',
-            color: '#19202E',
+export type ThemeMode = 'light' | 'dark'
+export const createMUITheme = (mode: ThemeMode) =>
+    createTheme({
+        typography: {
+            fontFamily: ['Sk-Modernist', 'sans-serif'].join(','),
+            pageTitle: {
+                fontSize: 40,
+                fontWeight: 700,
+                lineHeight: '40px',
+                color: '#19202E',
+            },
+            header_title: {
+                display: 'block',
+                fontWeight: 700,
+                fontSize: 32,
+                lineHeight: '32px',
+                color: '#19202E',
+            },
+            description: {
+                display: 'flex',
+                alignItems: 'center',
+                fontSize: 16,
+                lineHeight: '20px',
+                color: '#495161',
+                textDecoration: 'none',
+            },
+            button: {
+                textTransform: 'none',
+                whiteSpace: 'nowrap',
+                fontSize: 16,
+            },
         },
-        header_title: {
-            display: 'block',
-            fontWeight: 700,
-            fontSize: 32,
-            lineHeight: '32px',
-            color: '#19202E',
+        palette: {
+            mode,
+            primary: blue,
+            secondary: pink,
+            error: {
+                main: red.A400,
+            },
         },
-        description: {
-            display: 'flex',
-            alignItems: 'center',
-            fontSize: 16,
-            lineHeight: '20px',
-            color: '#495161',
-            textDecoration: 'none',
-        },
-        button: {
-            textTransform: 'none',
-            whiteSpace: 'nowrap',
-            fontSize: 16,
-        },
-    },
-    palette: {
-        primary: blue,
-        secondary: pink,
-        error: {
-            main: red.A400,
-        },
-    },
-})
+    })

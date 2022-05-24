@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prisma:init": "npx prisma db push && npx prisma db seed",
     "prisma:format": "npx prisma format",
     "prisma:generate-client": "npx prisma generate",
     "prisma:studio": "npx prisma studio",

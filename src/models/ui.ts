@@ -6,7 +6,12 @@ const lsKey = 'themeMode'
 export const readThemeModeFx = createEffect({
     name: 'read theme mode from local storage',
     handler: async () => {
-        return window.localStorage.getItem(lsKey) as ThemeMode
+        let mode = window.localStorage.getItem(lsKey) as ThemeMode
+        // if no saved theme, but default theme is dark
+        if (!mode && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            mode = 'dark'
+        }
+        return mode
     },
 })
 export const writeThemeModeFx = createEffect({

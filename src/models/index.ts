@@ -10,6 +10,7 @@ import {
     stopGameSearchingFx,
 } from './game'
 import { initClient } from './initialize'
+import { $themeMode, readThemeModeFx, toggleMuiTheme, writeThemeModeFx } from './ui'
 import { $user, requestUserFx } from './user'
 import { sample } from 'effector'
 
@@ -54,5 +55,16 @@ if (isBrowser) {
         // @ts-ignore
         fn: ([user, game]) => ({ userId: user.id!, userName: user.name!, gameId: game!.id }),
         target: connectToSocketFx,
+    })
+
+    sample({
+        clock: initClient,
+        target: readThemeModeFx,
+    })
+
+    sample({
+        clock: toggleMuiTheme,
+        source: $themeMode,
+        target: writeThemeModeFx,
     })
 }

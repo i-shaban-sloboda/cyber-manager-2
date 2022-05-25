@@ -46,9 +46,13 @@ export const connectToSocketFx = createEffect({
         userName: string
         gameId: string
     }) => {
-        // init socket
-        await apiClient.get('/api/socketio')
-        socketIOController.connect(userId, userName, gameId)
+        try {
+            // init socket
+            await apiClient.get('/api/socketio')
+            socketIOController.connect(userId, userName, gameId)
+        } catch (e) {
+            logClient('cannot connect to socket', e)
+        }
     },
 })
 
@@ -61,27 +65,27 @@ export const disconnectFromSocketFx = createEffect({
 
 export const $game = createStore<Nullable<Room>>(null)
     .on(userJoined, (game, user) => {
-        logClient(`userJoined`, game)
+        // logClient(`userJoined`, game)
 
         return game ? { ...game, users: [...game.users, user] } : game
     })
     .on(userLeave, (game, userId) => {
-        logClient(`userLeave`, game)
+        // logClient(`userLeave`, game)
 
         return game ? { ...game, users: game.users.filter(({ id }) => id !== userId) } : game
     })
     .on(requestGameFx.doneData, (_, data) => {
-        logClient(`requestGameFx.doneData`, data.data)
+        // logClient(`requestGameFx.doneData`, data.data)
 
         return data.data
     })
     .on(startGameSearchingFx.doneData, (_, data) => {
-        logClient(`startGameSearchingFx.doneData`, data.data)
+        // logClient(`startGameSearchingFx.doneData`, data.data)
 
         return data.data
     })
     .on(stopGameSearchingFx.doneData, () => {
-        logClient(`stopGameSearchingFx.doneData`)
+        // logClient(`stopGameSearchingFx.doneData`)
 
         return null
     })
@@ -95,9 +99,9 @@ export const $isLookingForTheGame = combine(
 
 export const $isGamePreventing = stopGameSearchingFx.pending
 
-$game.watch((params) => {
-    logClient(`watch game`, params)
-})
+// $game.watch((params) => {
+//     logClient(`watch game`, params)
+// })
 // userJoined.watch((user) => {
 //     logClient(`       -- user`, user)
 // })

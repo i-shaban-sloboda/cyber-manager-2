@@ -18,7 +18,7 @@ export class SocketIOController {
         if (this.socket) {
             return
         }
-        logClient(`client command: start connection to socket`, gameId)
+        logClient(`command: start connection to socket`, gameId)
 
         const scope = getClientScope()!
         const userJoinedBound = scopeBind(userJoined, { scope })
@@ -34,7 +34,7 @@ export class SocketIOController {
         })
 
         this.socket.on('connect', () => {
-            logClient(`   client: connected to socket`, gameId)
+            logClient(`connected to socket`, gameId)
             // this.socket!.emit(SocketEvent.MESSAGE)
         })
 
@@ -43,17 +43,17 @@ export class SocketIOController {
         })
 
         this.socket.on(SocketEvent.USER_CONNECTED, (user: User) => {
-            logClient('   client: a user connected', user)
+            logClient('a user connected', user)
             userJoinedBound(user)
         })
 
         this.socket.on(SocketEvent.USER_DISCONNECTED, (userId: string) => {
-            logClient('   client: a user disconnected', userId)
+            logClient('a user disconnected', userId)
             userLeaveBound(userId)
         })
 
         this.socket.on('disconnect', (event) => {
-            logClient('   client: disconnect', gameId, 'reason:', event)
+            logClient('disconnect', gameId, 'reason:', event)
         })
     }
 
@@ -62,7 +62,7 @@ export class SocketIOController {
             throw Error(`'It shouldn't be execute at server side!`)
         }
 
-        logClient(`client command: disconnect from socket`)
+        logClient(`command: disconnect from socket`)
         if (!this.socket) {
             return
         }

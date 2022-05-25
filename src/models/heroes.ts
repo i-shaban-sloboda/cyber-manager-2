@@ -13,5 +13,5 @@ export const requestHeroesFx = createEffect({
 export const $heroes = createStore<Hero[]>([]).on(requestHeroesFx.doneData, (_, { data }) => data)
 
 // $heroes.watch((state) => {
-//     console.log(`>> $heroes ${JSON.stringify(state, null, 4)}`)
+//     logClient(`>> $heroes ${JSON.stringify(state, null, 4)}`)
 // })

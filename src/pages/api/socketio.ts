@@ -1,5 +1,6 @@
 import { NextApiRequest } from 'next'
 
+import { logServer } from '../../scope'
 import { usersController } from '../../server/controllers'
 import { NextApiResponseServerIO } from '../../types'
 import { SocketEvent } from '../../utils/sockets'
@@ -14,7 +15,7 @@ export const config = {
 
 export default async (req: NextApiRequest, res: NextApiResponseServerIO) => {
     if (!res.socket.server.io) {
-        console.log('>> New Socket.io server...')
+        logServer('>> New Socket.io server...')
         // adapt Next's net Server to http Server
         const httpServer: NetServer = res.socket.server as any
         const io = new ServerIO(httpServer, {
@@ -31,18 +32,19 @@ export default async (req: NextApiRequest, res: NextApiResponseServerIO) => {
             socket.on('disconnect', (event) => {
                 // if we use `socket` instead of `io` we will send message to everyone except `socket`
                 io.to(roomId).emit(SocketEvent.USER_DISCONNECTED, userId)
-                console.log('>> user disconnected', event)
+                logServer('user disconnected', event)
             })
             await socket.join(roomId)
 
             const user = await usersController.getById(userId! as string)
 
-            console.log(`>> a user connected ${userName}:${userId} to ${roomId}`)
+            logServer(`a user connected ${userName}:${userId} to ${roomId}`)
             socket.to(roomId).emit(SocketEvent.USER_CONNECTED, user)
         })
 
         // append SocketIO server to Next.js socket server response
         res.socket.server.io = io
+        logServer(`server created successful`)
     }
     res.end()
 }

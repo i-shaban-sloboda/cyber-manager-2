@@ -1,8 +1,9 @@
 import { userJoined, userLeave } from '../models/game'
-import { isServer } from '../scope'
+import { getClientScope, isServer, logClient } from '../scope'
 import { Nullable } from '../types'
 import { SocketEvent } from '../utils/sockets'
 import { User } from '@prisma/client'
+import { scopeBind } from 'effector'
 import { Socket, io } from 'socket.io-client'
 import { DefaultEventsMap } from 'socket.io/dist/typed-events'
 
@@ -17,7 +18,11 @@ export class SocketIOController {
         if (this.socket) {
             return
         }
-        console.log(`>> client command: start connection to socket`, gameId)
+        logClient(`client command: start connection to socket`, gameId)
+
+        const scope = getClientScope()!
+        const userJoinedBound = scopeBind(userJoined, { scope })
+        const userLeaveBound = scopeBind(userLeave, { scope })
 
         this.socket = io(process.env.NEXTAUTH_URL!, {
             path: '/api/socketio',
@@ -29,26 +34,26 @@ export class SocketIOController {
         })
 
         this.socket.on('connect', () => {
-            console.log(`   client: connected to socket`, gameId)
-            this.socket!.emit(SocketEvent.MESSAGE)
+            logClient(`   client: connected to socket`, gameId)
+            // this.socket!.emit(SocketEvent.MESSAGE)
         })
 
         this.socket.on(SocketEvent.MESSAGE, (data) => {
-            console.log('   client: MESSAGE', data)
+            // logClient('   client: MESSAGE', data)
         })
 
         this.socket.on(SocketEvent.USER_CONNECTED, (user: User) => {
-            userJoined(user)
-            console.log('   client: a user connected', user)
+            logClient('   client: a user connected', user)
+            userJoinedBound(user)
         })
 
         this.socket.on(SocketEvent.USER_DISCONNECTED, (userId: string) => {
-            userLeave(userId)
-            console.log('   client: a user disconnected', userId)
+            logClient('   client: a user disconnected', userId)
+            userLeaveBound(userId)
         })
 
         this.socket.on('disconnect', (event) => {
-            console.log('   client: disconnect', gameId, 'reason:', event)
+            logClient('   client: disconnect', gameId, 'reason:', event)
         })
     }
 
@@ -57,7 +62,7 @@ export class SocketIOController {
             throw Error(`'It shouldn't be execute at server side!`)
         }
 
-        console.log(`>> client command: disconnect from socket`)
+        logClient(`client command: disconnect from socket`)
         if (!this.socket) {
             return
         }

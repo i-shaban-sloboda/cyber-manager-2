@@ -14,6 +14,7 @@ const initializeScope = (initialData: Record<string, unknown>) => {
             console.log('[ClientScope]:', serialize(clientScope))
         }
     }
+
     let scope = fork({
         values: {
             ...(clientScope ? serialize(clientScope) : {}),
@@ -32,3 +33,23 @@ export const useScope = (initialData = {}) =>
     useMemo(() => initializeScope(initialData), [initialData])
 
 export const getClientScope = (): Scope | undefined => clientScope
+
+export const logClient = (message: string | object, ...args: any[]) => {
+    if (isBrowser) {
+        if (typeof message === 'string') {
+            console.log(`>> client:`, message, ...args)
+        } else {
+            console.log(`>> client ${JSON.stringify(message, null, 4)}`, ...args)
+        }
+    }
+}
+
+export const logServer = (message: string | object, ...args: any[]) => {
+    if (isServer) {
+        if (typeof message === 'string') {
+            console.log(`>> client:`, message, ...args)
+        } else {
+            console.log(`>> client ${JSON.stringify(message, null, 4)}`, ...args)
+        }
+    }
+}

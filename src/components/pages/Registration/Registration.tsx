@@ -6,6 +6,7 @@ import React, { memo } from 'react'
 import classNames from 'classnames'
 
 import { apiClient } from '../../../lib/apiClient'
+import { logClient } from '../../../scope'
 import { pagesPath } from '../../../utils/$path'
 import { PasswordVisibilitySwitcher } from '../../PasswordVisibilitySwitcher/PasswordVisibilitySwitcher'
 import { UnauthorizedHeader } from '../../UnauthorizedHeader/UnauthorizedHeader'
@@ -46,10 +47,10 @@ export const Registration: NextPage<Props> = memo((props) => {
                     password,
                     callbackUrl: pagesPath.lobby.$url().pathname,
                 })
-                console.log(`>> regResponse ${JSON.stringify(regResponse, null, 4)}`)
-                console.log(`>> loginResponse ${JSON.stringify(loginResponse, null, 4)}`)
+                logClient(`regResponse ${JSON.stringify(regResponse, null, 4)}`)
+                logClient(`loginResponse ${JSON.stringify(loginResponse, null, 4)}`)
             } catch (e) {
-                console.log(`>> error ${JSON.stringify(e, null, 4)}`)
+                logClient(`error ${JSON.stringify(e, null, 4)}`)
             }
 
             setSubmitting(false)

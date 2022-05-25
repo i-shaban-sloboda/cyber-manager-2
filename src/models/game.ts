@@ -1,5 +1,6 @@
 import { socketIOController } from '../client'
 import { apiClient } from '../lib/apiClient'
+import { logClient } from '../scope'
 import { Nullable } from '../types'
 import { Game, GameState, User } from '@prisma/client'
 import { combine, createEffect, createEvent, createStore } from 'effector'
@@ -59,12 +60,31 @@ export const disconnectFromSocketFx = createEffect({
 })
 
 export const $game = createStore<Nullable<Room>>(null)
-    .on(userJoined, (game, user) => (game ? { ...game, users: [...game.users, user] } : game))
-    .on(userLeave, (game, userId) =>
-        game ? { ...game, users: game.users.filter(({ id }) => id === userId) } : game,
-    )
-    .on(requestGameFx.doneData, (_, data) => data.data)
-    .on(startGameSearchingFx.doneData, (_, data) => data.data)
+    .on(userJoined, (game, user) => {
+        logClient(`userJoined`, game)
+
+        return game ? { ...game, users: [...game.users, user] } : game
+    })
+    .on(userLeave, (game, userId) => {
+        logClient(`userLeave`, game)
+
+        return game ? { ...game, users: game.users.filter(({ id }) => id !== userId) } : game
+    })
+    .on(requestGameFx.doneData, (_, data) => {
+        logClient(`requestGameFx.doneData`, data.data)
+
+        return data.data
+    })
+    .on(startGameSearchingFx.doneData, (_, data) => {
+        logClient(`startGameSearchingFx.doneData`, data.data)
+
+        return data.data
+    })
+    .on(stopGameSearchingFx.doneData, () => {
+        logClient(`stopGameSearchingFx.doneData`)
+
+        return null
+    })
     .reset(stopGameSearchingFx.doneData)
 
 export const $isLookingForTheGame = combine(
@@ -75,6 +95,9 @@ export const $isLookingForTheGame = combine(
 
 export const $isGamePreventing = stopGameSearchingFx.pending
 
-// $game.watch((params) => {
-//     console.log(`>> game ${JSON.stringify(params, null, 4)}`)
+$game.watch((params) => {
+    logClient(`watch game`, params)
+})
+// userJoined.watch((user) => {
+//     logClient(`       -- user`, user)
 // })

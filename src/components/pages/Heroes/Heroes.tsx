@@ -3,6 +3,7 @@ import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
 import Link from 'next/link'
 import React, { memo } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import { $heroes } from '../../../models/heroes'
 import { pagesPath } from '../../../utils/$path'
@@ -26,10 +27,13 @@ export const Heroes: NextPage<Props> = memo((props) => {
             className={styles.base}
         >
             <Typography variant="h3">
-                Hello {session?.data?.user?.name}, you are at heroes page!
+                <FormattedMessage
+                    defaultMessage="Привет {name}, ты находишься на странице списка героев!"
+                    values={{ name: session?.data?.user?.name }}
+                />
             </Typography>
             <Typography variant="h4" gutterBottom>
-                Сила
+                <FormattedMessage defaultMessage="Сила" />
             </Typography>
             <ul className={styles.heroes}>
                 {heroes
@@ -49,7 +53,7 @@ export const Heroes: NextPage<Props> = memo((props) => {
                     ))}
             </ul>
             <Typography variant="h4" gutterBottom>
-                Ловкость
+                <FormattedMessage defaultMessage="Ловкость" />
             </Typography>
             <ul className={styles.heroes}>
                 {heroes
@@ -69,7 +73,7 @@ export const Heroes: NextPage<Props> = memo((props) => {
                     ))}
             </ul>
             <Typography variant="h4" gutterBottom>
-                Интеллект
+                <FormattedMessage defaultMessage="Интеллект" />
             </Typography>
             <ul className={styles.heroes}>
                 {heroes

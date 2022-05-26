@@ -2,6 +2,7 @@ import { useEvent } from 'effector-react/scope'
 import { useSession } from 'next-auth/react'
 import Link from 'next/link'
 import React, { FC, memo } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import { toggleMuiTheme } from '../../models/ui'
 import { pagesPath } from '../../utils/$path'
@@ -16,15 +17,15 @@ import styles from './AuthorizedHeader.module.scss'
 export interface Props {}
 const pages = [
     {
-        title: 'Магазин',
+        title: <FormattedMessage defaultMessage="Магазин" />,
         url: pagesPath.store.$url().pathname,
     },
     {
-        title: 'Герои',
+        title: <FormattedMessage defaultMessage="Герои" />,
         url: pagesPath.heroes.$url().pathname,
     },
     {
-        title: 'Библиотека',
+        title: <FormattedMessage defaultMessage="Библиотека" />,
         url: pagesPath.library.$url().pathname,
     },
 ]
@@ -46,7 +47,7 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
             <Link href={pagesPath.lobby.$url()}>
                 <Typography className={styles.logo} variant="h6" noWrap component="a">
                     <AdbIcon />
-                    LOGO
+                    <FormattedMessage defaultMessage="Логотип" />
                 </Typography>
             </Link>
             <Divider orientation="vertical" variant="middle" flexItem />
@@ -58,8 +59,8 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
                 }}
             >
                 {pages.map(({ title, url }) => (
-                    <Button color="secondary" key={title}>
-                        <Link key={title} href={url}>
+                    <Button color="secondary" key={url}>
+                        <Link href={url}>
                             <Typography
                                 variant="subtitle1"
                                 component="a"
@@ -77,7 +78,10 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
             <IconButton sx={{ ml: 1 }} onClick={handleMUIThemeToggle} color="inherit">
                 {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
-            Привет {data?.user?.name!}!
+            <FormattedMessage
+                defaultMessage="Привет {name}!"
+                values={{ name: data?.user?.name! }}
+            />
             <SettingsMenu />
         </Stack>
     )

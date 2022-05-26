@@ -1,12 +1,18 @@
 import { InferType, object, ref, string } from 'yup'
 
 export const RegistrationFESchema = object().shape({
-    name: string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
+    name: string()
+        .min(4, 'Слишком мало символов!')
+        .max(30, 'Слишком много символов!')
+        .required('Обязательное поле'),
     email: string().email().required('Обязательное поле'),
-    password: string().min(4, 'Too Short!').max(30, 'Too Long!').required('Обязательное поле'),
+    password: string()
+        .min(4, 'Слишком мало символов')
+        .max(30, 'Слишком много символов!')
+        .required('Обязательное поле'),
     repeatPassword: string()
-        .min(4, 'Too Short!')
-        .max(30, 'Too Long!')
+        .min(4, 'Слишком мало символов')
+        .max(30, 'Слишком много символов!')
         .oneOf([ref('password'), null], 'Пароли должны совпадать')
         .required('Обязательное поле'),
 })

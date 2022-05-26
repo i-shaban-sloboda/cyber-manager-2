@@ -2,6 +2,7 @@ import { signIn } from 'next-auth/react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { FC, memo } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import { pagesPath } from '../../utils/$path'
 import { Button, Stack } from '@mui/material'
@@ -21,13 +22,15 @@ export const UnauthorizedHeader: FC<Props> = memo((props) => {
         >
             {router.pathname === pagesPath.registration.$url().pathname && (
                 <Button variant="text" color="secondary" onClick={() => signIn()}>
-                    Войти
+                    <FormattedMessage defaultMessage="Войти" />
                 </Button>
             )}
             {router.pathname === pagesPath.login.$url().pathname && (
                 <Button variant="text" color="secondary">
                     <Link href={pagesPath.registration.$url()}>
-                        <a className="mimic-link">Зарегистрироваться</a>
+                        <a className="mimic-link">
+                            <FormattedMessage defaultMessage="Зарегистрироваться" />
+                        </a>
                     </Link>
                 </Button>
             )}

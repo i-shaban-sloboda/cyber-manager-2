@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import { signIn, useSession } from 'next-auth/react'
 import Head from 'next/head'
 import React, { memo } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import classNames from 'classnames'
 
@@ -79,7 +80,9 @@ export const Registration: NextPage<Props> = memo((props) => {
                         variant="standard"
                         error={!!name && !!errors.name && !!touched.name}
                     >
-                        <InputLabel htmlFor="name">Имя *</InputLabel>
+                        <InputLabel htmlFor="name">
+                            <FormattedMessage defaultMessage="Имя *" />
+                        </InputLabel>
                         <Input
                             id="name"
                             name="name"
@@ -97,7 +100,9 @@ export const Registration: NextPage<Props> = memo((props) => {
                         variant="standard"
                         error={!!email && !!errors.email && !!touched.email}
                     >
-                        <InputLabel htmlFor="email">Электронная почта *</InputLabel>
+                        <InputLabel htmlFor="email">
+                            <FormattedMessage defaultMessage="Электронная почта *" />
+                        </InputLabel>
                         <Input
                             id="email"
                             name="email"
@@ -115,7 +120,9 @@ export const Registration: NextPage<Props> = memo((props) => {
                         variant="standard"
                         error={!!password && !!errors.password && !!touched.password}
                     >
-                        <InputLabel htmlFor="password">Пароль *</InputLabel>
+                        <InputLabel htmlFor="password">
+                            <FormattedMessage defaultMessage="Пароль *" />
+                        </InputLabel>
                         <Input
                             id="password"
                             name="password"
@@ -141,7 +148,9 @@ export const Registration: NextPage<Props> = memo((props) => {
                             !!repeatPassword && !!errors.repeatPassword && !!touched.repeatPassword
                         }
                     >
-                        <InputLabel htmlFor="repeatPassword">Повторите пароль *</InputLabel>
+                        <InputLabel htmlFor="repeatPassword">
+                            <FormattedMessage defaultMessage="Повторите пароль *" />
+                        </InputLabel>
                         <Input
                             id="repeatPassword"
                             name="repeatPassword"
@@ -167,7 +176,7 @@ export const Registration: NextPage<Props> = memo((props) => {
                         color="secondary"
                         sx={{ alignSelf: 'end', mt: 2 }}
                     >
-                        Зарегистрироваться
+                        <FormattedMessage defaultMessage="Зарегистрироваться" />
                     </Button>
                 </Stack>
             </form>

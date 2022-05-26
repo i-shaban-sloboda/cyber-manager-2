@@ -1,6 +1,7 @@
 import { useEvent, useStore } from 'effector-react/scope'
 import Image from 'next/image'
 import React, { FC, memo, useEffect, useState } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import classNames from 'classnames'
 
@@ -77,7 +78,7 @@ export const SearchGameOverlay: FC<Props> = memo((props) => {
                         variant="outlined"
                         color="secondary"
                     >
-                        Ожидайте, ищем игру...
+                        <FormattedMessage defaultMessage="Ожидайте, ищем игру..." />
                     </LoadingButton>
                     <Button
                         color="secondary"

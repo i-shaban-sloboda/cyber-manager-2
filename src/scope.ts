@@ -34,6 +34,7 @@ export const useScope = (initialData = {}) =>
 
 export const getClientScope = (): Scope | undefined => clientScope
 
+// TODO: move to utils/log.ts module
 export const logClient = (message: string | object, ...args: any[]) => {
     if (isBrowser) {
         if (typeof message === 'string') {
@@ -44,6 +45,7 @@ export const logClient = (message: string | object, ...args: any[]) => {
     }
 }
 
+// TODO: move to utils/log.ts module
 export const logServer = (message: string | object, ...args: any[]) => {
     if (isServer) {
         if (typeof message === 'string') {

@@ -2,6 +2,7 @@ import { useEvent, useStore } from 'effector-react/scope'
 import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import {
     $game,
@@ -36,7 +37,10 @@ export const Lobby: NextPage<Props> = (props) => {
             className={styles.base}
         >
             <Typography variant="h3" sx={{ alignSelf: 'center' }}>
-                Hello {session?.data?.user?.name}, you are in lobby!
+                <FormattedMessage
+                    defaultMessage="Привет {name}, ты находишься в гостинной!"
+                    values={{ name: session?.data?.user?.name }}
+                />
             </Typography>
             <Stack gap={2} component="ul" sx={{ ml: 4, mt: 4 }}>
                 {/* @ts-ignore */}
@@ -77,7 +81,7 @@ export const Lobby: NextPage<Props> = (props) => {
                     variant="contained"
                     color="secondary"
                 >
-                    Найти игру
+                    <FormattedMessage defaultMessage="Найти игру" />
                 </LoadingButton>
             </Stack>
             <SearchGameOverlay />

@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
 import React, { memo } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import { Nullable } from '../../../types'
 import { PageLayout } from '../../PageLayout/PageLayout'
@@ -24,7 +25,10 @@ export const Hero: NextPage<Props> = memo(({ hero }) => {
             className={styles.base}
         >
             <Typography variant="h3">
-                Hello {session?.data?.user?.name}, you are looking for {hero?.name}!
+                <FormattedMessage
+                    defaultMessage="Привет {name}, ты смотришь описание героя {hero}!"
+                    values={{ name: session?.data?.user?.name, hero: hero?.name }}
+                />
             </Typography>
         </PageLayout>
     )

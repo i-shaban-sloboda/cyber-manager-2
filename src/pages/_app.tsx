@@ -1,11 +1,12 @@
 import { CacheProvider } from '@emotion/react'
-import { Provider, useStore } from 'effector-react/scope'
+import { Provider as EffectorProvider, useStore } from 'effector-react/scope'
 import { SessionProvider } from 'next-auth/react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import * as React from 'react'
 import { FC, PropsWithChildren } from 'react'
 
+import { I18nProvider } from '../client/I18nProvider'
 import { InitEffector } from '../components/InitEffector/InitEffector'
 import createEmotionCache from '../createEmotionCache'
 import '../models'
@@ -45,18 +46,20 @@ function MyApp({
     const scope = useScope(effector)
 
     return (
-        <Provider value={scope}>
+        <EffectorProvider value={scope}>
             <SessionProvider session={session}>
                 <CacheProvider value={emotionCache}>
-                    <Head>
-                        <meta name="viewport" content="initial-scale=1, width=device-width" />
-                    </Head>
-                    <Mui>
-                        <Component {...pageProps} />
-                    </Mui>
+                    <I18nProvider>
+                        <Head>
+                            <meta name="viewport" content="initial-scale=1, width=device-width" />
+                        </Head>
+                        <Mui>
+                            <Component {...pageProps} />
+                        </Mui>
+                    </I18nProvider>
                 </CacheProvider>
             </SessionProvider>
-        </Provider>
+        </EffectorProvider>
     )
 }
 

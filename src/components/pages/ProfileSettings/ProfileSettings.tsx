@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import { useSession } from 'next-auth/react'
 import React, { memo } from 'react'
+import { FormattedMessage } from 'react-intl'
 
 import { PageLayout } from '../../PageLayout/PageLayout'
 import { Typography } from '@mui/material'
@@ -16,7 +17,10 @@ export const ProfileSettings: NextPage<Props> = memo((props) => {
             seoDescription="Profile settings page"
         >
             <Typography variant="h3">
-                Hello {session?.data?.user?.name}, you are in profile settings!
+                <FormattedMessage
+                    defaultMessage="Привет {name}, ты находишься на странице профайла!"
+                    values={{ name: session?.data?.user?.name }}
+                />
             </Typography>
         </PageLayout>
     )

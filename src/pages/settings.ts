@@ -1,8 +1,10 @@
 import { AppSettings } from '../components/pages/AppSettings/AppSettings'
-import { protectedPage } from '../utils/page'
+import { withLocale, withProtection } from '../utils/page'
 
 export default AppSettings
 
-export const getServerSideProps = protectedPage(async (context) => {
-    return { props: {} }
-})
+export const getServerSideProps = withProtection(
+    withLocale(async (context) => {
+        return { props: {} }
+    }),
+)

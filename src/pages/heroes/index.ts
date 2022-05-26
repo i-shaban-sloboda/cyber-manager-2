@@ -1,17 +1,19 @@
 import { GetStaticProps } from 'next/types'
 
 import { Heroes } from '../../components/pages/Heroes/Heroes'
+import { apiClient } from '../../lib/apiClient'
 import { requestHeroesFx } from '../../models/heroes'
 import { allSettled, fork, serialize } from 'effector'
 
 export default Heroes
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
     const scope = fork()
+    const { data: localeMessages } = await apiClient.get(`locales/${locale}.json`)
 
     await allSettled(requestHeroesFx, { scope })
 
     const effector = serialize(scope)
 
-    return { props: { effector } }
+    return { props: { effector, locale, localeMessages } }
 }

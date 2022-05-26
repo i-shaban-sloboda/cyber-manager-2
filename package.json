@@ -19,7 +19,7 @@
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint",
-    "i18n:extract": "formatjs extract 'src/**/*.{js,ts,tsx}' --format simple --id-interpolation-pattern '[sha512:contenthash:base64:6]' --out-file content/locales/ru.json",
+    "i18n:extract": "formatjs extract \"src/**/*.{js,jsx,ts,tsx}\" --ignore=\"**/*.d.ts\"  --format simple --id-interpolation-pattern [sha512:contenthash:base64:6] --out-file content/locales/ru.json",
     "i18n:compile": "formatjs compile-folder --ast --format simple content/locales public/locales"
   },
   "prisma": {

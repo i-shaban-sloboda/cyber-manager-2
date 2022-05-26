@@ -4,9 +4,9 @@ import { SessionProvider } from 'next-auth/react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import * as React from 'react'
-import { FC, PropsWithChildren } from 'react'
+import { FC, PropsWithChildren, useCallback } from 'react'
+import { IntlProvider } from 'react-intl'
 
-import { I18nProvider } from '../client/I18nProvider'
 import { InitEffector } from '../components/InitEffector/InitEffector'
 import createEmotionCache from '../createEmotionCache'
 import '../models'
@@ -41,22 +41,28 @@ export interface Props extends AppProps {
 function MyApp({
     Component,
     emotionCache = clientSideEmotionCache,
-    pageProps: { session, effector, ...pageProps },
+    pageProps: { session, effector, locale, localeMessages, ...pageProps },
 }: Props) {
     const scope = useScope(effector)
+    const handleLocalesError = useCallback(() => null, [])
 
     return (
         <EffectorProvider value={scope}>
             <SessionProvider session={session}>
                 <CacheProvider value={emotionCache}>
-                    <I18nProvider>
+                    {/* TODO: add linting */}
+                    <IntlProvider
+                        locale={locale!}
+                        messages={localeMessages}
+                        onError={handleLocalesError}
+                    >
                         <Head>
                             <meta name="viewport" content="initial-scale=1, width=device-width" />
                         </Head>
                         <Mui>
                             <Component {...pageProps} />
                         </Mui>
-                    </I18nProvider>
+                    </IntlProvider>
                 </CacheProvider>
             </SessionProvider>
         </EffectorProvider>

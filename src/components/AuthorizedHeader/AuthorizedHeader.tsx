@@ -78,6 +78,7 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
             <IconButton sx={{ ml: 1 }} onClick={handleMUIThemeToggle} color="inherit">
                 {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
+            {/* TODO: check that at server session info may be null */}
             <FormattedMessage
                 defaultMessage="Привет {name}!"
                 values={{ name: data?.user?.name! }}

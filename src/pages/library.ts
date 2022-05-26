@@ -1,8 +1,10 @@
 import { Library } from '../components/pages/Library/Library'
-import { protectedPage } from '../utils/page'
+import { withLocale, withProtection } from '../utils/page'
 
 export default Library
 
-export const getServerSideProps = protectedPage(async (context) => {
-    return { props: {} }
-})
+export const getServerSideProps = withProtection(
+    withLocale(async (context) => {
+        return { props: {} }
+    }),
+)

@@ -1,5 +1,5 @@
 import { useEvent } from 'effector-react/scope'
-import React, { FC, memo, useEffect } from 'react'
+import { FC, memo, useEffect } from 'react'
 
 import { initClient } from '../../models/initialize'
 

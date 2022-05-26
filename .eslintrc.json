@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "effector"
+    "effector","formatjs"
   ],
   "extends": [
     "react-app",
@@ -11,6 +11,7 @@
   ],
   "rules": {
     "import/no-anonymous-default-export": 0,
-    "jsx-a11y/anchor-is-valid": 0
+    "jsx-a11y/anchor-is-valid": 0,
+    "formatjs/no-offset": "error"
   }
 }

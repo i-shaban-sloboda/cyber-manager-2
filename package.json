@@ -19,6 +19,7 @@
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint",
+    "i18n:translate": "set GOOGLE_APPLICATION_CREDENTIALS=./content/google-translate-key.json&&ts-node ./scripts/translate.ts",
     "i18n:extract": "formatjs extract \"src/**/*.{js,jsx,ts,tsx}\" --ignore=\"**/*.d.ts\"  --format simple --id-interpolation-pattern [sha512:contenthash:base64:6] --out-file content/locales/ru.json",
     "i18n:compile": "formatjs compile-folder --ast --format simple content/locales public/locales"
   },
@@ -59,6 +60,7 @@
   "devDependencies": {
     "@faker-js/faker": "^6.3.1",
     "@formatjs/cli": "^5.0.1",
+    "@google-cloud/translate": "^6.3.1",
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/bcrypt": "^5.0.0",
     "@types/node": "17.0.32",

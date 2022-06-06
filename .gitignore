@@ -28,6 +28,7 @@ $path.js
 *.pem
 .env
 TODOs.md
+google-translate-key.json
 
 # debug
 npm-debug.log*

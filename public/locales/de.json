@@ -1,2 +1,264 @@
 {
+  "/lHl3C": [
+    {
+      "type": 0,
+      "value": "Punktzahl"
+    }
+  ],
+  "0t5q4G": [
+    {
+      "type": 0,
+      "value": "Profil"
+    }
+  ],
+  "2DAhRs": [
+    {
+      "type": 0,
+      "value": "Registrieren"
+    }
+  ],
+  "2vMb0u": [
+    {
+      "type": 0,
+      "value": "Stärke"
+    }
+  ],
+  "7Q5kv2": [
+    {
+      "type": 0,
+      "value": "Finde ein Spiel"
+    }
+  ],
+  "7jhgtY": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du bist im Wohnzimmer!"
+    }
+  ],
+  "Bcliqu": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du bist auf der Heldenlistenseite!"
+    }
+  ],
+  "F7YPkR": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du befindest dich auf der Seite mit den App-Einstellungen!"
+    }
+  ],
+  "GDfK+i": [
+    {
+      "type": 0,
+      "value": "Wiederholen Sie das Passwort *"
+    }
+  ],
+  "HFoBpn": [
+    {
+      "type": 0,
+      "value": "E-Mail *"
+    }
+  ],
+  "LcYMyV": [
+    {
+      "type": 0,
+      "value": "Zu wenige Zeichen!"
+    }
+  ],
+  "MpLapr": [
+    {
+      "type": 0,
+      "value": "Intelligenz"
+    }
+  ],
+  "NQiRcq": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du siehst dir die Beschreibung des Helden "
+    },
+    {
+      "type": 1,
+      "value": "hero"
+    },
+    {
+      "type": 0,
+      "value": " an!"
+    }
+  ],
+  "OSxs7i": [
+    {
+      "type": 0,
+      "value": "Warte, suche nach einem Spiel..."
+    }
+  ],
+  "THaf0F": [
+    {
+      "type": 0,
+      "value": "Einstellungen"
+    }
+  ],
+  "TvKUrK": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du bist in der Bibliothek!"
+    }
+  ],
+  "Z+aMSW": [
+    {
+      "type": 0,
+      "value": "Beweglichkeit"
+    }
+  ],
+  "Z1hNcA": [
+    {
+      "type": 0,
+      "value": "mit "
+    },
+    {
+      "type": 1,
+      "value": "Name"
+    }
+  ],
+  "byxA7e": [
+    {
+      "type": 0,
+      "value": "Name *"
+    }
+  ],
+  "dfZHra": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du bist auf der Profilseite!"
+    }
+  ],
+  "iNK9Y+": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "Name"
+    },
+    {
+      "type": 0,
+      "value": "!"
+    }
+  ],
+  "jCbLjF": [
+    {
+      "type": 0,
+      "value": "Passwort *"
+    }
+  ],
+  "jmDyvH": [
+    {
+      "type": 0,
+      "value": "Helden"
+    }
+  ],
+  "mqJlGW": [
+    {
+      "type": 0,
+      "value": "Hallo "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", du bist auf der Shop-Seite!"
+    }
+  ],
+  "oU4rxk": [
+    {
+      "type": 0,
+      "value": "Betreten"
+    }
+  ],
+  "oqiCOV": [
+    {
+      "type": 0,
+      "value": "Pflichtfeld"
+    }
+  ],
+  "uMV0ir": [
+    {
+      "type": 0,
+      "value": "oder"
+    }
+  ],
+  "w4OvrB": [
+    {
+      "type": 0,
+      "value": "Bibliothek"
+    }
+  ],
+  "xp768V": [
+    {
+      "type": 0,
+      "value": "Logo"
+    }
+  ],
+  "xxMGAl": [
+    {
+      "type": 0,
+      "value": "Hinausgehen"
+    }
+  ],
+  "yJspRe": [
+    {
+      "type": 0,
+      "value": "Die Passwörter müssen übereinstimmen"
+    }
+  ]
 }

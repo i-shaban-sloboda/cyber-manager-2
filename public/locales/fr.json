@@ -1,2 +1,264 @@
 {
+  "/lHl3C": [
+    {
+      "type": 0,
+      "value": "Score"
+    }
+  ],
+  "0t5q4G": [
+    {
+      "type": 0,
+      "value": "Profil"
+    }
+  ],
+  "2DAhRs": [
+    {
+      "type": 0,
+      "value": "S'inscrire"
+    }
+  ],
+  "2vMb0u": [
+    {
+      "type": 0,
+      "value": "Force"
+    }
+  ],
+  "7Q5kv2": [
+    {
+      "type": 0,
+      "value": "Trouver un jeu"
+    }
+  ],
+  "7jhgtY": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous êtes dans le salon !"
+    }
+  ],
+  "Bcliqu": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous êtes sur la page de la liste des héros !"
+    }
+  ],
+  "F7YPkR": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous êtes sur la page des paramètres de l'application !"
+    }
+  ],
+  "GDfK+i": [
+    {
+      "type": 0,
+      "value": "Répéter le mot de passe *"
+    }
+  ],
+  "HFoBpn": [
+    {
+      "type": 0,
+      "value": "E-mail *"
+    }
+  ],
+  "LcYMyV": [
+    {
+      "type": 0,
+      "value": "Trop peu de personnages !"
+    }
+  ],
+  "MpLapr": [
+    {
+      "type": 0,
+      "value": "Intelligence"
+    }
+  ],
+  "NQiRcq": [
+    {
+      "type": 0,
+      "value": "Salut "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous regardez la description du héros "
+    },
+    {
+      "type": 1,
+      "value": "hero"
+    },
+    {
+      "type": 0,
+      "value": " !"
+    }
+  ],
+  "OSxs7i": [
+    {
+      "type": 0,
+      "value": "Attendez, je cherche un jeu..."
+    }
+  ],
+  "THaf0F": [
+    {
+      "type": 0,
+      "value": "Réglages"
+    }
+  ],
+  "TvKUrK": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous êtes dans la bibliothèque !"
+    }
+  ],
+  "Z+aMSW": [
+    {
+      "type": 0,
+      "value": "Agilité"
+    }
+  ],
+  "Z1hNcA": [
+    {
+      "type": 0,
+      "value": "en utilisant "
+    },
+    {
+      "type": 1,
+      "value": "nom"
+    }
+  ],
+  "byxA7e": [
+    {
+      "type": 0,
+      "value": "Nom *"
+    }
+  ],
+  "dfZHra": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous êtes sur la page de profil !"
+    }
+  ],
+  "iNK9Y+": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "nom"
+    },
+    {
+      "type": 0,
+      "value": " !"
+    }
+  ],
+  "jCbLjF": [
+    {
+      "type": 0,
+      "value": "Mot de passe *"
+    }
+  ],
+  "jmDyvH": [
+    {
+      "type": 0,
+      "value": "Héros"
+    }
+  ],
+  "mqJlGW": [
+    {
+      "type": 0,
+      "value": "Bonjour "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", vous êtes sur la page de la boutique !"
+    }
+  ],
+  "oU4rxk": [
+    {
+      "type": 0,
+      "value": "Entrer"
+    }
+  ],
+  "oqiCOV": [
+    {
+      "type": 0,
+      "value": "champs requis"
+    }
+  ],
+  "uMV0ir": [
+    {
+      "type": 0,
+      "value": "ou"
+    }
+  ],
+  "w4OvrB": [
+    {
+      "type": 0,
+      "value": "Bibliothèque"
+    }
+  ],
+  "xp768V": [
+    {
+      "type": 0,
+      "value": "Logo"
+    }
+  ],
+  "xxMGAl": [
+    {
+      "type": 0,
+      "value": "Sortir"
+    }
+  ],
+  "yJspRe": [
+    {
+      "type": 0,
+      "value": "Les mots de passe doivent correspondre"
+    }
+  ]
 }

@@ -1,2 +1,264 @@
 {
+  "/lHl3C": [
+    {
+      "type": 0,
+      "value": "Score"
+    }
+  ],
+  "0t5q4G": [
+    {
+      "type": 0,
+      "value": "Profile"
+    }
+  ],
+  "2DAhRs": [
+    {
+      "type": 0,
+      "value": "Register"
+    }
+  ],
+  "2vMb0u": [
+    {
+      "type": 0,
+      "value": "Strength"
+    }
+  ],
+  "7Q5kv2": [
+    {
+      "type": 0,
+      "value": "Find a game"
+    }
+  ],
+  "7jhgtY": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you're in the living room!"
+    }
+  ],
+  "Bcliqu": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you're on the hero list page!"
+    }
+  ],
+  "F7YPkR": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you are on the app settings page!"
+    }
+  ],
+  "GDfK+i": [
+    {
+      "type": 0,
+      "value": "Repeat password *"
+    }
+  ],
+  "HFoBpn": [
+    {
+      "type": 0,
+      "value": "Email *"
+    }
+  ],
+  "LcYMyV": [
+    {
+      "type": 0,
+      "value": "Too few characters!"
+    }
+  ],
+  "MpLapr": [
+    {
+      "type": 0,
+      "value": "Intelligence"
+    }
+  ],
+  "NQiRcq": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you are looking at the description of the hero "
+    },
+    {
+      "type": 1,
+      "value": "hero"
+    },
+    {
+      "type": 0,
+      "value": "!"
+    }
+  ],
+  "OSxs7i": [
+    {
+      "type": 0,
+      "value": "Wait, looking for a game..."
+    }
+  ],
+  "THaf0F": [
+    {
+      "type": 0,
+      "value": "Settings"
+    }
+  ],
+  "TvKUrK": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you're in the library!"
+    }
+  ],
+  "Z+aMSW": [
+    {
+      "type": 0,
+      "value": "Agility"
+    }
+  ],
+  "Z1hNcA": [
+    {
+      "type": 0,
+      "value": "using "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "byxA7e": [
+    {
+      "type": 0,
+      "value": "Name *"
+    }
+  ],
+  "dfZHra": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you are on the profile page!"
+    }
+  ],
+  "iNK9Y+": [
+    {
+      "type": 0,
+      "value": "Hello "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "!"
+    }
+  ],
+  "jCbLjF": [
+    {
+      "type": 0,
+      "value": "Password *"
+    }
+  ],
+  "jmDyvH": [
+    {
+      "type": 0,
+      "value": "Heroes"
+    }
+  ],
+  "mqJlGW": [
+    {
+      "type": 0,
+      "value": "Hi "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ", you're on the shop page!"
+    }
+  ],
+  "oU4rxk": [
+    {
+      "type": 0,
+      "value": "To come in"
+    }
+  ],
+  "oqiCOV": [
+    {
+      "type": 0,
+      "value": "Required field"
+    }
+  ],
+  "uMV0ir": [
+    {
+      "type": 0,
+      "value": "or"
+    }
+  ],
+  "w4OvrB": [
+    {
+      "type": 0,
+      "value": "Library"
+    }
+  ],
+  "xp768V": [
+    {
+      "type": 0,
+      "value": "Logo"
+    }
+  ],
+  "xxMGAl": [
+    {
+      "type": 0,
+      "value": "Go out"
+    }
+  ],
+  "yJspRe": [
+    {
+      "type": 0,
+      "value": "Passwords must match"
+    }
+  ]
 }

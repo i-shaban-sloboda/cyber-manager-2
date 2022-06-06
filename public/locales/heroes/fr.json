@@ -1,0 +1,2180 @@
+{
+  "npc_dota_hero_abaddon.description": [
+    {
+      "type": 0,
+      "value": "Il y avait de l'amertume dans la maison Avernus - Elders et jeunes l'accusant de négliger ses responsabilités. Mais toutes ces accusations se sont arrêtées quand Abaddon est entré au combat, et ils ont vu comment les pouvoirs de la brume lui avaient donné la maîtrise de la vie et de la mort au-delà de ceux de tout seigneur que la Chambre ait jamais connue."
+    }
+  ],
+  "npc_dota_hero_abaddon.name": [
+    {
+      "type": 0,
+      "value": "Abaddon, le seigneur d'Avernus"
+    }
+  ],
+  "npc_dota_hero_abaddon.quote": [
+    {
+      "type": 0,
+      "value": "Capable de transformer les attaques ennemies en auto-guérison, Abaddon peut survivre à presque tous les agressions. Boulissant les alliés et lançant sa bobine à double tranchant sur un ami ou un ennemi, il est toujours prêt à monter dans l'épaisseur de la bataille."
+    }
+  ],
+  "npc_dota_hero_abyssal_underlord.description": [
+    {
+      "type": 0,
+      "value": "Armé par les monstrueux pardon de son genre et bien pratiquées dans les arts de la faille sombre, Vrogros est capable d'évoquer la flamme et de paralyser la méchanceté à travers la torsion entre les mondes. Il cherche toujours à étendre ses avoirs, à détruire ou à asservir tout ce qu'il rencontre. Pourtant, les terres offertes par le royaume souterrain sont peu nombreuses, et donc ses vues sont tournées vers le haut. Par son commandement, les premières vagues des envahisseurs abyssales ont déjà marché à travers le faillite, quelques légions condamnées signifiaient simplement tester la puissance des nations ci-dessus. Maintenant, alors que sa pleine force se prépare pour une conquête sans fin, Vrogros lui-même entre dans un monde ensoleillé pour annoncer son règne à venir. Ceux qui affronteront le sous-locataire s'inclineront et rendront hommage, ou seront écrasés là où ils se trouvent."
+    }
+  ],
+  "npc_dota_hero_abyssal_underlord.name": [
+    {
+      "type": 0,
+      "value": "Vrogros, le sous-locataire"
+    }
+  ],
+  "npc_dota_hero_abyssal_underlord.quote": [
+    {
+      "type": 0,
+      "value": "Conjurer des vagues de flamme abyssale pour immoler les ennemis tenus paralysés dans votre prise méchante. Fêtez-vous sur le carnage de la bataille, gagnant de la force alors que les ennemis périssent autour de vous, leurs attaques ont diminué par votre présence même. Déchirurez une faille dans la réalité pour vous téléporter, vous et vos coéquipiers, à travers la carte, offrant une représailles sanglante à tous ceux qui défieraient la volonté de Vrogros le sous-licenciement."
+    }
+  ],
+  "npc_dota_hero_alchemist.description": [
+    {
+      "type": 0,
+      "value": "Ils se sont rapidement retrouvés perdus quelque part dans la forêt entourant la ville avec une traînée d'épave dans leur sillage et aucun signe de poursuite. Dans la rémanence du tonique, l'Ogre semblait serein, heureux et même impatient. Résolvant à travailler ensemble, la paire a commencé à collecter les matériaux nécessaires pour tenter une fois de plus la transmutation alchimique de Razzil."
+    }
+  ],
+  "npc_dota_hero_alchemist.name": [
+    {
+      "type": 0,
+      "value": "Razzil Darkbrew, l'alchimiste"
+    }
+  ],
+  "npc_dota_hero_alchemist.quote": [
+    {
+      "type": 0,
+      "value": "Synthétisant des ressources supplémentaires de chaque tuer, Alchemist n'a aucun mal à rassembler les outils nécessaires pour détruire ses ennemis. Ennemis en embuscade avec de l'acide corrosif et une multitude de produits chimiques instables, il se bat pour s'assurer que ses escapades gourmandes peuvent rester ininterrompues."
+    }
+  ],
+  "npc_dota_hero_ancient_apparition.description": [
+    {
+      "type": 0,
+      "value": "Kaldr, l'apparition ancienne, est une image projetée depuis le temps extérieur. Il jaillit du vide froid et infini qui les deux antérieurs à l'univers et attend sa fin. Kaldr est, Kaldr était, Kaldr sera ... et ce que nous percevons, puissant tel qu'il nous apparaît, n'est que l'écho délavé le plus faible du vrai Kaldr éternel. Certains croient que lorsque le cosmos vieillit et approche de ses derniers moments, la luminosité et le pouvoir de Kaldr s'intensifieront également - que l'apparition ancienne deviendra plus jeune et plus forte à mesure que la fin d'Eternity tirera près. Son emprise de glace mettra tout ce qui mettra à l'arrêt de la matière, son image jettera une lumière trop terrible pour voir. Une apparition ne plus!"
+    }
+  ],
+  "npc_dota_hero_ancient_apparition.name": [
+    {
+      "type": 0,
+      "value": "Kaldr, l'apparition ancienne"
+    }
+  ],
+  "npc_dota_hero_ancient_apparition.quote": [
+    {
+      "type": 0,
+      "value": "Capable de lancer une puissante explosion de glace dommageable à travers le champ de bataille, une apparition ancienne menace de briser les ennemis affaiblis où qu'ils se trouvent. Le ralentissement des ennemis alors qu'il améliore l'efficacité de ses alliés au combat, il est une menace constante pour ses ennemis."
+    }
+  ],
+  "npc_dota_hero_antimage.description": [
+    {
+      "type": 0,
+      "value": "Les moines de Turstarkuri regardaient les vallées accidentées sous leur monastère de montagne alors que la vague après une vague d'envahisseurs balayait les royaumes inférieurs. L'ascète et pragmatique, dans leur Eyrie monastique reculé, ils sont restés à l'écart des conflits banals, enveloppés dans la méditation qui ne connaissaient aucun dieux ni éléments de magie. Puis vint la Légion du Dieu mort, Crusaders avec un sinistre mandat de remplacer tout le culte local par la nihilosophie toxique de leur Seigneur qui ne fait pas. D'un paysage qui ne savait que du sang et du combat pendant mille ans, ils ont déchiré les âmes et les os d'innombrables légions tombées et les ont présentées contre Turskuri. Le monastère se tenait à peine une quinzaine de jours contre l'assaut, et les quelques moines qui ont pris la peine de faire surface de leurs méditations pensaient que les envahisseurs n'étaient que des visions démoniaques envoyées pour les distraire de la méditation. Ils sont morts où ils étaient assis sur leurs coussins en soie. Un seul jeune a survécu - un pèlerin qui était venu en acolyte, cherchant la sagesse, mais n'avait pas encore été admis au monastère. Il regarda avec horreur les moines auxquels il avait servi du thé et des orties était d'abattre pour la première fois, puis élevé pour rejoindre les rangs du sacerdoce du Dieu mort. Avec rien d'autre que quelques-uns des rouleaux dogmatiques précieux de Turstarkuri, il s'est éloigné de la sécurité comparative des autres terres, jurant pour effacer non seulement les utilisateurs magiques du Dieu mort, mais pour mettre fin à la magie."
+    }
+  ],
+  "npc_dota_hero_antimage.name": [
+    {
+      "type": 0,
+      "value": "Anti-Mage"
+    }
+  ],
+  "npc_dota_hero_antimage.quote": [
+    {
+      "type": 0,
+      "value": "Si anti-Mage a la possibilité de rassembler sa pleine force, peu peuvent arrêter ses agressions. Éduisant le mana des ennemis à chaque frappe ou téléportant de courtes distances pour échapper à une embuscade, le virage est un défi pour tout ennemi."
+    }
+  ],
+  "npc_dota_hero_arc_warden.description": [
+    {
+      "type": 0,
+      "value": "Jeté vers la portée la plus éloignée par l'explosion de la prison, Zet a été transformé par les énergies dissonantes de ses anciens captifs. Ce n'est plus de forme unique et de pensée, sa présence était devenue divisée entre beaucoup - certains moins, certains plus grands - chacun lié à un arc de conscience éphémère. Luttant pour supprimer sa propre désunion, Zet se dirigeait vers le conflit naissant de ses frères et sœurs, pliant ses testaments fracturés vers une conclusion singulière: les aspects de l'esprit primordial doivent être faits pour se réunir, ou tout doit être détruit de peur que le conflit se propage davantage. ."
+    }
+  ],
+  "npc_dota_hero_arc_warden.name": [
+    {
+      "type": 0,
+      "value": "Zet, le directeur de l'arc"
+    }
+  ],
+  "npc_dota_hero_arc_warden.quote": [
+    {
+      "type": 0,
+      "value": "Un fragment éclaté du même pouvoir primordial que les anciens eux-mêmes, Zet Le directeur de l'arc s'est engagé à voir l'affrontement entre radiant et terrible finalement. ASSAUTER les ennemis seuls avec de l'énergie de fluxage ou déformer l'espace pour générer un champ de protection autour des alliés. Invoquez une étincelle pour patrouiller une zone pour que les ennemis insufflent avec une magie nocive, puis créent un double de zet, des objets et tout, pour submerger vos ennemis."
+    }
+  ],
+  "npc_dota_hero_axe.description": [
+    {
+      "type": 0,
+      "value": "En tant que grognement dans l'armée de la brume rouge, le magnat Khan se tourna sur le rang de Red Mist General. Au combat après la bataille, il a prouvé sa valeur à travers un acte sanglant. Son ascension dans les rangs a été aidée par le fait qu'il n'a jamais hésité à décapiter un supérieur. Pendant la campagne de sept ans des Thousand Tarns, il s'est distingué dans un carnage glorieux, sa star de la renommée brillante toujours plus brillante, tandis que le nombre de camarades d'armes diminuait régulièrement. Dans la nuit de la victoire ultime, AX s'est déclaré le nouveau général de brume rouge et a remporté le titre ultime de «AX». Mais ses troupes étaient désormais numérotées zéro. Bien sûr, beaucoup étaient morts au combat, mais un nombre important était également tombé sur la lame d'Axe. Inutile de dire que la plupart des soldats évitent désormais son leadership. Mais cela ne compte pas pour hache, qui sait qu'une armée d'un seul homme est de loin la meilleure."
+    }
+  ],
+  "npc_dota_hero_axe.name": [
+    {
+      "type": 0,
+      "value": "Mogul Khan, la hache"
+    }
+  ],
+  "npc_dota_hero_axe.quote": [
+    {
+      "type": 0,
+      "value": "L'un après l'autre, Axe coupe ses ennemis. En marchant devant son équipe, il verrouille ses ennemis au combat, puis contre ses coups avec une rotation mortelle de son arme. Claquant sa lame d'abattre à travers un ennemi affaibli, il charge toujours."
+    }
+  ],
+  "npc_dota_hero_bane.description": [
+    {
+      "type": 0,
+      "value": "Lorsque les dieux ont des cauchemars, c'est l'élémentaire de Bane qui les apporte. Également connu sous le nom d'Atropos, Bane est né des terreurs de minuit de la déesse Nyctasha. Une force de terreur trop puissante pour être contenue par le sommeil, il a fait surface à partir de ses sommets, nourri de son immortalité et a volé sa forme vaporeuse à son sang d'encre. Il est l'essence de la peur. Les mortels qui entendent sa voix entendent leurs secrets les plus sombres chuchotaient à l'oreille. Il appelle la peur cachée dans le cœur de chaque héros. L'éveil n'est pas une protection, car le sang noir de Bane, ruisselant en permanence, est un goudron qui piège ses ennemis dans le cauchemar. En présence de Bane, chaque héros se souvient de craindre l'obscurité."
+    }
+  ],
+  "npc_dota_hero_bane.name": [
+    {
+      "type": 0,
+      "value": "Atropos, le fléau élémentaire"
+    }
+  ],
+  "npc_dota_hero_bane.quote": [
+    {
+      "type": 0,
+      "value": "Bane apporte de la terreur à ses ennemis avec son arsenal de capacités invalidantes. Qu'il s'agisse de piéger un ennemi dans un cauchemar contagieux ou de saisir un ennemi en place, il donne des alliés tout le temps dont ils ont besoin pour tuer leur ennemi."
+    }
+  ],
+  "npc_dota_hero_batrider.description": [
+    {
+      "type": 0,
+      "value": "Le garçon a grandi, et chaque été, il retournait dans le champ de sa famille, partant souvent dans la brousse cherchant à récupérer ce premier frisson de la mort sous la forme de mâchoires ou d'une chute fatale. Les années ont continué, mais son feu ne fait que se renforcer. Il a étudié la prolifération, plongeant plus profondément à chaque expédition, jusqu'à ce qu'il trouve finalement son chemin vers les grottes au cœur de l'hostilité. Ils disent que le cavalier, à la veille d'une nuit d'été torride, n'avait rien d'autre qu'une corde, une bouteille de courage liquide et une détermination brûlante à sentir le ciel une fois de plus, quand il a plongé à l'intérieur ..."
+    }
+  ],
+  "npc_dota_hero_batrider.name": [
+    {
+      "type": 0,
+      "value": "Batrilier"
+    }
+  ],
+  "npc_dota_hero_batrider.quote": [
+    {
+      "type": 0,
+      "value": "Une fois qu'il a pris le ciel, Batrider peut frapper dans n'importe quelle direction. En arrachant un ennemi avec son lasso, il monte au-dessus de la cime des arbres, tirant sa proie à travers une traînée de flamme alors qu'il les traîne devant ses alliés impitoyables."
+    }
+  ],
+  "npc_dota_hero_beastmaster.description": [
+    {
+      "type": 0,
+      "value": "Au cours des prochains mois, le garçon Karroch a faufilé de la nourriture et des ébauches médicinales à la créature blessée, mais n'a réussi à ralentir sa détérioration. Sans par un mot, la bête a parlé au garçon et, au fil du temps, leur lien se renforce jusqu'à ce que le garçon constate qu'il pouvait tenir sa fin de conversation. Il pouvait en fait parler maintenant à toutes les créatures de la ménagerie du roi. La nuit, la bête est décédée, une rage est venue sur le garçon. Il a incité les animaux du tribunal à se rebeller et à ouvrir leurs cages pour les placer pour les terrains du palais. Le dernier roi a été mutilé dans le chaos. Dans le chaos, un cerf royal s'inclina devant le garçon qui l'avait libéré; Et avec Beastmaster à califourchon, sauter les hauts murs du domaine et s'échapper. Maintenant un homme, Karroch The Beastmaster n'a pas perdu sa capacité à converser avec des créatures sauvages. Il est devenu un guerrier à celui avec la sauvagerie de la nature."
+    }
+  ],
+  "npc_dota_hero_beastmaster.name": [
+    {
+      "type": 0,
+      "value": "Karroch, le maître de la bête"
+    }
+  ],
+  "npc_dota_hero_beastmaster.quote": [
+    {
+      "type": 0,
+      "value": "Invoquant un sanglier crachant du poison et un faucon de dépistage pour aider sa chasse, Beastmaster ne traque jamais le champ de bataille non préparé. Coupant à travers la forêt avec ses haches, son rugissement étonnant ouvre la voie à ses alliés pour dévaster les ennemis."
+    }
+  ],
+  "npc_dota_hero_bloodseeker.description": [
+    {
+      "type": 0,
+      "value": "Strygwyr le Sloodseeker est un chasseur rituellement sanctionné, choeur des jumeaux écorchés, envoyé des pics enroulés de brume de xhacatocatl à la recherche de sang. Les écorchés nécessitent des quantités océaniques de sang pour les garder rassasiés et apaisés, et draineraient bientôt leur empire de montagne de sa population si les prêtres des hauts plateaux ne les apaiseraient pas. Strygwyr sort donc à la recherche de carnage. L'énergie vitale de tout sang qu'il laisse, coule immédiatement vers les jumeaux à travers les marques sacrées sur ses armes et son armure. Au fil des ans, il est venu incarner l'énergie d'un chien vicieux; Au combat, il est sauvage en tant que chacal. Sous le masque de The Bloodseeker, dans la ruée de la trempe sanglante, il est dit que vous pouvez parfois voir les caractéristiques des Écorceurs prenant en possession directe de leur chien."
+    }
+  ],
+  "npc_dota_hero_bloodseeker.name": [
+    {
+      "type": 0,
+      "value": "Strygwyr, The Bloodseeker"
+    }
+  ],
+  "npc_dota_hero_bloodseeker.quote": [
+    {
+      "type": 0,
+      "value": "Bloodseeker force des décisions difficiles sur ses ennemis. Capable de conduire ses ennemis à une retraite en baignant une grande zone avec un rituel dommageable, son horrible ultime demande à ses adversaires de se tenir immobile ou de mourir."
+    }
+  ],
+  "npc_dota_hero_bounty_hunter.description": [
+    {
+      "type": 0,
+      "value": "Lorsque les chasses racontent des histoires de Gondar le chasseur de primes, aucune n'est sûre de laquelle est vrai. Dans les tons chuchotés, ils disent qu'il a été abandonné comme un kit, apprenant ses compétences à suivre pour une simple survie. D'autres entendent qu'il était un orphelin de guerre, pris par le grand Soruq le chasseur pour apprendre les compétences du maître avec une lame alors qu'ils plombaient les forêts sombres pour un grand gibier. D'autres encore croient qu'il était un oursin de rue humble élevé parmi une guilde de coupes et de voleurs, formés aux arts de la furtivité et de la mauvaise direction. Autour de feux de camp dans la campagne sauvage, sa carrière parle des rumeurs du travail de Gondar, de plus en plus effrayantes: ils disent que c'est lui qui a retrouvé le roi du tyran Goff des années après que le régent fou s'est caché, livrant sa tête et son sceptre comme preuve. C'est lui qui a infiltré les camps rebelles à High Seese, amenant finalement le cape de voleur légendaire à juger pour ses crimes. Et que c'est lui qui a mis fin à la carrière de Soruq le chasseur, condamné comme un criminel pour avoir tué l'enfer précieux du prince. Les contes de l'incroyable compétence de Gondar s'étendent, avec chaque exploit audacieux plus incroyable que le précédent, chaque cible plus insaisissable. Pour le bon prix, le savant chassé, n'importe qui peut être trouvé. Pour le bon prix, même les plus puissants peuvent trouver la peur dans l'ombre."
+    }
+  ],
+  "npc_dota_hero_bounty_hunter.name": [
+    {
+      "type": 0,
+      "value": "Gondar, le chasseur de primes"
+    }
+  ],
+  "npc_dota_hero_bounty_hunter.quote": [
+    {
+      "type": 0,
+      "value": "Se faufilant invisiblement dans les talons de ses ennemis, Bounty Hunter garde toujours une trace de ses ennemis. Chaque fois que l'une de ses objectifs tombe au combat, lui et ses alliés devaient faire un profit."
+    }
+  ],
+  "npc_dota_hero_brewmaster.description": [
+    {
+      "type": 0,
+      "value": "Autant de compétition de consommation d'alcool que de combat mortel, Mangix pendant neuf jours a bu et a combattu le maître aîné. Pendant neuf nuits, ils sont tombés et tourbillonnaient, se sont effondrés et frappés, jusqu'à ce que le guerrier aîné se soit enfin effondré dans une stupeur ivre, et un nouveau maître de brasse a été nommé. Maintenant, le nouveau, le jeune Brewmaster fait appel à la force de ses ancêtres Oyo pour accélérer son personnel. Lors de l'utilisation de la magie, c'est à ses ancêtres spirituels qu'il tourne. Comme tous les maîtres de brasseurs avant lui, il a été envoyé de son peuple avec une seule mission. Il erre sur la terre, s'efforçant vers l'illumination à travers une boisson, à la recherche de la réponse à l'ancien schisme spirituel - en train de penser à la pensée unique qui unira à nouveau l'esprit et les plans physiques."
+    }
+  ],
+  "npc_dota_hero_brewmaster.name": [
+    {
+      "type": 0,
+      "value": "Mangix, le maître brasseur"
+    }
+  ],
+  "npc_dota_hero_brewmaster.quote": [
+    {
+      "type": 0,
+      "value": "Un combattant redoutable dans n'importe quelle situation, Brewmaster peut transformer la vague de bataille en se divisant en trois esprits élémentaires, chacun avec ses propres capacités uniques. Lorsqu'il n'est pas divisé, il apporte le chaos ivre à ses ennemis avec des coups de ralentissement et de puissantes oscillations de son personnel."
+    }
+  ],
+  "npc_dota_hero_bristleback.description": [
+    {
+      "type": 0,
+      "value": "Après s'être livré à une nuit de gaieté pendant laquelle des lésions corporelles ont été infligées à égalité sur les clients délinquants et son propre foie, Bristleback a finalement rencontré son match. \"Vos défenses m'offensent, monsieur\", a-t-il été entendu avec ivresse à un gars particulièrement grand des déchets du Nord dont le projet de loi était venu. Ce qui a suivi a été un combat pour les âges. Une douzaine de combattants ont sauté. Au cours des semaines qui ont suivi, les blessures de Bristleback ont guéri et ses plumes ont remonté; Mais l'honneur d'un exécuteur peut être une chose épineuse. Il a payé l'onglet à partir de sa propre pièce, promettant de retrouver ce nordur et d'extraire la rédemption. Et puis il a fait quelque chose qu'il n'avait jamais fait auparavant - il s'est entraîné et, ce faisant, a fait une découverte surprenante sur lui-même. Un sourire se décollait de ses dents alors qu'il fléchissait ses plumes. Tourner le dos à un combat peut être juste la chose."
+    }
+  ],
+  "npc_dota_hero_bristleback.name": [
+    {
+      "type": 0,
+      "value": "Rigwarl, le Bristleback"
+    }
+  ],
+  "npc_dota_hero_bristleback.quote": [
+    {
+      "type": 0,
+      "value": "Quand il s'agit d'un combat, Bristleback met vraiment son dos. En réduisant tous les dégâts arrivant de l'arrière ou des côtés, il se bat dans à peine un soin, pulvérisant des ennemis avec des plumes dommageables et ralentissant la morve."
+    }
+  ],
+  "npc_dota_hero_broodmother.description": [
+    {
+      "type": 0,
+      "value": "Malheureusement, l'absence du maître magnétique de Ziggurat a simplement enhardé une nouvelle génération d'intrus. Quand l'un de ses nouveau-nés a été foulé sous les pieds par un aventurier maladroit, elle a atteint le bout de sa corde en soie. La couvée s'est dirigée vers la surface, déclarant son intention de débarrasser le monde de chaque envahisseur possible, jusqu'au dernier héros si nécessaire, jusqu'à ce qu'elle puisse s'assurer que sa pépinière pourrait à nouveau être un environnement sûr et sain pour ses précieuses araigners."
+    }
+  ],
+  "npc_dota_hero_broodmother.name": [
+    {
+      "type": 0,
+      "value": "Arachnia noire, la couvée"
+    }
+  ],
+  "npc_dota_hero_broodmother.quote": [
+    {
+      "type": 0,
+      "value": "Cachant de manière invisible dans ses toiles, la couvée naissance d'une armée d'araignées pour diriger les forces de son équipe vers la base ennemie. Alors que les proies errent près, elle rejoint ses enfants et attaque, ralentissant les ennemis avec des piqûres invalidantes alors qu'elle se livre à sa faim insatiable."
+    }
+  ],
+  "npc_dota_hero_centaur.description": [
+    {
+      "type": 0,
+      "value": "Warrunner a vaincu Warrior après Warrior, jusqu'à ce que l'arène en explosait avec les applaudissements de son nom, et il s'est retrouvé seul, le champion incontesté de son espèce. La grande ceinture d'Omexe a été accordée, enroulée autour de son large torse, mais dans sa victoire, l'artiste de la mort n'a trouvé que le vide. Pour qu'est-ce qu'un guerrier sans défi? Le Grand Centaur a galopé de Omexe ce jour-là avec un nouvel objectif. Pour son peuple, Warrunner est le plus grand guerrier à entrer dans l'arène. Maintenant, il a décidé de prouver qu'il est le plus grand combattant qui ait jamais vécu."
+    }
+  ],
+  "npc_dota_hero_centaur.name": [
+    {
+      "type": 0,
+      "value": "Bradwarden, The Centaur Warrunner"
+    }
+  ],
+  "npc_dota_hero_centaur.quote": [
+    {
+      "type": 0,
+      "value": "Centaur Warrunner est un maître des dommages infligeant et absorbant. En menant la charge dans la bataille, il piétinent pour étourdir ses ennemis et contrecarça instantanément toutes leurs attaques. Sa bousculade accélère ses alliés en combat et en fuite, accélérant le rythme du carnage."
+    }
+  ],
+  "npc_dota_hero_chaos_knight.description": [
+    {
+      "type": 0,
+      "value": "Sur son arme Armageddon, il monte, pataugeant dans la bataille avec une frénésie maniaque, tirant la force du trouble de l'univers. Une manifestation physique du chaos lui-même, en cas de besoin, il fait appel à d'autres versions de lui-même à partir d'autres avions, et ensemble ces cavaliers noirs montent au combat, aussi imparable que toute force de la nature. Ce n'est que lorsque la dernière lumière du monde est parcourue par l'existence que la recherche sera terminée. Où monte le chaos chevalier, la mort suit bientôt."
+    }
+  ],
+  "npc_dota_hero_chaos_knight.name": [
+    {
+      "type": 0,
+      "value": "Chevalier du chaos"
+    }
+  ],
+  "npc_dota_hero_chaos_knight.quote": [
+    {
+      "type": 0,
+      "value": "Chaos Knight est une armée envers lui-même. Capable de convoquer une cavalerie de clones pour démolir les défenses ennemies, si un ennemi se présente, il peut se débattre de la réalité pour le tirer et ses fantasmes assez proches pour pleuvoir un câlin brutal souffle sur leur tête."
+    }
+  ],
+  "npc_dota_hero_chen.description": [
+    {
+      "type": 0,
+      "value": "Dans la bataille vicieuse qui a suivi, le clan de Chen a été surpassé. Les Chevaliers blindés du giron ont fait un court travail sur le Locuthi captivé, qui a attaqué et est mort par vagues. Avec leurs dragons morts, les membres de la tribu ont suivi. Chen a lutté, a frappé, griffuré, et périt - ou l'aurait. Vaincu, à genoux, il a fait face à son exécution avec humilité, offrant son cou à la lame. Ému par le courage évident de Chen, le bourreau a arrêté son épée. Au lieu de la lame, Chen a reçu le choix: la mort ou la conversion. Chen a pris la foi avec une férocité. Il a rejoint le pli et a gagné son armure une conversion sanglante à la fois. Maintenant, avec le fanatisme d'un converti, et avec ses pouvoirs d'animaux captivants à leur apogée, il cherche des incroyants et leur présente leur récompense finale."
+    }
+  ],
+  "npc_dota_hero_chen.name": [
+    {
+      "type": 0,
+      "value": "Chen, le saint chevalier"
+    }
+  ],
+  "npc_dota_hero_chen.quote": [
+    {
+      "type": 0,
+      "value": "Convertissant les créatures de la forêt en sa cause, Chen mène ses armées de fortune pour aider son équipe au combat. Il agresse les ennemis avec des bêtes tout en envoyant des amis en sécurité. Puis, quand les choses semblent les plus sombres, il guérit ses alliés où qu'ils se trouvent."
+    }
+  ],
+  "npc_dota_hero_clinkz.description": [
+    {
+      "type": 0,
+      "value": "Ignorant le sort, Clinkz a pataugé dans la bataille, défendant ses terres contre l'assaut ardent du démon. Clinkz a ramené Maraxiform aux portes de la sixième-help elle-même, où sur ce seuil ardent, les deux ont enfermé un conflit mortel. Grieusement blessés, le démon laissa échapper une explosion de feu de l'enfer alors que Clinkz dégageait sa dernière flèche. La flèche a frappé le démon vrai alors que le feu de Hell se déversait à travers le pays, allumant les piscines noires et brûlant Clinkz vivant à l'instant de la mort du démon. Ainsi, le sort du mage est entré en vigueur au moment même de la conflagration de l'Archer, le préservant dans cet état impie, lui laissant un être d'os et de rage, pris dans l'acte même de mourir, portant le souffle de l'enfer avec lui dans son voyage dans l'éternité ."
+    }
+  ],
+  "npc_dota_hero_clinkz.name": [
+    {
+      "type": 0,
+      "value": "Clinkz, le fletcher osseux"
+    }
+  ],
+  "npc_dota_hero_clinkz.quote": [
+    {
+      "type": 0,
+      "value": "Lorsque Clinkz traque de manière invisible à travers le champ de bataille, aucune n'est à l'abri de l'embuscade. Rapide de pied et de flèche, il pleut la mort ardente sur ses ennemis, puis se retire pour absorber la vie des créatures de la forêt alors qu'il se prépare à son prochain assaut."
+    }
+  ],
+  "npc_dota_hero_crystal_maiden.description": [
+    {
+      "type": 0,
+      "value": "Née dans un royaume tempéré, élevée avec sa sœur aînée ardente Lina, Rylai la jeune fille de Crystal a rapidement découvert que son affinité élémentaire innée pour la glace a créé des problèmes pour tous ceux qui l'entourent. Wellsprings et Mountain Rivers se sont figés en quelques instants si elle s'arrêtait pour se reposer à proximité; Les cultures de maturation ont été mordues par le gel, et les vergers fructifs se sont tournés vers des labyrinthes de glace et sont venus s'écraser, gâtés. Lorsque leurs parents exaspérés ont emballé Lina à l'équateur, Rylai s'est retrouvée bannie dans le royaume du nord froid de Icewrack, où elle a été emmenée par un sorcier de glace qui s'était sculpté un ermitage à la couronne du glacier Blueheart. Après une longue étude, le sorcier l'a prononcée prête à la pratique solitaire et l'a laissée prendre sa place, descendant dans le glacier pour hiberner pendant mille ans. Sa maîtrise des arts gelés ne fait que s'améliorer depuis ce temps, et maintenant ses compétences sont inégalées."
+    }
+  ],
+  "npc_dota_hero_crystal_maiden.name": [
+    {
+      "type": 0,
+      "value": "Rylai, The Crystal Maiden"
+    }
+  ],
+  "npc_dota_hero_crystal_maiden.quote": [
+    {
+      "type": 0,
+      "value": "Capable de garder ses alliés alimentés en mana alors qu'elle ralentit les ennemis pour assurer une tueur, Crystal Maiden est un ajout utile à toute équipe. Et, lorsque l'occasion se présente, elle peut libérer sa capacité ultime massive de dévaster ses ennemis."
+    }
+  ],
+  "npc_dota_hero_dark_seer.description": [
+    {
+      "type": 0,
+      "value": "Autrefois un grand général parmi son peuple et un vaillant défenseur de la damathryx de Dieu, l'armée de Sombre Voyant a été anéantie par une force beaucoup plus grande dans les derniers jours de la Great Boundaries War. Face à une certaine défaite, il a fait un dernier acte désespéré: il a conduit les forces ennemies dans le labyrinthe entre les murs. Au dernier moment, juste avant la capture, il a traversé - puis scella les murs pour toujours dans une libération explosive d'énergie sombre. Lorsque la poussière s'est installée, il a vu qu'il avait sauvé son peuple mais s'est retrouvé à clignoter au soleil d'un monde différent, sans aucun moyen de revenir. Maintenant, il est déterminé à prouver sa valeur en tant que stratège militaire et promet de montrer qu'il est le plus grand tacticien que ce nouveau monde étrange ait jamais vu."
+    }
+  ],
+  "npc_dota_hero_dark_seer.name": [
+    {
+      "type": 0,
+      "value": "Ish'kafel, le voyant sombre"
+    }
+  ],
+  "npc_dota_hero_dark_seer.quote": [
+    {
+      "type": 0,
+      "value": "Séer sombre et stratégique et stratégique excellent à manipuler les positions de ses ennemis. Vassant les ennemis dans les attaques de ses alliés, il peut tourner la force de l'ennemi contre lui-même en tirant les ennemis à travers son mur de réplication."
+    }
+  ],
+  "npc_dota_hero_dark_willow.description": [
+    {
+      "type": 0,
+      "value": "Ainsi, Mireska a fait ce que font la plupart des enfants rebelles: brûler son domaine familial et partir avec son animal de compagnie Wisp Jex pour vivre la vie d'un grif qui errant."
+    }
+  ],
+  "npc_dota_hero_dark_willow.name": [
+    {
+      "type": 0,
+      "value": "Mireska Sunbreeze, le saule noir"
+    }
+  ],
+  "npc_dota_hero_dark_willow.quote": [
+    {
+      "type": 0,
+      "value": "Un léger flottement des ombres peut être tout un ennemi voit de saule noir, alors qu'elle échappe à la poursuite et contrôle les mouvements de son ennemi avec des tours de fae rusés. Appelant les pouvoirs beaucoup plus anciens que toute magie savante, elle lie les ennemis en place avant de libérer la colère et la terreur du royaume Fae sur eux."
+    }
+  ],
+  "npc_dota_hero_dawnbreaker.description": [
+    {
+      "type": 0,
+      "value": "Là, elle se reposa, dormante, jusqu'à ce que la présence d'une jeune star errante fasse du carburant à une ancienne forge d'énergie - une relique des enfants qui, comme elle, était enterrée pour d'innombrables âges sous un déchet rouge soufflant. Maintenant, avec une petite mesure de ses anciens pouvoirs restaurés par la Forge, Valora se réveille sur une terre assaillie par la guerre et les forces implacables du chaos. Elle sait que ses dieux sont peut-être partis, mais le poids du marteau de Dawnbreaker reste - assorti uniquement par sa volonté de le manier à juste titre au nom de la bonté et de la lumière."
+    }
+  ],
+  "npc_dota_hero_dawnbreaker.name": [
+    {
+      "type": 0,
+      "value": "VALORA, le Dawnbreaker"
+    }
+  ],
+  "npc_dota_hero_dawnbreaker.quote": [
+    {
+      "type": 0,
+      "value": "Dawnbreaker brille au cœur de la bataille, écrasant joyeusement les ennemis avec son marteau céleste et guérissant les alliés à proximité. Elle se délecte de lancer son marteau à travers plusieurs ennemis, puis de converger avec elle dans un sillage flamboyant, attendant toujours de taper son vrai pouvoir cosmique pour se rendre à l'aide de ses coéquipiers - désireux de dérouter ses ennemis sur le champ de bataille, peu importe où ils se trouvent."
+    }
+  ],
+  "npc_dota_hero_dazzle.description": [
+    {
+      "type": 0,
+      "value": "Dans cette dimension éthérée du royaume nothl, les propriétés de la lumière et de l'obscurité sont inversées. Ainsi, sa brillante lumière de guérison, belle à nos yeux, est en fait une sorte de mal sinistre; Et les actes les plus sombres se font dans une lueur éblouissante. L'intuition des anciens était prophétique: Dazzle est retourné à son peuple en tant que prêtre de l'ombre comme aucun auparavant, avec le pouvoir de guérir ainsi que de détruire. Maintenant, il utilise son cadeau pour réduire ses ennemis et réparer ses amis."
+    }
+  ],
+  "npc_dota_hero_dazzle.name": [
+    {
+      "type": 0,
+      "value": "Dazzle, le prêtre de l'ombre"
+    }
+  ],
+  "npc_dota_hero_dazzle.quote": [
+    {
+      "type": 0,
+      "value": "Né pour soutenir ses cohortes au combat, Dazzle maintient les alliés blessés en vie afin qu'ils puissent plus tard pleuvoir la mort sur l'ennemi. Son étrange magie se fraye un chemin dans l'armure voisine, affaiblissant les ennemis et renforçant les amis."
+    }
+  ],
+  "npc_dota_hero_death_prophet.description": [
+    {
+      "type": 0,
+      "value": "Chaque fois qu'elle revenait de la tombe, elle a ramené un peu de mort avec elle. Les Wraiths la suivaient comme des fragments de son âme brisée; Son sang est devenu mince et ectoplasmique; Les créatures de festing de Twilight l'ont emmenée pour leurs parents. Elle a donné un peu de sa vie à chaque disparition, et il a commencé à sembler comme si sa fin était en vue. Avec son dévouement à la mort redoublé, et aucun client autre qu'elle-même, Krobelus s'est jetée de plus en plus avec ferveur dans l'abîme de la mort, déterminé à réaliser la seule prophétie qui lui a échappé: ce jour, le prophète de la mort ne reviendrait plus de mort."
+    }
+  ],
+  "npc_dota_hero_death_prophet.name": [
+    {
+      "type": 0,
+      "value": "Krobelus, le prophète de la mort"
+    }
+  ],
+  "npc_dota_hero_death_prophet.quote": [
+    {
+      "type": 0,
+      "value": "Lorsqu'elle déchaîne son armée de fantômes, le prophète de la mort excelle à démolir les ennemis et leurs défenses. Menant les forces de son équipe vers la base ennemie avec une vague après avoir endommagé la vague de son essaim, son assaut peut sembler imparable."
+    }
+  ],
+  "npc_dota_hero_disruptor.description": [
+    {
+      "type": 0,
+      "value": "Bien que petit pour son genre, le perturbateur est intrépide et entraîné par une curiosité insatiable. En tant que jeune, bien qu'il ne soit pas regroupé et sans stryder, il a exploré les ruines des villes ancestrales - recherchant des bibliothèques effondrées et développantes, fouillant à travers des manufactures rouillées. Il a pris ce dont il avait besoin et est retourné à sa tribu. Adaptant une bobine de conception ancienne, il a exploité la puissance du différentiel électrique et appelle maintenant le tonnerre quand il le souhaite. Partie magique, artisanat en partie, ses bobines tiennent dans leurs plaques brillantes le pouvoir de la vie et de la mort - un pouvoir exercé de précision contre les castes débarquées au sud, et tous les intrus qui traversent les anciennes terres oglodi."
+    }
+  ],
+  "npc_dota_hero_disruptor.name": [
+    {
+      "type": 0,
+      "value": "Perturbateur, le Stormcrafter"
+    }
+  ],
+  "npc_dota_hero_disruptor.quote": [
+    {
+      "type": 0,
+      "value": "Disruptor excelle à briser les plans de ses ennemis. Invoquer des clôtures impraticables pour piéger les cibles alors qu'il appelle une tempête de silençage, si un ennemi tente quelque chose d'inattendu qu'il les téléporte simplement à leur emplacement précédent."
+    }
+  ],
+  "npc_dota_hero_doom_bringer.description": [
+    {
+      "type": 0,
+      "value": "Six fois, son nom a été pénétré de la grande cloche de Vashundol. Six et soixante fois, ses ailes étaient marquées, jusqu'à ce que seuls les souches ne soient restées. Sans ailes, il se détacha des emporteurs qui le libèrent dans la lumière et il est tombé en hurlant sur Terre. Un cratère dans le désert, le paradis perdu. Maintenant, il attaque sans pitié, sans motif, le seul vivant pouvoir se déplacer librement entre les sept Dark Dominions. Fruit par des besoins incontournables, tordu par des talents inimaginables, Doom porte son propre enfer avec lui partout où il va. Provocant jusqu'au dernier. Finalement, le monde appartiendra à Doom."
+    }
+  ],
+  "npc_dota_hero_doom_bringer.name": [
+    {
+      "type": 0,
+      "value": "Lucifer, le destin"
+    }
+  ],
+  "npc_dota_hero_doom_bringer.quote": [
+    {
+      "type": 0,
+      "value": "D'une manière ou d'une autre, Doom arrête ses ennemis. Dévorant des galisements pour revendiquer les différentes compétences qu'ils avaient dans la vie, il peut placer un silence persistant sur les sorts et les objets d'un ennemi avec son ultime alors qu'il inverse ses ennemis."
+    }
+  ],
+  "npc_dota_hero_dragon_knight.description": [
+    {
+      "type": 0,
+      "value": "Ne voyant aucun honneur à gagner dans Dragon-Murder, Knight Davion s'est préparé à se détourner et à laisser son ancien ennemi mourir en paix. Mais une voix s'est glissée dans ses pensées, et Slyrak donnait un appel chuchoté que Davion pourrait l'honorer avec la mort au combat. Davion a accepté et s'est retrouvé récompensé au-delà de l'attente de son acte de miséricorde: alors qu'il coulait sa lame dans le sein de Slyrak, le dragon a percé la gorge de Davion avec un talon. Alors que leur sang se mêlait, Slyrak a envoyé son pouvoir le long de la route sanguine, envoyant toute sa force et ses siècles de sagesse au chevalier. La mort du dragon a scellé leur lien et Dragon Knight est né. Les anciens couches de puissance du Dragon Knight Davion, se réveillant quand il l'appelle. Ou peut-être que c'est le dragon qui appelle le chevalier ..."
+    }
+  ],
+  "npc_dota_hero_dragon_knight.name": [
+    {
+      "type": 0,
+      "value": "Davion, The Dragon Knight"
+    }
+  ],
+  "npc_dota_hero_dragon_knight.quote": [
+    {
+      "type": 0,
+      "value": "Lorsqu'il prend sa forme de dragon terrifiante, Dragon Knight frappe la peur à tous ceux qui lui font face. Strong et adaptable, il peut assommer ses ennemis et brûler tous devant lui, offrant souvent à ses alliés l'élan dont ils ont besoin pour les porter à la victoire."
+    }
+  ],
+  "npc_dota_hero_drow_ranger.description": [
+    {
+      "type": 0,
+      "value": "Éloigna de sa tribu adoptée, elle s'est retirée pour vivre seule dans les bois. Les voyageurs perdus qui trouvent leur chemin de la forêt parlent parfois d'un ranger incroyablement beau qui les regardait profondément parmi les arbres, puis a disparu comme un rêve avant de pouvoir s'approcher. Lithe et furtive, glacée, elle se déplace comme de la brume en silence. Ce murmure que vous entendez, ce sont ses flèches gelées qui trouvent le cœur d'un ennemi."
+    }
+  ],
+  "npc_dota_hero_drow_ranger.name": [
+    {
+      "type": 0,
+      "value": "Traxex, The Drow Ranger"
+    }
+  ],
+  "npc_dota_hero_drow_ranger.quote": [
+    {
+      "type": 0,
+      "value": "Peu de gens peuvent échapper à Drow Ranger une fois qu'elle est à portée. Après que ses ennemis aient été réduits au silence avec une explosion effrayante, elle les termine avec un barrage de flèches ralentis et à pointe de glace que peu peuvent survivre."
+    }
+  ],
+  "npc_dota_hero_earth_spirit.description": [
+    {
+      "type": 0,
+      "value": "Ce que les artisans ne savaient pas, c'est que dans l'étrange couture de Jade a coulé l'esprit de la terre elle-même - une force élémentaire à une avec la planète. Lorsque la force à l'intérieur du jade sculpté s'est retrouvée coupée du sang de la vie du monde, elle a rassemblé sa force au cours de mille ans et s'est creusé libre et dans la lumière. Maintenant, le grand esprit de la Terre Kaolin parcourt les routes des hautes terres, se battant pour l'esprit de la terre; Et en période de besoin, appelle des vestiges de son armée enterrée encore enfermée dans l'étreinte aimante du sol."
+    }
+  ],
+  "npc_dota_hero_earth_spirit.name": [
+    {
+      "type": 0,
+      "value": "Kaolin, l'esprit de la Terre"
+    }
+  ],
+  "npc_dota_hero_earth_spirit.quote": [
+    {
+      "type": 0,
+      "value": "Earth Spirit garde l'ennemi dans le chaos et ses amis dans le combat. S'adaptant à n'importe quel scénario de bataille, il peut envoyer ses restes de pierre d'avant en arrière pour endommager les ennemis, ou saisir un allié des mâchoires de la mort."
+    }
+  ],
+  "npc_dota_hero_earthshaker.description": [
+    {
+      "type": 0,
+      "value": "Il s'était façonné à l'image d'une bête mortelle et s'est nommé Raigor Stonehoof. Il saigne maintenant et respire, et donc il peut mourir. Mais son esprit est toujours celui de la terre; Il porte son pouvoir dans le totem magique qui ne le quitte jamais. Et le jour où il revient à la poussière, la terre le saluera en tant que fils prodigue."
+    }
+  ],
+  "npc_dota_hero_earthshaker.name": [
+    {
+      "type": 0,
+      "value": "Raigor Stonehoof, The Earthshaker"
+    }
+  ],
+  "npc_dota_hero_earthshaker.quote": [
+    {
+      "type": 0,
+      "value": "Qu'il s'agisse de bloquer l'évasion d'un ennemi, de diviser ses forces ou de brisant le sol sous les ennemis rassemblés, Earthshaker est à son meilleur quand il frappe sans avertissement. Tout ce qui survit, les répliques ont encore une balançoire de son puissant totem à espérer."
+    }
+  ],
+  "npc_dota_hero_elder_titan.description": [
+    {
+      "type": 0,
+      "value": "Celui que nous connaissons sous le nom de The Elder Titan était un grand innovateur, celui qui a étudié à la forge de la création. En perfectionnant ses compétences, il a brisé quelque chose qui ne pourrait jamais être réparé, seulement jeté de côté. Il est tombé dans son propre monde brisé, une âme brisée lui-même. Là, il habitait parmi les éclats dentelés et les avions fissurés, ainsi que d'autres fragments perdus qui avaient tamisé les mailles du filet dans l'univers précoce. Et c'est pourquoi le monde que nous connaissons ressemble à une île de Castaways, survivants d'une épave maintenant oubliée depuis longtemps. Oublié, c'est-à-dire par tous sauf celui qui se blâme. Il passe son temps pour toujours à chercher un moyen d'accomplir les réparations, afin qu'il puisse rejoindre les parties de son âme brisée, afin que nous et le monde, puissions tous être réparés. C'est celui que nous connaissons sous le nom d'Elder Titan."
+    }
+  ],
+  "npc_dota_hero_elder_titan.name": [
+    {
+      "type": 0,
+      "value": "Elder Titan, The Worldsmith"
+    }
+  ],
+  "npc_dota_hero_elder_titan.quote": [
+    {
+      "type": 0,
+      "value": "Scoutant la voie avec son esprit astral, le Titan frère peut frapper de n'importe quelle direction. Arrêt des ennemis avec un coup de sabot tandis que sa présence mange à leurs défenses, il divise la terre elle-même pour ramener ses ennemis bas."
+    }
+  ],
+  "npc_dota_hero_ember_spirit.description": [
+    {
+      "type": 0,
+      "value": "Cependant, en enseignant la manière d'un guerrier, il a gagné les rivaux d'un guerrier, et à son automne, Xin a été battu et tué. Ses disciples se sont propagés au vent. Pourtant, à mesure que les années se tournaient vers des siècles et des adeptes en descendants, ses enseignements ont enduré par un chuchotement et un acte subtils. Touché par l'héritage durable de l'enseignant, l'aspect céleste et curieux brûlant, se jetant à la forteresse des fusées et ravimentés les cendres du bûcher. De ces braises éclatantes ont émergé une image de Xin, couronne de flammes, son visage réfléchi préparé à s'entraîner et à enseigner, et à répandre les incendies de connaissances à tous ceux qui demandent des conseils."
+    }
+  ],
+  "npc_dota_hero_ember_spirit.name": [
+    {
+      "type": 0,
+      "value": "Xin, l'esprit de braise"
+    }
+  ],
+  "npc_dota_hero_ember_spirit.quote": [
+    {
+      "type": 0,
+      "value": "Swift et insaisissable, Ember Spirit frappe tous les ennemis à proximité en succession rapide et les attache à des chaînes brûlantes. Se précipitant rapidement sur le champ de bataille pour arriver à l'un de ses restes qui explosent, peu peuvent éviter ou capturer sa flamme."
+    }
+  ],
+  "npc_dota_hero_enchantress.description": [
+    {
+      "type": 0,
+      "value": "Aiushtha entend les appels des petites créatures, les folk furtives qui ont besoin d'une teinte verte et d'une verrière feuillue pour prospérer. Elle prête ses oreilles à ceux qui n'ont pas d'autres auditeurs. Elle porte leurs histoires du bois au monde, croyant que sa propre bonne humeur est une sorte d'enchantement, qui peut elle-même tenir la promesse d'un avenir verdoyant."
+    }
+  ],
+  "npc_dota_hero_enchantress.name": [
+    {
+      "type": 0,
+      "value": "Aiushtha, l'enchanteresse"
+    }
+  ],
+  "npc_dota_hero_enchantress.quote": [
+    {
+      "type": 0,
+      "value": "Nocif de près et mortel à distance, l'enchanteresse brouille les ennemis avec des attaques imprégnées de devenir plus dommageables, plus ils volent. Qu'il s'agisse d'infliger des ralentissements puissants sur ses ennemis ou de charmantes créatures forestières pour combattre ses batailles, elle ne manque jamais d'outils pour gagner un combat."
+    }
+  ],
+  "npc_dota_hero_enigma.description": [
+    {
+      "type": 0,
+      "value": "Il y a des histoires qui disent qu'il était autrefois un grand alchimiste qui a essayé de déverrouiller les secrets de l'univers et a été maudit pour son arrogance. D'autres légendes disent qu'il est un être ancien d'une étrange gravité, l'abîme personnifié - une voix tordue de l'obscurité originale, avant la première lumière de l'univers. Et il y a des légendes plus anciennes qui disent qu'il est la première étoile effondrée, un trou noir devenu compliqué et sensible - ses motivations inconnaissables, son pouvoir inexorable, une force de destruction déchaînée sur l'existence elle-même."
+    }
+  ],
+  "npc_dota_hero_enigma.name": [
+    {
+      "type": 0,
+      "value": "Énigme"
+    }
+  ],
+  "npc_dota_hero_enigma.quote": [
+    {
+      "type": 0,
+      "value": "Largement craint pour sa capacité ultime, Enigma peut convoquer un trou noir capable de piéger les forces ennemies, afin que les alliés puissent alors les détruire. Un contingent omniprésent d'Eidolons à ses côtés, il frappe les ennemis avec des attaques à distance."
+    }
+  ],
+  "npc_dota_hero_faceless_void.description": [
+    {
+      "type": 0,
+      "value": "Darkterror Le vide sans visage est un visiteur de Claszureme, un royaume en dehors du temps. Il reste un mystère pourquoi cet être d'une autre dimension croit que la lutte pour les pierres en nèmes vaut la peine d'entrer dans notre plan physique, mais apparemment un bouleversement dans l'équilibre du pouvoir dans ce monde a des répercussions dans des dimensions adjacentes. Le temps ne signifie rien pour Darkterror, sauf comme moyen de contrecarrer ses ennemis et d'aider ses alliés. Sa vision longue du Cosmos lui a donné une qualité éloignée et déconnectée, bien qu'au combat, il soit tout à fait capable de le rendre personnel."
+    }
+  ],
+  "npc_dota_hero_faceless_void.name": [
+    {
+      "type": 0,
+      "value": "Darkterror, le vide sans visage"
+    }
+  ],
+  "npc_dota_hero_faceless_void.quote": [
+    {
+      "type": 0,
+      "value": "Le temps est tout pour le vide sans visage. Il accélère le temps de se précipiter entre les emplacements, le manipule pour esquiver les attaques, l'arrête dans une grande zone pour dévaster ses ennemis, et en donnant suffisamment pour rassembler des ressources, il peut se rendre incroyablement puissant."
+    }
+  ],
+  "npc_dota_hero_furion.description": [
+    {
+      "type": 0,
+      "value": "Lorsque Verodicia, déesse des bois, avait fini de remplir les endroits verts, après avoir planté l'esprit enroulé dans la graine, ayant attiré les eaux corporatives du plus profond du rocher, ayant juré le soleil, toute l'attention aux choses croissantes, Elle a réalisé que son propre temps avait atteint sa fin, et comme l'une des feuilles dont le sort elle avait imprimé dans la graine, elle tomberait sans voir la fructification de son rêve. Cela lui a fait mal de quitter le monde dépourvu, car les germes n'avaient pas encore brisé le sol - et ils seraient tendres et vulnérables à toutes sortes de dommages. Elle a trouvé dans sa poche de semence une dernière graine qu'elle avait manquée au semis. Elle a dit un seul mot dans la graine et l'a avalée en tombant. Son vaste corps se décomposait tout au long du long hiver, devenant l'humus qui nourrirait les semis au printemps. Et le matin de l'équinoxe vernal, avant que le reste de la forêt n'ait commencé à se réveiller, cette dernière graine mûrit et éclate en un instant. De lui, prophète de la nature, en pleine feuille, forte et sage, possédant le pouvoir de Verodicia à prévoir où il aurait le plus besoin pour défendre les lieux verts - et tous ceux qui pourraient avoir la chance de l'appeler un allié."
+    }
+  ],
+  "npc_dota_hero_furion.name": [
+    {
+      "type": 0,
+      "value": "Le prophète de la nature"
+    }
+  ],
+  "npc_dota_hero_furion.quote": [
+    {
+      "type": 0,
+      "value": "Que ce soit au vif du bataille ou de la collecte de ressources pour son prochain assaut, le prophète de la nature semble être partout. Téléportation à volonté à n'importe quel endroit et créant instantanément une armée d'arbres violents pour se battre pour lui, il attaque là où les ennemis s'attendent le moins."
+    }
+  ],
+  "npc_dota_hero_grimstroke.description": [
+    {
+      "type": 0,
+      "value": "Lentement, il sentit la marée se retirer ... et entendit les horribles gémissements de son peuple alors que la corruption les roulait à leur tour. Quand enfin l'encre a cédé, ses yeux se sont ouverts sur un monde a changé. Le peuple Ashkavor comme il les connaissait était parti. Chaque dernière âme a été transformée en nuances terrifiantes de leur ancien moi - non plus comprimées de sang et d'os, seulement de l'encre visqueuse et contaminée."
+    }
+  ],
+  "npc_dota_hero_grimstroke.name": [
+    {
+      "type": 0,
+      "value": "Sinistrée"
+    }
+  ],
+  "npc_dota_hero_grimstroke.quote": [
+    {
+      "type": 0,
+      "value": "Habile à manipuler la bataille de la périphérie, Grimstroke étudie chaque mouvement et évalue chaque ligne, décidant quand émerger de l'obscurité d'encre pour désactiver ses victimes et les lier avec un balayage de son pinceau. Il se réjouit de déchaîner des Thralls fantômes aux adversaires vex, car il considère soigneusement comment envoyer plusieurs ennemis avec un coup fatidique."
+    }
+  ],
+  "npc_dota_hero_gyrocopter.description": [
+    {
+      "type": 0,
+      "value": "Alors que le crépuscule s'installe, il a mis un cours à son atelier, mais à peine avait-il tourné son métier lorsqu'un boulet de canon a déchiré son fin de queue. Se démontant de l'épave, il a nagé vers le terrain le plus proche en vue, et a maudit le navire responsable du boulet de canon collectant les débris. Quelques jours plus tard, quand Aurel est retourné à son atelier, il s'est mis à travailler sur un autre gyrocoptère, celui-ci capable de porter une charge utile beaucoup plus lourde et plus dangereuse."
+    }
+  ],
+  "npc_dota_hero_gyrocopter.name": [
+    {
+      "type": 0,
+      "value": "Aurel Vlaicu, le gyrocoptère"
+    }
+  ],
+  "npc_dota_hero_gyrocopter.quote": [
+    {
+      "type": 0,
+      "value": "Avec son arsenal de puissance de feu à la place, Gyrocopter plane dans la bataille. Faire exploser tous les ennemis à proximité avec des coups de feu de son canon ou les marteler avec un barrage de roquettes, s'il est capable de rassembler toute sa force, il démolit facilement les ennemis."
+    }
+  ],
+  "npc_dota_hero_hoodwink.description": [
+    {
+      "type": 0,
+      "value": "Sachant qu'elle peut toujours trouver un passage sûr dans les enchevêtrements du Tomo'kan, où la plupart des gens à sang chaud craignent judicieusement de marcher, Hoodwink frappe maintenant à ceux qui osent essayer de pacifier les sauvages, prenant joyeusement ce qu'elle aime de leurs effets personnels , détruire ce pour quoi elle n'a pas d'utilité et aider à guider à nouveau les survivants apparentés à une vie dans le green."
+    }
+  ],
+  "npc_dota_hero_hoodwink.name": [
+    {
+      "type": 0,
+      "value": "Frauder"
+    }
+  ],
+  "npc_dota_hero_hoodwink.quote": [
+    {
+      "type": 0,
+      "value": "Toujours à portée de main, lorsque les ennuis sont en cours, Hoodwink vit pour s'emmêler avec les menaces qui remplissent la forêt hantée qu'elle a adoptée comme maison. Totant une arbalète massive tout en étant capable de se précipiter à travers la forêt avec la plus grande facilité, Hoodwink est presque impossible à garder un œil au combat. Perdez de la piste et elle sortira derrière vous - votre carcasse stupéfaite se balançant déjà dans l'un de ses filets."
+    }
+  ],
+  "npc_dota_hero_huskar.description": [
+    {
+      "type": 0,
+      "value": "Avec le temps, les anciens de l'ordonnance ont cherché à étendre leur influence et Huskar, ont-ils convenu, serait un formidable outil dans leur campagne. Pourtant, devenant une simple arme pour l'ordre qui lui a refusé son droit d'aînesse ne fait que le bouleverser. Alors que les premiers braises de guerre apparaissaient à l'horizon, il a fui sa maison ancestrale pour trouver de nouveaux alliés, tout en cherchant une cause digne de libérer le pouvoir que son sacrifice total pourrait apporter."
+    }
+  ],
+  "npc_dota_hero_huskar.name": [
+    {
+      "type": 0,
+      "value": "Huskar, le guerrier sacré"
+    }
+  ],
+  "npc_dota_hero_huskar.quote": [
+    {
+      "type": 0,
+      "value": "À mesure que sa santé diminue, la capacité de Huskar à tuer les ennemis se développe considérablement. Capable de supprimer instantanément une partie de la santé de son et d'un ennemi avec son ultime, à proximité de la mort, il est capable de lancer sa lance brûlante avec une vitesse dévastatrice."
+    }
+  ],
+  "npc_dota_hero_invoker.description": [
+    {
+      "type": 0,
+      "value": "La plupart de ces quasi-immortaux vivent tranquillement, peur d'admettre leur secret: mais Invoker n'est pas du genre à garder ses dons cachés. Il est ancien, appris au-delà de tous les autres, et son esprit a encore de l'espace pour contenir un immense sens de sa propre valeur ... ainsi que les invocations avec lesquelles il s'amuse à travers le long crépuscule lent des jours mourants du monde."
+    }
+  ],
+  "npc_dota_hero_invoker.name": [
+    {
+      "type": 0,
+      "value": "Carl, l'invocateur"
+    }
+  ],
+  "npc_dota_hero_invoker.quote": [
+    {
+      "type": 0,
+      "value": "Avec un arsenal complexe de sorts à sa disposition, Invoker peut s'adapter à n'importe quelle situation de bataille. Chaque configuration de ses trois composants de sorts donne un des dix sorts, ce qui signifie qu'il n'est jamais sans moyen de détruire ou d'échapper à ses ennemis."
+    }
+  ],
+  "npc_dota_hero_jakiro.description": [
+    {
+      "type": 0,
+      "value": "Même parmi les bêtes magiques, un dragon à tête double est un monstre. Parties égales sur la glace et le feu, la ruse et la rage, la créature connue sous le nom de Jakiro glisse sur les champs de bataille carbonisés et liés à la glace, détenant des déchets à tous ceux qui porteraient des armes contre lui. Les embrayages de dragon pyrexae contiennent toujours deux fledglings. Célèbres pour leur méchanceté, même depuis les premiers moments de la vie, les dragons nouvellement éclos de cette espèce essaieront de tuer leur frère tout en étant dans le nid. Seuls les plus forts survivent. De cette façon, la force de la ligne Pyrexae est assurée. Par un accident de la nature, le jakiro monstre a éclos à un seul œuf, combinant en un seul individu la gamme complète de capacités trouvées au sein des diverses espèces de Pyrexae. Pris au piège dans l'armature de son corps monstrueux, les pouvoirs de glace et de feu se combinent, et maintenant aucun ennemi n'est sûr."
+    }
+  ],
+  "npc_dota_hero_jakiro.name": [
+    {
+      "type": 0,
+      "value": "Jakiro, le dragon de la tête jumelle"
+    }
+  ],
+  "npc_dota_hero_jakiro.quote": [
+    {
+      "type": 0,
+      "value": "Jakiro est leur propre meilleur ami. Ne se contentant pas de punir les ennemis avec le feu, les jumeaux les gèlent en place pour les forcer à se tenir là et à brûler. Avec les ennemis en flammes, ils se tournent pour infliger des dégâts massifs sur les structures ennemies avec leur feu liquide."
+    }
+  ],
+  "npc_dota_hero_juggernaut.description": [
+    {
+      "type": 0,
+      "value": "Personne n'a jamais vu le visage caché sous le masque de Yurnero le mastodonte. Ce n'est que des spéculations qu'il en a même une. Pour déviation d'un seigneur corrompu, Yurnero a été exilé de l'ancienne île des masques - une punition qui lui a sauvé la vie. L'île peu de temps après a disparu sous les vagues dans une nuit de magie vengeuse. Lui seul reste à poursuivre la longue tradition du mastodonte de l'île, celle du rituel et du jeu d'épée. Le dernier praticien de l'art, la confiance et le courage de Yurnero sont le résultat d'une pratique sans fin; Son travail inventif prouve qu'il n'a jamais cessé de se défier. Pourtant, ses motivations sont aussi illisibles que son expression. Pour un héros qui a tout perdu deux fois, il se bat comme si la victoire était une fatalité."
+    }
+  ],
+  "npc_dota_hero_juggernaut.name": [
+    {
+      "type": 0,
+      "value": "Yurnero, le mastodonte"
+    }
+  ],
+  "npc_dota_hero_juggernaut.quote": [
+    {
+      "type": 0,
+      "value": "Dans une vague de barres obliques, le mastodonte coupe ses ennemis. Sprint et tournant dans la bataille avec l'abandon téméraire, et presque invincible une fois qu'il est capable de commencer son assaut, l'arrêt du mastodonte peut souvent être tout aussi difficile que de lui survivre."
+    }
+  ],
+  "npc_dota_hero_keeper_of_the_light.description": [
+    {
+      "type": 0,
+      "value": "Sur un cheval pâle qu'il monte, cette étincelle de soleils sans fin, ce gardien de la lumière. Ezalor a longtemps échappé au plan fondamental, se séparant des autres forces anciennes auxquelles il était lié dans la grande harmonie primordiale. Il est une puissance sensible à l'aube de l'univers, et monte maintenant dans tous les avions à la fois, une longueur d'avance sur la poursuite du chaos, portant son don avec lui à la fin d'un personnel radieux. Sa vérité majestueuse est cachée sous l'apparence extérieure d'un vieil homme légèrement esquivant qui reste à peine en selle. Cependant, face au défi du chaos, ou des forces de l'obscurité, sa lumière primordiale éclate, et sa pleine puissance est révélée, le transformant une fois de plus en une force avec laquelle il faut compter."
+    }
+  ],
+  "npc_dota_hero_keeper_of_the_light.name": [
+    {
+      "type": 0,
+      "value": "Ezalor, le gardien de la lumière"
+    }
+  ],
+  "npc_dota_hero_keeper_of_the_light.quote": [
+    {
+      "type": 0,
+      "value": "Le gardien de la lumière est un ajout utile à toute équipe. Manipuler le mana de ses alliés et de ses ennemis, il détruit sans effort les ennemis moindres avec des vagues d'éclairage, puis entre dans sa forme spirituelle pour rassembler son équipe pour presser l'assaut."
+    }
+  ],
+  "npc_dota_hero_kunkka.description": [
+    {
+      "type": 0,
+      "value": "Ce qui s'est passé dans le creuset de cette tempête, personne ne peut vraiment dire. La cataracte rugit dans le vide, déserte par ses anciens habitants. Kunkka est maintenant l'amiral de mais un navire, une plate-forme fantomatique qui rejoue sans cesse les dernières secondes de sa destruction. Qu'il soit mort dans cet accident est la supposition de quelqu'un. Même Tidehunter, qui a convoqué Maelrawn, ne sait pas avec certitude."
+    }
+  ],
+  "npc_dota_hero_kunkka.name": [
+    {
+      "type": 0,
+      "value": "Kunkka, l'amiral"
+    }
+  ],
+  "npc_dota_hero_kunkka.quote": [
+    {
+      "type": 0,
+      "value": "Kunkka prédit toujours où ses ennemis iront ensuite. Capable d'attaquer un emplacement avec un geyser d'eau ou un naufrage fantomatique, si son objectif se révèle vrai, lui et ses alliés n'auront aucun mal à nettoyer tout ce qui reste."
+    }
+  ],
+  "npc_dota_hero_legion_commander.description": [
+    {
+      "type": 0,
+      "value": "Bien que victorieux, les survivants ont vu peu de choses à célébrer: la ville était en ruine, et les survivants étaient peu nombreux. Les incendies ont continué à se propager. Débrouillant ses bannières de guerre, Tresdin a rassemblé les alliés qu'elle pouvait. Sa colère coucha en promettant une vengeance brutale sur les forces de l'abîme, et damné que ceux qui oseraient se dresser sur son chemin."
+    }
+  ],
+  "npc_dota_hero_legion_commander.name": [
+    {
+      "type": 0,
+      "value": "Tresdin, le commandant de la Légion"
+    }
+  ],
+  "npc_dota_hero_legion_commander.quote": [
+    {
+      "type": 0,
+      "value": "En marchant à travers le champ de bataille, le commandant de la Légion remet en question les ennemis seuls dans un seul combat. Chaque duel qu'elle gagne augmente le pouvoir de ses attaques, jusqu'à ce qu'elle puisse devenir une armée d'une femme implacable."
+    }
+  ],
+  "npc_dota_hero_leshrac.description": [
+    {
+      "type": 0,
+      "value": "Leshrac, âme tourmentée, est une entité déchirée du cœur de la nature, un être liminal qui existe à moitié dans un plan d'existence, à moitié dans un autre. Son intelligence pénétrante est telle qu'il ne peut jamais ignorer un instant l'horreur angoissante au cœur de toute création. Autrefois un grand philosophe qui a cherché le sens de l'existence, il a placé les profondeurs de la nature avec les cristaux chronoptiques hantés et a été à jamais modifié par les mystères hideux qui lui ont ainsi révélé. Maintenant, les profondeurs les plus sombres de ses Lumières ne sont éclairées que par l'éblouissement agité de son arrogance. Comme d'autres personnages élémentaires, il est complètement à la nature, mais dans son cas, c'est une nature luride et vil. Lui seul voit la mauvaise vérité de la réalité et n'a aucune utilité pour ceux qui croient que le Cosmos se réserve une récompense spéciale pour ceux qui pratiquent la bienveillance."
+    }
+  ],
+  "npc_dota_hero_leshrac.name": [
+    {
+      "type": 0,
+      "value": "Leshrac, l'âme tourmentée"
+    }
+  ],
+  "npc_dota_hero_leshrac.quote": [
+    {
+      "type": 0,
+      "value": "Les puissants sorts de Leshrac gaspillent les ennemis et leurs défenses. Poussant profondément dans le territoire ennemi avec son édit dévastateur, un timing minutieux de sa capacité à diviser la terre étourdira les ennemis, permettant à ses alliés impitoyables de les terminer."
+    }
+  ],
+  "npc_dota_hero_lich.description": [
+    {
+      "type": 0,
+      "value": "Il n'est tombé que pendant environ un an avant qu'un affleurement ne l'accroche. Là, il se reposa, mort mais indésirable, jusqu'à ce que le géomancien Anhil ne vérifie la légende de la piscine noire soi-disant sans fond. Plumbbline d'Anhil grogna avec les cordes qui libèrent le magicien noyé, et il a transporté un prix inattendu. Pensant qu'en rendant les morts-vivants morts, il pouvait remettre en question la liche sur les propriétés de la piscine, il a supprimé les liaisons et a commencé un simple rite de résurrection. Même les descendants des ennemis d'Ethreain ont longtemps été oubliés par le temps, il n'y avait donc aucun pour avertir Anhil contre l'imprudence. Mais il a appris l'erreur de son jugement presque immédiatement, alors que Lich a jeté les chaînes et l'a consommé."
+    }
+  ],
+  "npc_dota_hero_lich.name": [
+    {
+      "type": 0,
+      "value": "Ethreau, la liche"
+    }
+  ],
+  "npc_dota_hero_lich.quote": [
+    {
+      "type": 0,
+      "value": "En passant de la bataille au combat et en sacrifiant des chair de poule pour alimenter ses agressions, Lich est toujours prêt à aider ses collègues héros à détruire leurs ennemis avec le ralentissement du gel. Si ses ennemis étaient assez stupides pour se rassembler, son ultime rebondissant assurera leur disparition."
+    }
+  ],
+  "npc_dota_hero_life_stealer.description": [
+    {
+      "type": 0,
+      "value": "À ce moment-là, LifeSesaler est né. La créature a jeté son esprit dans les gardes et les soldats du donjon, les obligeant à ouvrir des serrures et à réduire leurs compagnons, ouvrant un chemin imprévu vers la liberté tout en se nourrissant de leur vie. LifeSesaler porte toujours les chaînes cassées comme un avertissement qu'aucun ne peut le retenir, mais à l'intérieur reste un prisonnier. Deux esprits habitent la forme unique - une créature sans nom de ruse malveillante, et le maître dont il prétend obéir la voix."
+    }
+  ],
+  "npc_dota_hero_life_stealer.name": [
+    {
+      "type": 0,
+      "value": "N'aix, le liftestealer"
+    }
+  ],
+  "npc_dota_hero_life_stealer.quote": [
+    {
+      "type": 0,
+      "value": "Si LifeSaler se rapproche de sa proie, il y a peu de choses qui peuvent les sauver. Voyageant dans un fluage ou un héros allié, une fois qu'il approche d'un ennemi, il explose de son corps hôte, surprenant des ennemis et les déchirant avec ses griffes."
+    }
+  ],
+  "npc_dota_hero_lina.description": [
+    {
+      "type": 0,
+      "value": "Les rivalités entre frères et sœurs entre Lina the Slayer, et sa sœur cadette Rylai, la jeune fille de Crystal, ont été la légende de la région tempérée où ils ont passé leur enfance en querelle ensemble. Lina a toujours eu l'avantage, cependant, car alors que Crystal était sans coup sûr et naïf, l'ardeur ardente de Lina était tempérée par l'intelligence et la connivence. Les parents exaspérés de ces descendants incompatibles ont traversé une demi-douzaine de propriétés familiales, en perdant une à feu, la prochaine de la glace, avant de réaliser que la vie serait plus simple si les enfants étaient séparés. En tant que la plus ancienne, Lina a été envoyée loin au sud pour vivre avec une tante patiente dans le désert flamboyant de la mauvaise cerve, un climat qui s'est avéré plus que confortable pour le tueur ardent. Son arrivée a fait toute une impression sur les habitants somnolents, et plus d'un prétendant prétendant a brûlé les doigts ou est parti avec des sourcils chantés, ses avancées ont repoussé. Lina est fière et confiante, et rien ne peut atténuer sa flamme."
+    }
+  ],
+  "npc_dota_hero_lina.name": [
+    {
+      "type": 0,
+      "value": "Lina, la Slayer"
+    }
+  ],
+  "npc_dota_hero_lina.quote": [
+    {
+      "type": 0,
+      "value": "Aussi mortel qu'elle soit fragile, Lina frappe sans effort tout ennemi assez stupide pour être attrapé seul. Gagner la vitesse d'attaque à chaque sort qu'elle lance, elle parcourt les ennemis avec la flamme et la chaleur de la foudre, garantissant que peu de gens peuvent survivre à ses assauts."
+    }
+  ],
+  "npc_dota_hero_lion.description": [
+    {
+      "type": 0,
+      "value": "Autrefois grand maître de la tradition de sorcière démoniaque de la sorcellerie, Lion a gagné la gloire parmi ses frères pour avoir combattu du côté de la lumière et de la justice. Mais l'adulation corrompt. Avec des pouvoirs dépassés uniquement par son ambition, le mage a été séduit par un démon et s'est tourné vers le mal, échangeant son âme contre le prestige. Après avoir commis des crimes horribles qui ont gâché son âme, il a été abandonné. Le démon l'a trahi, frappant de meilleurs accords avec ses ennemis. Telle était la rage de Lion qu'il a suivi le démon en enfer et l'a tué, le déchirant des membres, prenant sa main démoniaque pour la sienne. Cependant, une telle démonoplastie a un coût. Lion a été transfiguré par le processus, son corps s'est transformé en quelque chose de méconnaissable. Il se leva de l'enfer, Rage s'incarne, tuant même ceux qui l'avaient appelé un autrefois Master, et dépensant les terres où il avait été si adoré. Il survit maintenant en tant que seul praticien de la tradition des sorcières démoniaques, et ceux qui se présentent comme des acolytes ou des étudiants sont bientôt soulagés de leur mana et emportés par la plus faible rafale de vent."
+    }
+  ],
+  "npc_dota_hero_lion.name": [
+    {
+      "type": 0,
+      "value": "Lion, la sorcière démoniaque"
+    }
+  ],
+  "npc_dota_hero_lion.quote": [
+    {
+      "type": 0,
+      "value": "Lion donne aux ennemis peu de chances de riposter. Des cibles époustouflantes avec une rangée de pointes dommageables, ou les transformant temporairement en une créature inoffensive, même si ses puissants sorts ne suffisent pas, lui et ses alliés devraient encore avoir tout le temps dont ils ont besoin pour tuer leurs ennemis."
+    }
+  ],
+  "npc_dota_hero_lone_druid.description": [
+    {
+      "type": 0,
+      "value": "Alors qu'il saisissait sa confiance, Sylla sentit ses années reculer et sa vitalité revenait. De vastes connaissances ont fait irruption dans son esprit. Il s'est retrouvé capable de projeter sa volonté même dans la réalité et, avec une certaine concentration, modifier également sa propre forme physique. Pourtant, des chuchotements subtils et des oreilles cruelles ont apporté la parole de la graine et de son pouvoir à d'autres peuples, et une terrible guerre s'est écrasée sur le clan Bear. Alors que sa maison ancestrale brûlait, Sylla a pris son fardeau et s'est enfui dans les endroits sauvages. Les âges passaient, et le temps et le mythe ont oublié le clan Bear, ont oublié Sylla et la graine, ont oublié des civilisations merveilleuses qui se sont levées et sont tombées dans le sillage de Bear Clan. Pendant que Millennia Sylla a attendu, attendu le mot de ses divinités, attendu que la paix vienne aux royaumes toujours en guerre, attendait en exil et en secret pour la fin de toutes choses et pour la conclusion de son engagement sacré, se préparant toujours à affronter et détruire tout ce qui oserait menacer son objectif."
+    }
+  ],
+  "npc_dota_hero_lone_druid.name": [
+    {
+      "type": 0,
+      "value": "Sylla, le seul druide"
+    }
+  ],
+  "npc_dota_hero_lone_druid.quote": [
+    {
+      "type": 0,
+      "value": "Se battant aux côtés de son puissant ours spirituel, le druide solitaire démolie les forces et les structures ennemies. Changeant au besoin entre les attaques à distance et de mêlée avec sa transformation, s'il avait suffisamment de temps pour s'armer et renforcer lui-même lui-même et son compagnon, il y a peu de choses qui peuvent les arrêter."
+    }
+  ],
+  "npc_dota_hero_luna.description": [
+    {
+      "type": 0,
+      "value": "On lui a offert un choix: rejoignez la lune noire et s'engagez au service de Selenene, ou partez et ne reviendrez jamais. Elle n'a pas hésité. Embrassant son absolution, elle a renoncé à son passé sanglant, et a pris un nouveau manteau en tant que Luna of the Dark Moon, le cavalier de lune redouté, gardien impitoyable et toujours loyal des bois de nuit."
+    }
+  ],
+  "npc_dota_hero_luna.name": [
+    {
+      "type": 0,
+      "value": "Luna, The Moon Rider"
+    }
+  ],
+  "npc_dota_hero_luna.quote": [
+    {
+      "type": 0,
+      "value": "En roulant rapidement dans la bataille, Luna déchire ses ennemis avec des attaques capables de rebondir entre les cibles. Lorsque les ennemis menacent, elle appelle le pouvoir de la lune comme un seul faisceau brûlant ou comme un barrage lunaire, écrasant ceux qui se tiennent contre elle."
+    }
+  ],
+  "npc_dota_hero_lycan.description": [
+    {
+      "type": 0,
+      "value": "Enragé par la trahison, le roi a exterminé la vaste lignée ambry, épargnant uniquement le seigneur de la maison et son plus jeune fils, Banehallow. Avant toute la cour royale, avec le Seigneur en disgrâce enchaîné au sol en marbre orné, le roi a dit que ses magiciens transforment le garçon en loup afin qu'il puisse arracher la gorge de son propre père. \"Faites cela,\" dit le roi, \"pour que Lord Ambry comprenne la morsure de la trahison.\" La magie puissante a été invoquée et l'enfant a été transformé. Mais bien que son corps ait changé, son esprit est resté intact, et au lieu de mordre le cou exposé de son père, il a attaqué ses gestionnaires, les déchirant en morceaux. Une douzaine de chevaliers du roi ont péri sous les dents du loup avant qu'ils ne parviennent à le chasser dans la nuit. Lord Ambry a ri de ses chaînes alors même que le roi le traversait avec une épée. Maintenant l'héritier de la maison perdue d'Ambry, Banehallow erre sur le sentier comme le Lycan, en partie guerrière, en partie Wolf, à la recherche de justice pour tout ce qu'il a perdu."
+    }
+  ],
+  "npc_dota_hero_lycan.name": [
+    {
+      "type": 0,
+      "value": "Banehallow, le Lycan"
+    }
+  ],
+  "npc_dota_hero_lycan.quote": [
+    {
+      "type": 0,
+      "value": "En tant qu'homme ou en tant que loup, Lycan dévaste les ennemis avec des griffes pointues et des mâchoires mortelles. Invoquant des loups furtifs pour repérer ou attaquer un ennemi, sa transformation de loup lui accorde la vitesse et la force pour descendre ses ennemis, ou échapper à une embuscade."
+    }
+  ],
+  "npc_dota_hero_magnataur.description": [
+    {
+      "type": 0,
+      "value": "Certains disent que Magnus a réuni ses proches, tandis que d'autres affirment avoir subi des blessures mortels et expiré aux côtés du corps de sa matriarche. Aucune théorie n'est correcte. Magnus a juré de rejoindre ses parents ... mais seulement après avoir cherché ceux qui sont responsables de l'éruption du mont Joerlak et les avoir regardés mourir sur sa corne, car un Magnoceros ne croit pas au hasard."
+    }
+  ],
+  "npc_dota_hero_magnataur.name": [
+    {
+      "type": 0,
+      "value": "Magnus, les Magnoceros"
+    }
+  ],
+  "npc_dota_hero_magnataur.quote": [
+    {
+      "type": 0,
+      "value": "Les ennemis qui sont assez stupides pour rassembler apprennent à craindre la corne de Magnus. Capable de rassembler les ennemis à proximité, il peut les battre avec des attaques autonomes ou les embrasser avec sa corne pour les amener devant ses alliés impitoyables."
+    }
+  ],
+  "npc_dota_hero_mars.description": [
+    {
+      "type": 0,
+      "value": "Comme le sort le ferait, sa solution est venue facilement: il doit faire la guerre dans un but plus large et inspirer plus que la simple sauvagerie et la douleur à la vue de sa crête. Il doit enfin prétendre au manteau de leadership qu'est son droit d'aînesse, pour le moment, il est venu à brûler le panthéon de la vieillesse et à construire un nouvel empire juste au sommet des cendres de ses proches. Ce n'est qu'alors qu'il pourrait trouver de la satisfaction et rendre la gloire de Mars évidente pour tous."
+    }
+  ],
+  "npc_dota_hero_mars.name": [
+    {
+      "type": 0,
+      "value": "Mars, le premier fils du ciel"
+    }
+  ],
+  "npc_dota_hero_mars.quote": [
+    {
+      "type": 0,
+      "value": "La divinité guerrière Mars prospère au cœur des conflits, gardée par la majeure partie d'un bouclier mortel alors qu'il brouille les ennemis avec sa lance légendaire. Il se délecte de faire face à des adversaires dans une arène entourés de loyaux loyaux - qui garantit que personne ne s'échappe et que toutes les chances qu'il est confrontée, le dieu de la guerre peut dicter les termes de la bataille en sachant que la foule est à jamais de son côté."
+    }
+  ],
+  "npc_dota_hero_medusa.description": [
+    {
+      "type": 0,
+      "value": "La beauté est le pouvoir. Cette pensée a réconforté Medusa - la plus jeune et la plus belle de trois belles sœurs de Gorgon, née d'une déesse de la mer - car elle seule des sœurs était mortelle. Cela l'a réconfortée, c'est-à-dire jusqu'à ce que les assaillants masqués de jour aient envahi le royaume du Gorgon et ont déchiré les deux sœurs immortelles de leur domicile, incessantes par leur beauté ou par leurs larmes. L'un des envahisseurs a également saisi Medusa, mais l'a ensuite jetée de côté avec un regard dégoûté: «Celui-ci a la puant mortelle sur elle. Nous n'avons aucune utilité pour ce qui meurt. Humiliée, enragée, Medusa s'est enfui au temple de sa mère et s'est jetée devant la déesse, pleurant: «Tu m'as refusé la vie éternelle - donc je te supplie, donnez-moi le pouvoir! Le pouvoir, je peux donc consacrer la vie que j'ai à sauver mes sœurs et à venger cette injustice! Après longtemps, la déesse a accordé la demande de sa fille, permettant à Medusa d'échanger sa beauté légendaire contre un visage et une forme de force terrifiante. Jamais un instant, Medusa n'a regretté son choix. Elle comprend que le pouvoir est la seule beauté à posséder - pour que le seul pouvoir puisse changer le monde."
+    }
+  ],
+  "npc_dota_hero_medusa.name": [
+    {
+      "type": 0,
+      "value": "Méduse, le gorgon"
+    }
+  ],
+  "npc_dota_hero_medusa.quote": [
+    {
+      "type": 0,
+      "value": "Une attaque constante est la clé du succès de Medusa. En utilisant son bouclier de mana pour éviter les voies de fait, elle emploie des coups divisés pour tondre des vagues d'ennemis. Une fois qu'elle rassemble sa pleine force, elle devient une force suffisamment puissante pour arrêter quiconque sur leurs traces."
+    }
+  ],
+  "npc_dota_hero_meepo.description": [
+    {
+      "type": 0,
+      "value": "Si vous me demandez, la vie est tout sur qui vous connaissez et ce que vous pouvez trouver. Lorsque vous vivez dans les ruines de Riftshadow, le simple fait de trouver de la nourriture peut être difficile. Vous devez donc couper les coins, vous devez vous lancer, vous devez connaître vos forces. Certaines des bêtes là-haut peuvent vous tuer, vous avez donc besoin d'un moyen de piéger les faibles et de esquiver le fort. À la hausse, les ruines ont l'histoire et l'histoire vaut beaucoup pour certaines personnes. Il y avait un palais là-bas, où ils avaient tous ces rituels sombres. Mauvaises choses. Si vous survivez à la cérémonie, ils briseraient un cristal et diviseraient votre âme en morceaux. Ils ont cependant fait un grand art! Sculptures et autres. Permettez-moi de vous dire: parfois vous tombez sur certaines de ces vieilles sculptures. Prenez un pack plein de ceux-ci en ville et vendez-les, puis obtenez de la nourriture pendant quelques semaines. Si la chance est vraiment de votre côté, vous pourriez trouver un cristal RiftShadow. Faites-le évaluer et commencez à demander autour de vous. Quelqu'un sait toujours un fou fou à la recherche de ce genre de chose. Si tout le reste échoue, vendez-le à un mage la prochaine fois en ville. Ils aiment ce truc. Pourtant, quoi que vous fassiez, soyez prudent en gérant ces cristaux. Vous ne voulez pas que vous ne partez sur vous. Ça fait vraiment mal."
+    }
+  ],
+  "npc_dota_hero_meepo.name": [
+    {
+      "type": 0,
+      "value": "Meepo, le géomancien"
+    }
+  ],
+  "npc_dota_hero_meepo.quote": [
+    {
+      "type": 0,
+      "value": "En invoquant jusqu'à quatre copies permanentes de lui-même, Meepo peut se battre de chaque front à la fois. Écartant ses clones dans le champ de bataille, lorsqu'un ennemi est trouvé, il lie son ennemi, se rassemble avec une téléportation explosive, puis enterre ce qui reste."
+    }
+  ],
+  "npc_dota_hero_mirana.description": [
+    {
+      "type": 0,
+      "value": "Née dans une famille royale, une princesse de sang qui a ensuite fait la queue pour le trône solaire, Mirana a volontiers rendu toute revendication de terres ou de titres banals lorsqu'elle se consacre complètement au service de Selenene, déesse de la lune. Connue depuis que la princesse de la lune, Mirana rôde les bois sacrés de nuit à la recherche de tous ceux qui oseraient braconner le lotus lumineux sacré des piscines argentées de la préserve de la déesse. En chevauchant son énorme félin familier, elle est prête, fière et intrépide, à l'écoute des phases de la lune et de la roue des plus grandes constellations. Son arc, basculé avec des éclats de minerai lunaires, s'appuie sur la puissance de la lune pour charger ses flèches de lumière."
+    }
+  ],
+  "npc_dota_hero_mirana.name": [
+    {
+      "type": 0,
+      "value": "Mirana, la princesse de la lune"
+    }
+  ],
+  "npc_dota_hero_mirana.quote": [
+    {
+      "type": 0,
+      "value": "Alors qu'elle s'oppose à distance avec sa flèche mortelle, Mirana doit toujours être prête à sauter au combat. Capable de protéger ses alliés des yeux de ses ennemis, elle s'assure que son équipe est toujours à l'affût."
+    }
+  ],
+  "npc_dota_hero_monkey_king.description": [
+    {
+      "type": 0,
+      "value": "Pour un changement, Sun Wukong a accompli son serment aux dieux avec honneur, et expié pour les péchés des insurrections passées. L'acolyte, très appris dans les épreuves, a été renvoyé dans son temple d'origine, relique à la main; Et Wukong - se précipiter pour la première fois en position appropriée avec des dieux de conséquence - était contenu pendant un court moment pour abandonner sa vieille soif d'aventure et de gloire. Mais le roi de singe est né pour un méfait ... et offensant les dieux ne vieillit jamais."
+    }
+  ],
+  "npc_dota_hero_monkey_king.name": [
+    {
+      "type": 0,
+      "value": "Sun Wukong, le roi du singe"
+    }
+  ],
+  "npc_dota_hero_monkey_king.quote": [
+    {
+      "type": 0,
+      "value": "Toujours à la recherche d'un bon combat, Monkey King se déplace au sommet des arbres visant à jaillir de la couverture feuillus et à surprendre ses ennemis. Appelant une armée de soldats de singes à submerger les adversaires, ce filou agile se délecte du chaos de la bataille, prêt à claquer son personnel légendaire dans tous les espoirs de s'échapper."
+    }
+  ],
+  "npc_dota_hero_morphling.description": [
+    {
+      "type": 0,
+      "value": "Pour les éons sombres, la comète a encerclé. Tenue dans l'emprise à un soleil lointain, lié par l'attraction inexorable de Gravity, la boule de glace massive a traversé la noirceur entre les mondes, rendue étrange par son sombre voyage. À la veille de l'ancienne guerre du vloy, il a frappé le ciel et a allumé un sentier éclatant à travers la nuit - un signe que les deux armées ont pris pour un présage. La boule gelée a fondu dans un éclair de chaleur bouillante, comme en dessous de deux forces enjointes au combat à travers la frontière d'une rivière étroite. Ainsi libérée de sa stase glacée, le morphling est né dans le conflit, une puissance élémentaire à une puissance avec les marées de l'océan, capricieuses et sans contrainte. Il est entré dans le combat, prenant instinctivement la forme du premier général qui a osé mettre le pied à travers l'eau - puis l'a frappé mort. Alors que les Motley Warriors se heurtaient, il passa d'une forme à la forme tout au long de la bataille, absorbant instantanément les voies de ces étranges créatures - maintenant un soldat, maintenant un archer, maintenant le cavaleur - jusqu'à ce que le dernier soldat tombait, Morphling avait joué chaque partie. La fin de la bataille a été son début."
+    }
+  ],
+  "npc_dota_hero_morphling.name": [
+    {
+      "type": 0,
+      "value": "Morphage"
+    }
+  ],
+  "npc_dota_hero_morphling.quote": [
+    {
+      "type": 0,
+      "value": "Changeant ses attributs pour s'adapter à sa situation, le morphling peut être aussi insaisissable qu'il est mortel. Que ce soit sur une vague pour flanquer un ennemi, ou augmenter sa santé avant de s'échapper dans sa réplication trompeuse, peu peuvent espérer le coincer."
+    }
+  ],
+  "npc_dota_hero_naga_siren.description": [
+    {
+      "type": 0,
+      "value": "Autrefois très appréciée de sa race, Shicece pendant de nombreuses années a commandé un bataillon de ses camarades, utilisant sa formidable voix comme sa plus grande arme. Puissante, sinueuse, serpentine, elle a conduit sa garde mortelle pour défendre les profondes et la grande richesse des villes enfoncées. Mais lors de la bataille finale de Crey, ses forces ont été reproduites par une armée de Lévianth en maraude déterminée à trouver un hommage à leur dieu Maelrawn. Après l'assaut long et sanglant, alors que les corps étaient dégagés des salles enfoncées, un seul calice bijou a été retrouvé manquant dans le trow. De sa centaine de garde, seule une poignée a survécu, mais leur bravoure et leur sacrifice étaient de peu de conséquences. Ce qui comptait, c'est que le trésor a été pris. L'honneur détruit. Et donc Naga Siren a été chassée. Banis pour rechercher le calice volé. Bien qu'elle puisse ajouter une centaine de fois son poids au mine d'or, elle est condamnée à vivre à part ce jour-là, elle revient ce qui a été pris. Car aucune quantité d'or n'est égale en l'honneur de l'honneur qu'elle a perdu."
+    }
+  ],
+  "npc_dota_hero_naga_siren.name": [
+    {
+      "type": 0,
+      "value": "Shice, la sirène naga"
+    }
+  ],
+  "npc_dota_hero_naga_siren.quote": [
+    {
+      "type": 0,
+      "value": "Envoyant des escouades de clones en miroir contre ses ennemis, Naga Siren s'installe et tue des ennemis alors qu'elle mène ses forces à la victoire. Avec le bruit de sa voix, elle désactive les ennemis à proximité pour monter une embuscade ou fabriquer une évasion hâtive."
+    }
+  ],
+  "npc_dota_hero_necrolyte.description": [
+    {
+      "type": 0,
+      "value": "À une époque de grande peste, un moine obscur des inclinations sombres, un rotund'jere, s'est retrouvé promu au grade de cardinal par la mort rapide de tous ses supérieurs. Alors que d'autres de l'Ordre sont allés secouer les malades, le cardinal nouvellement ordonné s'est isolé dans la cathédrale de RUMUSQUE, comprivant activement pour acquérir la propriété des nobles mourants, leur promettant des récompenses spirituelles s'ils ont signé leurs domaines terrestres. Alors que la peste retirait en quelques poches obstinées, son comportement a attiré l'attention du plus grand ordre, qui l'a trouvé coupable d'hérésie et l'a condamné à servir dans le quartier de la peste, s'engage avec des sorts qui lui assureraient une maladie lente et persistante. Mais ils n'avaient pas compté sur son immunité naturelle. Rotund'jere a attrapé la variole, mais au lieu de mourir, l'a trouvé nourrir sa puissance, le transformant en une véritable peste-mage, un pape de peste. Se proclamant des nécrophos, il parcourt le monde, répandant la peste partout où il va, et grandissant en terrible pouvoir à chaque village que sa présence pestilentielle efface."
+    }
+  ],
+  "npc_dota_hero_necrolyte.name": [
+    {
+      "type": 0,
+      "value": "Rotund'jere, les nécrophos"
+    }
+  ],
+  "npc_dota_hero_necrolyte.quote": [
+    {
+      "type": 0,
+      "value": "Partout où les nécrophos vont, les ennemis se détériorent alors que les alliés prospèrent. Restaurer la santé à ses amis et nuire aux ennemis à chaque pouls de la mort, une fois que sa présence même a rongé un ennemi, il invoque le Reaper pour allonger son séjour dans l'au-delà."
+    }
+  ],
+  "npc_dota_hero_nevermore.description": [
+    {
+      "type": 0,
+      "value": "On dit que Nevermore the Shadow Fiend a l'âme d'un poète, et en fait il en a des milliers. Depuis les âges, il a revendiqué les âmes des poètes, des prêtres, des empereurs, des mendiants, des esclaves, des philosophes, des criminels et des héros (naturellement); Aucune sorte d'âme ne lui échappe. Ce qu'il fait avec eux est inconnu. Personne n'a jamais regardé dans l'abym d'où ne se détache jamais comme une anguille parmi les roches astrales. Les dévore-t-il les uns après les autres? Les monte-t-il dans les couloirs d'un temple Eldritch, ou pickle les âmes en saumure nécromantique? Est-il simplement une marionnette, poussée à travers le fossé dimensionnel par un marionnettiste démoniaque? Tel est son mal, si intense son aura d'obscurité, qu'aucun esprit rationnel ne peut le pénétrer. Bien sûr, si vous voulez vraiment savoir où vont les âmes volées, il y a un moyen sûr de découvrir: ajoutez votre âme à sa collection. Ou attendez jamais."
+    }
+  ],
+  "npc_dota_hero_nevermore.name": [
+    {
+      "type": 0,
+      "value": "Jamais plus, The Shadow Fiend"
+    }
+  ],
+  "npc_dota_hero_nevermore.quote": [
+    {
+      "type": 0,
+      "value": "Capturant les âmes de chaque meurtre qu'il fait, Shadow Fiend rassemble toujours sa puissance. Chaque assaut, chacun a soigneusement visé Raze qui tue un ennemi, le rapproche de déchaîner ses âmes rassemblées dans une explosion mortelle d'énergie à récurer."
+    }
+  ],
+  "npc_dota_hero_night_stalker.description": [
+    {
+      "type": 0,
+      "value": "On dit qu'à l'aube du premier jour, toutes les créatures de nuit ont péri. Tout cela, c'est-à-dire en sauver un. L'incarnation de Evil, Night Stalker se réjouit de sa malveillance. Il a créé le rôle primordial de la terreur nocturne, le boogeyman, et tant qu'il y a eu des jeunes, le spectre est convoqué pour les terrifier. C'est un rôle qu'il savoure - et ne sont pas ces théâtres vides. Il traque en effet les imprudents, les sans défense, ceux qui se sont éloignés au-delà des chemins éclairés ou ont nié les avertissements de leurs communautés. Night Stalker sert de preuve vivante que le pire cauchemar de chaque enfant ... est vrai."
+    }
+  ],
+  "npc_dota_hero_night_stalker.name": [
+    {
+      "type": 0,
+      "value": "Balanar, The Night Stalker"
+    }
+  ],
+  "npc_dota_hero_night_stalker.quote": [
+    {
+      "type": 0,
+      "value": "Une fois que le soleil se couche, la chasse au Stalker nocturne commence. Chargeant à travers les forêts sombres, il casse la proie dans un vide ralentissant alors qu'il les déchire en lambeaux. Si le lever du soleil menace de mettre fin à sa terreur, il peut assombrir le ciel pour prolonger son assaut."
+    }
+  ],
+  "npc_dota_hero_nyx_assassin.description": [
+    {
+      "type": 0,
+      "value": "Contrairement à la plupart des larves de sa colonie, le NYX Assassin n'est pas résulté de la métamorphose avec les pensées grodantes et les appendices émoussés communs à la caste de travailleur de son espèce. Car c'était une transformation spéciale, guidée par la grâce de NYX. Il était l'élu, sélectionné parmi les nombreux et oint avec un extrait de la déesse de la reine elle-même. Tous ne survivent pas à la sombre bénédiction de la chambre de la reine, mais il a émergé avec un esprit pénétrant, et des griffes en forme de poignard - ses mandibules aiguës rasantes ratissant l'air tandis que ses pensées projetées directement dans l'esprit de ceux qui l'entourent. De tous les scarabés fanatiques, lui seul a été sélectionné pour la plus grande vocation. Après sa métamorphose, il renaît, par Grace of NYX, avec des capacités qui l'ont façonné pour une chose et une seule chose: tuer au nom de sa déesse."
+    }
+  ],
+  "npc_dota_hero_nyx_assassin.name": [
+    {
+      "type": 0,
+      "value": "NYX assassin"
+    }
+  ],
+  "npc_dota_hero_nyx_assassin.quote": [
+    {
+      "type": 0,
+      "value": "NYX Assassin recherche toujours des cibles fragiles. Se faufilant de manière invisible à travers la forêt, quand il repère sa proie, il les glisse avec ses griffes mortelles et les empale sur de superbes pointes, puis inverse toute contre-attaque avec sa carapace réfléchissante."
+    }
+  ],
+  "npc_dota_hero_obsidian_destroyer.description": [
+    {
+      "type": 0,
+      "value": "L'une d'une race seigneur et magistrale, Harbinger rôde le bord du vide, la seule sentinelle survivante d'un avant-poste sur le monde au bord de l'abîme. De ce monde cristallin déchiqueté, pour toujours, il a regardé pour les éternités dans les cieux, alerte pour tout remuer dans la nuit sans fond au-delà des étoiles. Imprimé au plus profond des réseaux brillants de son intellect se trouve un motif résonnant semblable à la prophétie, une musique sombre impliquant que finalement un mal se réveillera là-bas, au-delà des bords de la création, et tourne son attention vers notre monde. Avec son tout se concentrant sur sa veillée, Outworld Destroyer a prêté peu d'attention aux événements plus proches du soleil. Mais enfin la clameur des anciens, et un sentiment de menace croissante de l'intérieur aussi bien que sans, lui a envoyé ailer Sunward pour visiter les plaines de la guerre. La place de Harbinger dans nos propres prophéties est sans ambiguïté: il doit être considéré comme un présage de pires choses à venir. Mais son arrivée en soi est déjà assez mauvaise."
+    }
+  ],
+  "npc_dota_hero_obsidian_destroyer.name": [
+    {
+      "type": 0,
+      "value": "Harbinger, le destroyer outworld"
+    }
+  ],
+  "npc_dota_hero_obsidian_destroyer.quote": [
+    {
+      "type": 0,
+      "value": "Le vol de l'esprit de ceux qu'il emprisonne, Outworld Destroyer transforme l'intelligence brute en pouvoir destructeur. Affaiblissant les ennemis avec un barrage d'énergie arcanique, il brise leur santé mentale avec son explosion ultime, effaçant souvent le mana de ceux qui survivent."
+    }
+  ],
+  "npc_dota_hero_ogre_magi.description": [
+    {
+      "type": 0,
+      "value": "Avec deux têtes, Ogre Magi trouve possible de fonctionner à un niveau que la plupart des autres créatures gèrent avec une. Et tandis que les Magi Ogre ne gagneront aucun débat (même avec lui-même), il est honoré d'une qualité divine connue sous le nom de chanceuse - une propension à des coups de fortune fortuites qui ont permis à la race ogre de s'épanouir malgré les ennemis, le temps dur, et une incapacité à se nourrir. C'est comme si la déesse de la chance, remplie de pitié pour les espèces tristement ineptes, avait pris des mages à ogre sous son aile. Et qui pourrait lui blâmer? Des choses pauvres."
+    }
+  ],
+  "npc_dota_hero_ogre_magi.name": [
+    {
+      "type": 0,
+      "value": "Aggron Stonebreak, les mages ogre"
+    }
+  ],
+  "npc_dota_hero_ogre_magi.quote": [
+    {
+      "type": 0,
+      "value": "Avec une chance de multiplier le résultat de chaque sort qu'ils lancent, un peu de chance est que tout le monde a besoin de brûler des ennemis à Cinder ou de stimuler la puissance de ses alliés. Bien sûr, la chance peut être difficile à compter ..."
+    }
+  ],
+  "npc_dota_hero_omniknight.description": [
+    {
+      "type": 0,
+      "value": "L'Omniscience avait formé l'immense coquille minérale de la planète autour de elle-même, comme une défense contre les nombreuses terreurs de l'espace. Ainsi, tous les personnes qui ont prétendu avoir créé le monde, et étant donné les autres vérités révélées à Purist ce jour-là, le chevalier n'avait aucune raison de réfuter l'histoire. Peut-être que l'Omniscience est un menteur, au fond de sa prison de pierre, et non du créateur du monde du tout, mais Omniknight n'a plus jamais remis en question sa foi. Sa campagne avait enfin un sens. Et il ne fait aucun doute que les pouvoirs glorieux qui l'imprégner et donner à ses compagnons une telle force au combat sont vraiment hors de tout doute."
+    }
+  ],
+  "npc_dota_hero_omniknight.name": [
+    {
+      "type": 0,
+      "value": "Purist Thunderwrath, l'Omniknight"
+    }
+  ],
+  "npc_dota_hero_omniknight.quote": [
+    {
+      "type": 0,
+      "value": "Guardian en première ligne de bataille, Omniknight est toujours impatient de rejoindre son équipe. Qu'il s'agisse de guérir un allié avec un sort qui nuit également à des ennemis à proximité ou de frapper un ennemi avec son puissant marteau, il protège ses alliés contre les dommages."
+    }
+  ],
+  "npc_dota_hero_oracle.description": [
+    {
+      "type": 0,
+      "value": "Bien avant que les répercussions ne se soient déroulées, cependant, les conseillers méfiants de Cymurri avaient saisi Nerif, l'ont lié et bâillonné, et l'avaient lancé hors de leur univers à grande vitesse sur une barque dimensionnelle, dans l'espoir de le déposer où il ne pouvait pas leur faire du mal toujours. Il était, bien sûr, trop tard pour eux. Et pourrait bien être pour nous."
+    }
+  ],
+  "npc_dota_hero_oracle.name": [
+    {
+      "type": 0,
+      "value": "Nerif, l'oracle"
+    }
+  ],
+  "npc_dota_hero_oracle.quote": [
+    {
+      "type": 0,
+      "value": "En combinant soigneusement ses capacités complexes, Oracle contrôle les destinations de l'ami et de l'ennemi. La mise en œuvre des alliés a menacé sa fausse promesse, il peut accorder à un allié quelques instants de protection précieux pour détruire un ennemi, ou même inverser un sort macabre."
+    }
+  ],
+  "npc_dota_hero_pangolier.description": [
+    {
+      "type": 0,
+      "value": "Il n'y a pas de monstre qu'il ne tuera pas. Aucune créature, il ne courtisera pas. Pas de tyran contre lequel il ne se tiendra pas. Et aucun noble immunisé contre sa langue argentée."
+    }
+  ],
+  "npc_dota_hero_pangolier.name": [
+    {
+      "type": 0,
+      "value": "Donte Panlin, le Pangolier"
+    }
+  ],
+  "npc_dota_hero_pangolier.quote": [
+    {
+      "type": 0,
+      "value": "Désireux de se précipiter en danger à tout moment, le Pangolier prospère en perturbant les mouvements ennemis et en se plaçant au milieu du chaos. Guidant astucieusement sa lame entre les fissures dans l'armure et haussant les attaques avec ses écailles de protection, cet épéiste gracieux est toujours prêt à se battre."
+    }
+  ],
+  "npc_dota_hero_phantom_assassin.description": [
+    {
+      "type": 0,
+      "value": "Grâce à un processus de divination, les enfants sont sélectionnés pour l'éducation par les sœurs du voile, un ordre qui considère l'assassinat d'une partie sacrée de l'ordre naturel. Les sœurs voilées identifient les cibles par la méditation et les énoncés oraculaires. Ils n'acceptent aucun contrat et ne semblent jamais poursuivre des objectifs pour des raisons politiques ou mercenaires. Leurs tueries n'ont aucun rapport avec un programme reconnaissable et peuvent sembler complètement aléatoires: une figure de grande puissance n'est pas plus susceptible d'être éliminée qu'un paysan ou un puits. Quel que soit le schéma que les tueries peuvent contenir, il ne leur est connu que. Ils traitent leurs victimes comme des sacrifices, et la mort à leur main est considérée comme un honneur. Élevé sans identité, sauf celui de leur ordre, tout assassin fantôme peut remplacer toute autre; leur nombre n'est pas connu. Il y en a peut-être beaucoup, peut-être qu'il y en a peu. On ne sait rien de ce qui se trouve sous le voile fantôme. Sauf que celui-ci, de temps en temps, quand aucun n'est assez proche pour entendre, est connu pour remuer ses voiles avec le murmure interdit de son propre nom: Mortred."
+    }
+  ],
+  "npc_dota_hero_phantom_assassin.name": [
+    {
+      "type": 0,
+      "value": "Mortred, l'assassin fantôme"
+    }
+  ],
+  "npc_dota_hero_phantom_assassin.quote": [
+    {
+      "type": 0,
+      "value": "Au moment où elle trouve sa proie, Phantom Assassin frappe. Fermant instantanément sur une cible, elle esquive sans effort les attaques alors qu'elle coupe sans relâche son ennemi. Sans avertissement, n'importe qui de ses attaques pourrait s'avérer soudainement et brutalement fatal."
+    }
+  ],
+  "npc_dota_hero_phantom_lancer.description": [
+    {
+      "type": 0,
+      "value": "Focus et furieux par l'abattage de ses frères, Azwraith a battu chacun des pièges mortels et des gardiens conjoints du sorcier. Bientôt, le simple pêcheur est arrivé au sanctuaire de la tour de Vorn. La paire s'est duel toute la nuit, Pike au personnel, alors que le chaos faisait rage en dessous, et avec un cri assourdissant, Azwraith a percé son ennemi. Mais l'assistant n'a pas simplement expiré; Il a explosé en éclats de lumière innombrables, pénétrant son tueur avec le pouvoir. Alors que la poussière s'installait et que la fumée de combat commençait à s'éclaircir, Azwraith se retrouva debout parmi une foule de ses proches. Chacun semblait s'habiller tel qu'il était, chacun semblait armé comme il était, et il pouvait sentir que chacun pensait comme il le faisait. Conscient que ses alliés approchaient, il a voulu ces fantômes pour se cacher, et un par un, ils ont commencé à disparaître dans le néant. Alors que les soldats arrivaient sur le sanctuaire, ils ont trouvé le guerrier qui avait battu le sorcier. Quand ils ont approché leur champion, le Lancer a disparu. Le Pikeman qui s'était tenu devant eux n'était pas plus qu'un autre fantôme."
+    }
+  ],
+  "npc_dota_hero_phantom_lancer.name": [
+    {
+      "type": 0,
+      "value": "Azwraith, le fantôme Lancer"
+    }
+  ],
+  "npc_dota_hero_phantom_lancer.quote": [
+    {
+      "type": 0,
+      "value": "Phantom Lancer prend d'assaut les forces ennemies avec un approvisionnement sans fin de clones. À la tête de son armée illusoire, il peut couper des ennemis dans une rafale d'attaques à couper le souffle, envoyer des clones pour pousser dans un territoire ennemi, ou utiliser ses sosieurs pour induire et échapper en induir et échapper aux ennemis s'ils sont coincés."
+    }
+  ],
+  "npc_dota_hero_phoenix.description": [
+    {
+      "type": 0,
+      "value": "Par ce creuset sans âge, l'étoile que les mortels viendraient appeler Phoenix s'effondrer, et comme ses ancêtres ont été plongés dans un cosmos sans fin pour trouver une place parmi ses frères stellaires. Pourtant, la curiosité envers ce que les anciens réconfortés dans l'obscurité ont consommé les naissants, et donc sur de longs cycles, il a demandé et étudié. Il a appris que parmi les mondes entiers et brisés susciteraient bientôt un lien de variété remarquable enfermé dans un conflit durable de conséquences cosmiques, un avion qui se trouvera à plus d'influence que les rayons éloignés d'un soleil mourant ne pourraient fournir. Ainsi, ce bébé fils de Suns a pris une forme terrestre, voyageant avec impatience pour briller sa chaleur sur ceux qui peuvent le plus en avoir besoin, et peut-être saisir son destin solaire."
+    }
+  ],
+  "npc_dota_hero_phoenix.name": [
+    {
+      "type": 0,
+      "value": "Phénix"
+    }
+  ],
+  "npc_dota_hero_phoenix.quote": [
+    {
+      "type": 0,
+      "value": "Plongeant dans la bataille, Phoenix fait exploser les ennemis et guérit les alliés avec des rayons de flamme solaire. Lorsque le moment est venu, il peut devenir un soleil brûlant pour brûler les ennemis à proximité avant de libérer une détonation étonnante qui restaure également Phoenix à pleine force."
+    }
+  ],
+  "npc_dota_hero_puck.description": [
+    {
+      "type": 0,
+      "value": "Alors que Puck semble à première vue un caractère malicieux et enfantin, cette qualité masque une personnalité extraterrestre. La forme juvénile d'un dragon de fée, une créature qui vit pour les éons, Puck passe d'innombrables millénaires sous sa forme enfantine. Ainsi, même s'il est techniquement vrai que la rondelle est juvénile, elle continuera de l'être lorsque les villes de l'âge actuel se sont éloignées de la poussière. Ses motifs sont donc impénétrables, et ce qui semble jouer peut en fait cacher un but plus sombre. Son affection sans fin pour le méfait est le véritable indicateur de la vraie nature de Puck."
+    }
+  ],
+  "npc_dota_hero_puck.name": [
+    {
+      "type": 0,
+      "value": "Puck, le dragon de féerie"
+    }
+  ],
+  "npc_dota_hero_puck.quote": [
+    {
+      "type": 0,
+      "value": "Puck a un talent pour confondre ses ennemis avec des méfaits insaisissables. En se téléportant à son orbe dommageable afin de sauter de courtes distances, il attaque les ennemis avec des éclats de poussière de silençage. Au moment où ses ennemis peuvent réagir, Puck s'est depuis longtemps échappé."
+    }
+  ],
+  "npc_dota_hero_pudge.description": [
+    {
+      "type": 0,
+      "value": "Dans les champs de Carnage sans fin, loin au sud de Quoidge, une figure corpulente fonctionne sans relâche toute la nuit - se souvenir, débowling, empilant les membres et les viscères des morts que le champ de bataille pourrait être clair à l'aube. Dans ce domaine maudit, rien ne peut se décomposer ou se décomposer; Aucun cadavre ne reviendra jamais sur la Terre à partir de laquelle il est sorti, peu importe à quel point vous creusez la tombe. Fondant par des oiseaux de charognes qui ont besoin de lui pour couper leurs repas en morceaux de taille de bec, Pudge the Butcher applique ses compétences avec des lames qui deviennent plus nettes plus il les utilise. Swish, swish, thunk. La chair tombe de l'os; Les tendons et les ligaments se séparent comme du papier humide. Et bien qu'il ait toujours un goût pour la boucherie, au-dessus des âges, Pudge a également développé un goût pour son sous-produit. En commençant par un gobbet de muscle ici, une gorgée de sang là-bas ... peu de temps après, il poussait ses mâchoires profondément dans le torse le plus dur, comme un chien rongeant les chiffons. Même ceux qui craignent le Reaper, craignent le boucher."
+    }
+  ],
+  "npc_dota_hero_pudge.name": [
+    {
+      "type": 0,
+      "value": "Pudge, le boucher"
+    }
+  ],
+  "npc_dota_hero_pudge.quote": [
+    {
+      "type": 0,
+      "value": "Chaque lancer soigneusement visé du crochet de signature de Pudge frappe la peur dans ses ennemis. Tirant ses ennemis près pour les sculpter avec ses climat, il gagne une santé et des dégâts supplémentaires à chaque meurtre, et devient bientôt un tueur imparable."
+    }
+  ],
+  "npc_dota_hero_pugna.description": [
+    {
+      "type": 0,
+      "value": "Pugna, à peine treize mois, n'était qu'un seul candidat parmi les brats locaux, et le jour fixé, il a été présenté au temple aux côtés de deux autres petits prometteurs. Les Lamas ont offert un fouillis de reliques usées aux enfants, précieuses possessions de leur ancien grand maître. Un garçon a atteint une baguette de porphyre qui appartenait au lama ... et l'a mise dans sa narine. Une fille épisée a sorti une amulette qui avait également été la Lama, et l'a immédiatement avalée. Pugna a regardé les deux autres froidement, a donné un joyeux rire et les a fait exploser avec des gouts de flamme émeraude, les réduisant en cendres en un instant. Il a ensuite arraché la baguette et l'amulette en disant «le mien! Les régents ont hissé le pugna rayonnant sur leurs épaules, l'ont enveloppé dans les vêtements de leur grand maître et l'ont précipité sur le trône avant que son humeur ne puisse changer. En cinq ans, le temple lui-même était un autre tas de cendres, qui a plu à Pugna sans fin."
+    }
+  ],
+  "npc_dota_hero_pugna.name": [
+    {
+      "type": 0,
+      "value": "Pugna, l'oubli"
+    }
+  ],
+  "npc_dota_hero_pugna.quote": [
+    {
+      "type": 0,
+      "value": "Trickster rusé, Pugna retourne le pouvoir de l'ennemi contre lui-même alors qu'il fait exploser leurs défenses. Alors que son service inférieur frappe les ennemis à proximité qui osent lancer un sort, il draine la vie des ennemis pour s'assurer qu'il sera prêt pour le prochain assaut."
+    }
+  ],
+  "npc_dota_hero_queenofpain.description": [
+    {
+      "type": 0,
+      "value": "L'ecclésiast-roi d'Elze a soigné un désir de douleur - une douleur moralisée. Dans une figure politique moins importante, de tels désirs pourraient être considérés comme imprudents, mais dans un monarque de sa stature, de satisfaire de telles soirs auraient menacé la vertu du trône divin lui-même. Par conséquent, il se tourna vers son donjon plein de démonologues, promettant la liberté à quiconque pouvait convoquer une succube personnelle de tourment et la lier entièrement à son service. La créature qui est arrivée, Akasha par son nom, lui a rendu visite à des tourments si exquis qu'il l'a nommée sa reine secrète, et il a commencé à passer tous ses moments de rechange à se soumettre à ses tourments intelligents - abdiquant époustouflant toutes ses responsabilités dans sa poursuite des plaies douloureuses que elle seule pouvait apporter. La reine de la douleur pouvait l'amuser au bord de la mort, mais elle a été liée au rune pour le garder en vie. Enfin, la négligence du roi de l'État a provoqué un soulèvement. Il a été traîné de sa chambre et jeté de la tour des invocations, et au moment de la mort, la reine de la douleur a été lâchée dans le monde, libérée de la servitude - a grandi pour rendre visite à ses souffrances sur quiconque qu'elle a digne de remarquer."
+    }
+  ],
+  "npc_dota_hero_queenofpain.name": [
+    {
+      "type": 0,
+      "value": "Akasha, la reine de la douleur"
+    }
+  ],
+  "npc_dota_hero_queenofpain.quote": [
+    {
+      "type": 0,
+      "value": "La reine de la douleur frappe sans avertissement, détruisant des ennemis rassemblés avec des cris assourdissants. Si un ennemi survive à son assaut, elle ralentit son évasion avec un jet de son poignard avant de les terminer."
+    }
+  ],
+  "npc_dota_hero_rattletrap.description": [
+    {
+      "type": 0,
+      "value": "C'est un métier pauvre qui blâme ses outils, et Rattletrap n'a jamais été du genre à faire des excuses. Après avoir enterré son père parmi les ruines de leur village, il s'est mis sur le point de se transformer en le plus grand outil de guerre que tout monde ait jamais vu. Il a juré de ne plus jamais être rattrapé sans être préparé, en utilisant plutôt ses talents pour assembler un costume d'armure d'horlogerie alimentée pour que les Chevaliers des autres terres ressemblent à des canettes en étain en comparaison. Maintenant, Rattletrap est vivant avec des appareils, un petit mais mortel guerrier dont les compétences en embuscade et en destruction ont atteint des niveaux d'efficacité presque automatisés. Artisan de la mort, ses mécanisations font un court travail sur les imprudents, annonçant une nouvelle aube dans cette ère de guerre. Quelle heure est-il? C'est l'heure d'horloge!"
+    }
+  ],
+  "npc_dota_hero_rattletrap.name": [
+    {
+      "type": 0,
+      "value": "Rattletrap, The Clockwerk"
+    }
+  ],
+  "npc_dota_hero_rattletrap.quote": [
+    {
+      "type": 0,
+      "value": "Se lançant dans des ennemis avec son grappin à grappin, Clockwerk isole des cibles et les fait exploser avec des éclats d'obus désorientants. Alors qu'il scoute le champ de bataille avec ses fusées pratiques, il n'a jamais de mal à trouver des cibles vers lesquelles l'envoyer."
+    }
+  ],
+  "npc_dota_hero_razor.description": [
+    {
+      "type": 0,
+      "value": "Parmi les pouvoirs emblématiques qui peuplent le soulignement, le rasoir le revenant de la foudre est l'un des plus redoutés. Avec son fouet de foudre, il patrouille dans le labyrinthe étroit, ce travail sur le Web perfide de passages par lesquels les âmes des morts sont triées selon leur propre intelligence innée, ruse et persévérance. En dérivant au-dessus du labyrinthe, le rasoir regarde les âmes déconcertées en dessous, et offre des secousses d'électricité qui punie et accélèrent les âmes alors qu'ils décident de leur propre desties, se précipitant vers des sorties lumineuses ou des puits sans fin. Le rasoir est l'incarnation éternelle d'une puissance dominante, abstraite et presque clinique dans son application du pouvoir. Pourtant, il a un air seigneur qui suggère qu'il prend une satisfaction sardonique dans son travail."
+    }
+  ],
+  "npc_dota_hero_razor.name": [
+    {
+      "type": 0,
+      "value": "Razor, le Revenant Lightning"
+    }
+  ],
+  "npc_dota_hero_razor.quote": [
+    {
+      "type": 0,
+      "value": "Avec une tempête de foudre mortelle à son commandement, Razor se charge au combat. Déployant un anneau de plasma électrifié pour faire frire ses ennemis, il est lié aux ennemis pour les drainer de leur pouvoir et l'utiliser contre eux."
+    }
+  ],
+  "npc_dota_hero_riki.description": [
+    {
+      "type": 0,
+      "value": "Riki est né le milieu enfant de la grande dynastie de Tahlin. Avec un frère aîné préparé pour le trône, et un frère cadet a changé et gardé, Riki, le petit fils du milieu, semblait né pour l'art de l'invisibilité. C'était un art qu'il a cultivé, et qui lui a finalement sauvé la vie la nuit où son peuple a été trahi et sa famille a massacré. De toute la ligne royale, lui seul s'est échappé - petit et agile, sans prétention, utilisant la fumée comme couverture. Il s'est frayé un chemin hors du terrain royal, utilisant l'avantage de la surprise, tranchant tranquillement la gorge d'un guerrier ennemi après l'autre. Désormais libre de ses responsabilités royales, Riki utilise ses talents en service à un nouveau métier: l'assassin furtif. Il fait taire ses ennemis, aiguisant ses compétences, espérant un jour se venger de ceux qui ont tué sa famille et lui ont volé son droit d'aînesse."
+    }
+  ],
+  "npc_dota_hero_riki.name": [
+    {
+      "type": 0,
+      "value": "Riki, l'assassin furtif"
+    }
+  ],
+  "npc_dota_hero_riki.quote": [
+    {
+      "type": 0,
+      "value": "Riki traque le champ de bataille, invisible par l'ennemi. Il choisit attentivement son moment et éclate dans une bouffée de faire taire de la fumée, poignardant ses ennemis avant même de savoir qu'il est là."
+    }
+  ],
+  "npc_dota_hero_rubick.description": [
+    {
+      "type": 0,
+      "value": "Lorsque la bataille a finalement pris fin, tous ont été chantés et gelés, trempés et coupés et percés. Plus d'un est mort par le métier d'un allié. Rubick se tenait à côté, endolori mais ravi des festivités de la semaine. Aucun n'avait la force de discuter lorsqu'il a présenté sa pétition d'hypothèse au Conseil caché, et le onze insuffisant a convenu comme un seul pour lui accorder le titre de Grand Magus."
+    }
+  ],
+  "npc_dota_hero_rubick.name": [
+    {
+      "type": 0,
+      "value": "Rubick, le Grand Magus"
+    }
+  ],
+  "npc_dota_hero_rubick.quote": [
+    {
+      "type": 0,
+      "value": "À la recherche d'un nouveau sort pour voler, Rubick est toujours impatient de tourner le plus unique avantage d'un ennemi. Stirage de ses ennemis en l'air pour les jeter là où il le fera, il n'a aucun mal à semer le chaos parmi les ennemis négligents."
+    }
+  ],
+  "npc_dota_hero_sand_king.description": [
+    {
+      "type": 0,
+      "value": "Les sables des déchets scintillants sont vivants et sensibles - tout le vaste désert se parle, en pensant que seule une si immense peut concevoir. Mais quand il a besoin de trouver une forme pour communiquer avec celles d'une portée plus limitée, elle libère un fragment d'elle-même et remplit une carapace d'armure magique formée par le djinn rusé de Qaldin. Cette identité essentielle s'appelle Crixalis, qui signifie «âme du sable», mais d'autres le savent comme le roi de sable. Sand King prend la forme d'un énorme arachnide, inspiré par les habitants de petits mais omniprésents du déchet scintillant; Et c'est une véritable expression extérieure de sa nature féroce. Guardian, guerrier, ambassadeur - Sand King est toutes ces choses, inséparables du désert sans fin qui lui a donné la vie."
+    }
+  ],
+  "npc_dota_hero_sand_king.name": [
+    {
+      "type": 0,
+      "value": "Crixalis, le roi de sable"
+    }
+  ],
+  "npc_dota_hero_sand_king.quote": [
+    {
+      "type": 0,
+      "value": "Peu de gens peuvent survivre à une embuscade de Sand King. Démolisant tout autour de lui avec des vagues de vibrations mortelles de son ultime, il échappe aux contre-attaques en se cachant dans une rafale de sable à récurer, et étourdit les ennemis en les frappant de sous."
+    }
+  ],
+  "npc_dota_hero_shadow_demon.description": [
+    {
+      "type": 0,
+      "value": "Quel que soit ce grain d'ombre, il a contourné et son influence a progressivement augmenté. Un chaos de parties endommagées se rassembla, se réincarma et se combinait pour donner à Shadow Demon une forme encore plus forte que son ancien. Il est presque complet maintenant, et son plan pour la domination infinie n'a pas toutes ses anciennes faiblesses. Il semblerait qu'un tel être de malveillance et de malveillance pure, une menace pour toute création, serait toujours hors de propos dans notre monde ... mais Shadow Demon ne manque pas de disciples."
+    }
+  ],
+  "npc_dota_hero_shadow_demon.name": [
+    {
+      "type": 0,
+      "value": "Démon de l'ombre"
+    }
+  ],
+  "npc_dota_hero_shadow_demon.quote": [
+    {
+      "type": 0,
+      "value": "Crachant des nuages de poison démoniaque pour endommager les ennemis ou repérer le champ de bataille, peu osent approcher un démon de l'ombre. Bannisant un ennemi alors que ses alliés se rassemblent pour le meurtre, il peut infliger des malédictions démoniaques alors qu'il convoque des illusions traître pour retourner la force de l'ennemi contre elle-même."
+    }
+  ],
+  "npc_dota_hero_shadow_shaman.description": [
+    {
+      "type": 0,
+      "value": "Toujours une longueur d'avance sur les clients trompés, une ville devant un patronage qui a poursuivi, les deux ont parcouru les terres détruites jusqu'à ce qu'un jour le con-homme réalise que le petit jeune pouvait réellement faire ce qu'il prétendait seulement. Son quartier avait un cadeau - un cadeau que les clients appréciaient. Et donc le jeune Rhasta a été poussé devant la foule, et le nom de Shadow Shadow est né. Les deux ont continué de ville en ville, évoquant de l'argent à mesure que la réputation de Shadow Shaman augmentait. Finalement, le passé duplicite de la paire les a rattrapés, et ils ont été pris en embuscade par une foule d'ex-climents escroqués. Le con-man a été tué, et pour la première fois, Rhasta a utilisé ses pouvoirs pour l'obscurité, massacrant les attaquants. Il a enterré son maître bien-aimé et utilise maintenant ses pouvoirs pour détruire tous ceux qui chercheraient à lui faire du mal."
+    }
+  ],
+  "npc_dota_hero_shadow_shaman.name": [
+    {
+      "type": 0,
+      "value": "Rhasta, The Shadow Shaman"
+    }
+  ],
+  "npc_dota_hero_shadow_shaman.quote": [
+    {
+      "type": 0,
+      "value": "Shadow Shaman ouvre rapidement la voie à la marche de ses forces de son équipe sur la base ennemie. Faire exploser des ennemis avec des sorts choquants et interrompre les attaquants avec des hexagones, ses puissants services de serpent détruisent facilement les défenses ennemies."
+    }
+  ],
+  "npc_dota_hero_shredder.description": [
+    {
+      "type": 0,
+      "value": "Avec sa main tremblante, il a déclenché la machine à lambe à la vie. La terreur le conduisit, la terreur de ce qui l'attendait et de ce qu'il devait affronter pour avoir un espoir de calmer son esprit. Alors que la poursuite frissonnait à la vie, il savait qu'il devait faire face à cette peur, et il savait qu'il ne l'aimerait pas du tout."
+    }
+  ],
+  "npc_dota_hero_shredder.name": [
+    {
+      "type": 0,
+      "value": "Rizzrack, la voie de bois"
+    }
+  ],
+  "npc_dota_hero_shredder.quote": [
+    {
+      "type": 0,
+      "value": "Insaisissable et imprévisible, les couches de la Saw à travers la forêt pour faire face à ses ennemis. Liflant un arsenal de lames de scie pour couper des ennemis en morceaux, il monte sa chaîne dans les arbres et battement des enceintes en cours de route."
+    }
+  ],
+  "npc_dota_hero_silencer.description": [
+    {
+      "type": 0,
+      "value": "Élevé avec d'autres jeunes mages dans un canton caché parmi les collines des Hazhadal Barrens, les précepteurs de l'Ordre ont attendu les capacités de Nortom à se manifester. Alors que les autres étudiants ont perfectionné leurs talents de feu, ou de glace, ou de sorts incantatoires, Nortrom était silencieux et sans talent, incapable de lancer autant comme un hexadécimal. À l'approche du jour des tests finaux, il n'avait toujours pas trouvé sa magie. Du dégoût, les précepteurs l'ont réprimandé, tandis que les enfants riaient. \"Vous n'êtes pas un mage\", a déclaré le chef de l'ordre. Pourtant, Nortom ne s'est pas éloigné. Il est entré le jour des tests et a fait face aux jeunes mages qui s'étaient moqués. Et puis ses précepteurs ont appris une leçon précieuse: un manque de magie peut être la plus grande magie de tous. Nortrom a fait taire les jeunes mages un par un et les a vaincus en un seul combat, jusqu'à ce qu'il soit seul comme champion des Drias Aeol, en réalisation de la prophétie."
+    }
+  ],
+  "npc_dota_hero_silencer.name": [
+    {
+      "type": 0,
+      "value": "NORTROM, le silencieux"
+    }
+  ],
+  "npc_dota_hero_silencer.quote": [
+    {
+      "type": 0,
+      "value": "Le silencieux change la dynamique de chaque bataille lorsqu'il ferme la capacité de l'ennemi à lancer leurs sorts. Alors qu'il coupe ses ennemis aux rubans avec sa glaive, il vole leur intelligence pour ajouter aux siennes, garantissant que ses ennemis sont toujours désavantagés."
+    }
+  ],
+  "npc_dota_hero_skeleton_king.description": [
+    {
+      "type": 0,
+      "value": "Pendant des années indicibles, le roi Ostarion a construit un royaume des restes de ses ennemis. C'était la course d'une obsessionnelle, faite pour passer les longues éternités d'une monarchie qui semblaient destinées à ne jamais se terminer. Il croyait que tant qu'il construisait les tours de son palais, il ne pouvait pas mourir. Mais finalement, il a appris qu'il avait été trompé ... que l'os lui-même pouvait périr. Profondément méfiante de chair, il a cherché une manière plus permanente d'étendre son règne, et s'est enfin installé sur la poursuite de l'énergie du Wraith, une forme d'esprit pur dégagé par certaines âmes sombres à la mort. S'il s'infuse d'une essence qui pensait qu'il pourrait créer un corps aussi lumineux et éternel que son ego. Sur le solstice millénaire connu sous le nom de Wraith-Night, il s'est soumis à un rite de transformation, obligeant ses sujets à récolter suffisamment d'âmes pour alimenter son ambition d'immortalité. Personne ne sait combien de ses champions sont morts, car le seul survivant qui comptait était le roi Wraith qui s'est levé avec le soleil le matin suivant. Maintenant, il passe rarement un moment sur son trône brillant, mais sort avec une épée dessinée, exigeant une fidélité qui s'étend bien au-delà de la mort."
+    }
+  ],
+  "npc_dota_hero_skeleton_king.name": [
+    {
+      "type": 0,
+      "value": "Ostarion, le roi Wraith"
+    }
+  ],
+  "npc_dota_hero_skeleton_king.quote": [
+    {
+      "type": 0,
+      "value": "Suite sans crainte vers ses ennemis, Wraith King étourdit ses ennemis et les coupe dans la soumission. Si ses ennemis gagnent le dessus, son ultime auto-résurrect garantit qu'il aura une autre chance de balancer son épée."
+    }
+  ],
+  "npc_dota_hero_skywrath_mage.description": [
+    {
+      "type": 0,
+      "value": "Alors qu'il rêve de restaurer sa reine bien-aimée à l'hastly Eyrie, il rêve encore plus désespérément de restaurer Shendelzare à une forme physique complètement guéri. La duplicité de son rôle à la cour le torture, car il est une créature noble et de bon cœur; Mais la pire torture de toutes est d'imaginer la haine que l'esprit vengeur doit tenir dans son cœur pour lui."
+    }
+  ],
+  "npc_dota_hero_skywrath_mage.name": [
+    {
+      "type": 0,
+      "value": "Dragonus, le mage du skywrath"
+    }
+  ],
+  "npc_dota_hero_skywrath_mage.quote": [
+    {
+      "type": 0,
+      "value": "Mortel et fragile dans une égale mesure, Skywrath Mage détruit rapidement ses ennemis avec un barrage de magie puissante. Il fait taire les ennemis tout en augmentant leur vulnérabilité aux sorts, ce qui signifie qu'il n'a aucun problème à vaporiser des personnes qui se tiennent contre lui."
+    }
+  ],
+  "npc_dota_hero_slardar.description": [
+    {
+      "type": 0,
+      "value": "Slardar est un Slithereen, l'un des profondeurs, gardien de la grande richesse des villes enfoncées et les richesses anciennes y enfouies. Dans le golfe sans lumière des grands abysses de l'océan, la garde Slithereen porte son leurre léger avec lui à travers les salles de trésors secrètes. Des voleurs subaques (envoyés dans les profondeurs par des sorciers cavaliers des zones sèches) sont attirés par sa lueur amicale, pour ne jamais revenir. Il est tout à fait fidèle et sa nature taciturne cache une connaissance approfondie des lieux les plus secrètes de la mer. Il se lève aux bas-fonds malgré la douleur causée par la luminosité, pour commettre une reconnaissance, pour s'assurer que personne ne conspire contre les profondeurs, et parfois dans la poursuite implacable des rares qui parviennent à voler avec un objet des engloutis Trésorerie. Parce qu'il a passé toute sa vie à une grande pression, sous un poids énorme de la mer, Slardar the Slithereen Guard est une créature d'une grande puissance."
+    }
+  ],
+  "npc_dota_hero_slardar.name": [
+    {
+      "type": 0,
+      "value": "Slardar, la garde Slithereen"
+    }
+  ],
+  "npc_dota_hero_slardar.quote": [
+    {
+      "type": 0,
+      "value": "Prêt à trouver et à démolir ses ennemis, Sardar se glisse rapidement dans la bataille. Après avoir exposé la position d'un ennemi et brisant leurs défenses, il ferme la distance pour les verrouiller en place avec des coups écrasants et de puissants bass de son trident."
+    }
+  ],
+  "npc_dota_hero_slark.description": [
+    {
+      "type": 0,
+      "value": "Peu connu des habitants du monde sec, Dark Reef est une prison enfoncée où le pire de la mer est envoyé pour des crimes contre leurs camarades. C'est un rasoir barbelé Warren plein de slithereen meurtriers, de profonds perfides, des Meranth sociopathes. Dans cette faible labyrinthe, patrouillée par des anguilles et gardée par d'énormes anémones, seuls les vicieux survivent. Poussé dans le récif sombre pour des crimes inconnus, Slark a passé une demi-vie sans parents ni gentillesse, ne faisant confiance à personne, survivant à travers une combinaison de furtivité et d'impitoyabilité, gardant ses pensées et ses plans pour lui. Lorsque le tristement célèbre Dark Reef Dozen a comploté leur évasion malheureuse, ils ont gardé leurs plans un secret parfait, assassinant toute personne qui aurait pu rassembler les pièces, mais Slark a en quelque sorte découvert son plan et s'est fait une place pour lui-même. Dix de la douzaine sont morts lors de la tentative d'évasion, et deux ont été capturés, transportés à Dark Reef, puis exécutés pour le divertissement de leurs collègues détenus. Mais Slark, le treizième méconnue, a utilisé l'agitation comme couverture et s'est glissée, pour ne jamais être attrapé. Désormais un résident furtif du gommage de la mangrove carnivore qui saisit la portée sud de Shadeshore, Slark reste le seul escapé réussi de Dark Reef."
+    }
+  ],
+  "npc_dota_hero_slark.name": [
+    {
+      "type": 0,
+      "value": "Slark, le Nightcrawler"
+    }
+  ],
+  "npc_dota_hero_slark.quote": [
+    {
+      "type": 0,
+      "value": "Plancez en danger puis reculer est ce que Slark fait le mieux. Il se précipite à l'occasion d'épingler ou de coincer un ennemi solitaire, vole leur essence à chaque coupure de son poignard et est toujours prêt à disparaître si les tables se tournent."
+    }
+  ],
+  "npc_dota_hero_snapfire.description": [
+    {
+      "type": 0,
+      "value": "En effet, les Outlands sont jonchés d'os de bandits et de bien-être qui pensaient profiter de sa petite stature et de sa propension à la gentillesse."
+    }
+  ],
+  "npc_dota_hero_snapfire.name": [
+    {
+      "type": 0,
+      "value": "Snapfire"
+    }
+  ],
+  "npc_dota_hero_snapfire.quote": [
+    {
+      "type": 0,
+      "value": "Tout aussi heureux de vous faire exploser les jambes avec son fidèle Scattergun que pour remplir votre ventre avec un biscuit délicieusement dangereux, Beatrix Snapfire se réjouit de se battre avec son Dragon Toad Mortimer, toujours prêt à tondre ses ennemis avec son artillerie lourde maison. Ou terminez-les avec un barrage constant des globs Firesh de Mortimer."
+    }
+  ],
+  "npc_dota_hero_sniper.description": [
+    {
+      "type": 0,
+      "value": "Le jour de l'invocation, alors qu'il devait gagner en pleine position dans son village, Sharpeye a passé l'ancien test: un seul coup du sol de la vallée pour frapper une bête des falaises. Manquer, c'était être déshonoré. Avec tout son village debout, Sharpeye a pris son tir. Un talon de talon est tombé; La foule a applaudi. Mais lorsque la carcasse a été recueillie, le village se rendait silencieux, car les anciens ont constaté que la balle avait percé son œil central scintillant puis tombé pour être serré dans les mandibules du talon de talon. Ce signe inquiétant était l'ouverture littérale d'une prophétie sombre, prédit à la fois la grandeur et l'exil pour le tireur qui a fait un tel coup. Sharpeye Le tireur d'élite était ainsi, par sa propre compétence, condamné à se diriger de son peuple - et de retour parmi eux jusqu'à ce qu'il ait réalisé le reste de la prophétie en atteignant la stature légendaire sur un champ de bataille."
+    }
+  ],
+  "npc_dota_hero_sniper.name": [
+    {
+      "type": 0,
+      "value": "Kardel Sharpeye, le tireur d'élite"
+    }
+  ],
+  "npc_dota_hero_sniper.quote": [
+    {
+      "type": 0,
+      "value": "La mort à distance est la spécialité de Sniper. Il garde ses ennemis sur leurs orteils avec un barrage constant de puissance de feu, puis lorsque le moment est venu, les enlevez avec un coup de mise à mort."
+    }
+  ],
+  "npc_dota_hero_spectre.description": [
+    {
+      "type": 0,
+      "value": "Tout comme les états d'énergie supérieurs recherchent un niveau inférieur, le spectre connu sous le nom de mercurial est un être d'énergie intense et violente qui se retrouve irrésistiblement attirée par des scènes de conflits lorsqu'ils se déroulent dans le monde physique. Bien que son état spectral normal transcende les limitations sensorielles, chaque fois qu'elle prend une manifestation physique, elle est frappée par une perte de soi - bien que ce n'est pas du but. Dans le choc du combat, son identité se brise et se reconfigure, et elle commence à reprendre la conscience. Elle saisit qu'elle est Mercurial le Spectre - et que tous ses repaires ne sont que des ombres du seul vrai spectre. L'accent se présente dans la lutte pour la survie; Son vrai esprit se réaffirme; Jusqu'à ce que dans les derniers instants de victoire ou de défaite, elle transcende la matière et est rétablie à sa forme éternelle."
+    }
+  ],
+  "npc_dota_hero_spectre.name": [
+    {
+      "type": 0,
+      "value": "Mercurial, le spectre"
+    }
+  ],
+  "npc_dota_hero_spectre.quote": [
+    {
+      "type": 0,
+      "value": "Spectre hante ses ennemis où qu'ils se trouvent. Capable de détruire facilement la proie, elle propage sa présence sur tout le champ de bataille pour choisir sa cible. Une fois qu'elle a rassemblé sa force, personne ne peut échapper à sa terrible colère."
+    }
+  ],
+  "npc_dota_hero_spirit_breaker.description": [
+    {
+      "type": 0,
+      "value": "Barathrum The Spirit Breaker est un être seigneur et puissant, une intelligence féroce et élémentaire qui a choisi de se déplacer en avion dans le monde de la matière pour participer à des événements avec des répercussions dans le domaine élémentaire qui est sa maison. À cette fin, il a assemblé une forme qui lui servirait bien, à la fois dans notre monde et hors de lui. Sa forme physique emprunte aux forces de ce monde, le mélange présente à la fois bovin et simien - des cornes, des sabots et des mains - comme des emblèmes extérieurs de ses qualités intérieures de force, de vitesse et de ruse. Il porte une bague dans son nez, comme un rappel qu'il sert un maître caché, et que ce monde dans lequel il travaille n'est qu'une ombre de la vraie."
+    }
+  ],
+  "npc_dota_hero_spirit_breaker.name": [
+    {
+      "type": 0,
+      "value": "Barathrum, le briseur d'esprit"
+    }
+  ],
+  "npc_dota_hero_spirit_breaker.quote": [
+    {
+      "type": 0,
+      "value": "Très mobile et toujours agressif, Spirit Breaker se charge sur la carte pour apporter le combat à ses ennemis. Avec chaque coup de sa lanterne lourde, il frappe ses ennemis insensés. Ses ennemis peuvent courir, mais avec l'aide de quelques quartiers, ils ne peuvent pas se cacher."
+    }
+  ],
+  "npc_dota_hero_storm_spirit.description": [
+    {
+      "type": 0,
+      "value": "Storm Spirit est littéralement une force de la nature - le pouvoir sauvage du vent et du temps, en bouteille sous forme humaine. Et une forme bruyante, joviale et irrépressible, c'est! Aussi joyeux en tant qu'oncle préféré, il injecte chaque scène avec de l'énergie crépitante. Mais ce n'était pas toujours ainsi, et il y avait une tragédie dans sa création. Il y a des générations, dans les plaines au-delà des montagnes de lamentations, un peuple de bonnes personnes est affamée de sécheresse et de famine. Un simple élémentaliste, Thunderkeg par son nom, a utilisé un sort interdit pour invoquer l'esprit de la tempête, demandant la pluie. Enragée à la présomption de ce mortel, la tempête céleste connue sous le nom de Raijin a gaspillé la terre, la parcourant à nu avec des vents et des inondations. Thunderkeg n'a pas été à la hauteur du céleste - du moins jusqu'à ce qu'il lance un sort suicidaire qui a forgé leur destin en un seul: il a capturé le céleste dans la cage de son propre corps. Pris au piège, la bonne humeur sans limites de Thunderkeg a fusionné avec l'énergie folle de Raijin, créant le jovial Raijin Thunderkeg, un céleste qui marche le monde sous forme physique."
+    }
+  ],
+  "npc_dota_hero_storm_spirit.name": [
+    {
+      "type": 0,
+      "value": "Raijin Thunderkeg, l'esprit de tempête"
+    }
+  ],
+  "npc_dota_hero_storm_spirit.quote": [
+    {
+      "type": 0,
+      "value": "Storm Spirit n'est jamais du genre à manquer un combat. Zippant de l'autre côté du champ de bataille dans un éclair, il frappe les ennemis de toutes les directions avec des restes explosifs et des attaques chargées, puis disparaît tandis que ses ennemis se précipitent pour réagir."
+    }
+  ],
+  "npc_dota_hero_sven.description": [
+    {
+      "type": 0,
+      "value": "Sven est le fils bâtard d'un chevalier de veille, né d'un meranth pâle, élevé dans les ruines de Shadshore. Avec son père exécuté pour avoir violé le codex de la veillée, et sa mère évité par sa race sauvage, Sven pense que l'honneur ne se trouve pas sans ordre social, mais seulement en lui-même. Après avoir tenu sa mère à travers une mort persistante, il s'est offert comme novice aux chevaliers de la veille, ne révélant jamais son identité. Pendant treize ans, il a étudié dans l'école de son père, maîtrisant le code rigide qui a déclaré son existence une abomination. Puis, le jour qui aurait dû être son enjures, il a saisi la lame paria, brisé la barre sacrée et brûlé le codex dans la sainte flamme de la veillée. Il est passé de Vigil Keep, toujours solitaire, après son code privé à la dernière rune stricte. Encore un chevalier, oui ... mais un chevalier voyou. Il ne répond qu'à lui-même."
+    }
+  ],
+  "npc_dota_hero_sven.name": [
+    {
+      "type": 0,
+      "value": "Sven, The Rogue Knight"
+    }
+  ],
+  "npc_dota_hero_sven.quote": [
+    {
+      "type": 0,
+      "value": "Sven est toujours impatient de se battre dans un combat. Il étourdit les ennemis groupés alors qu'il grimpe dans la bataille, et une fois qu'il enflamme son ultime de dégâts, quelques balançoires de son épée massive sont souvent plus que suffisantes pour tuer ses ennemis."
+    }
+  ],
+  "npc_dota_hero_techies.description": [
+    {
+      "type": 0,
+      "value": "Autouré, leurs oreilles qui sonnent de l'explosion inattendue, ils se sont rassemblés dans le miasme mignon pour voir une ruine fumante où se trouvait autrefois leur atelier. Des morceaux de bois et de pierre ont continué à tomber alors que le cratère bâillant avant eux s'approfondissait lentement dans une fosse en expansion. L'ensemble du Bight de Dredger frissonna, puis commença progressivement à glisser dans les mines en dessous alors que ses résidents paniqués se sont enfuis. Assis au bord de leur maison qui coule, ils sourit et gloussèrent, aussi vertigineux aux possibilités car ils étaient inconscients du mépris de leurs anciens voisins. Ils ne se demandaient qu'une seule chose: comment pourraient-ils déclencher une explosion encore plus grande?"
+    }
+  ],
+  "npc_dota_hero_techies.name": [
+    {
+      "type": 0,
+      "value": "Squee, rate et cuillère, les techniciens"
+    }
+  ],
+  "npc_dota_hero_techies.quote": [
+    {
+      "type": 0,
+      "value": "Pour les techniciens, la bataille est une question de méfait. Réglant pendant qu'ils dépassaient leurs pièges sur le champ de bataille, leurs mines explosives, leurs pièges époustouflants et leurs bombes activées à distance sont souvent plus que suffisantes pour surprendre les ennemis sans attention ou briser une offensive ennemie."
+    }
+  ],
+  "npc_dota_hero_templar_assassin.description": [
+    {
+      "type": 0,
+      "value": "Alors qu'elle consacrait ses talents furtifs à déverrouiller les secrets de l'univers, elle a plutôt déverrouillé une porte secrète qui existe dans la nature elle-même: l'entrée du temple le plus caché. Les intelligences qui ont attendu au-delà de ce portail se sont avérées l'attendre, et quels que soient les mystères qu'ils ont révélés au moment de leur découverte, ce n'était rien comparé aux réponses qu'ils tenaient à Lanaya si elle continue à leur service. Elle a juré de protéger les mystères, mais plus précisément, au service du temple caché, elle satisfait sa envie sans fin de compréhension. Aux yeux de chaque ennemi qu'elle exposait, un peu plus du mystère est révélé."
+    }
+  ],
+  "npc_dota_hero_templar_assassin.name": [
+    {
+      "type": 0,
+      "value": "Lanaya, l'assassin templier"
+    }
+  ],
+  "npc_dota_hero_templar_assassin.quote": [
+    {
+      "type": 0,
+      "value": "Pipper le champ de bataille avec des pièges ralentis, l'assassin de Templar se cache de manière invisible, prête à embusquer sa proie. Une fois qu'elle a jailli son attaque, elle déchiquet les ennemis avec des lames psioniques perçantes et détourne les contre-attaques avec son bouclier réfractant."
+    }
+  ],
+  "npc_dota_hero_terrorblade.description": [
+    {
+      "type": 0,
+      "value": "Mais Foulfell n'est pas une prison normale. Dans ce miroir sombre de la réalité, les démons sont condamnés à regarder éternellement dans le reflet tordu de leurs propres âmes. Mais au lieu de souffrir, Terrorblade s'est fait maître de ses propres pires moi-même - un démon rage et voleur de pouvoir inimaginable. Avec sa bête intérieure sous le ballon, il a détruit les murs de la prison fractale et s'est libéré pour renverser sa terreur sur toute la création."
+    }
+  ],
+  "npc_dota_hero_terrorblade.name": [
+    {
+      "type": 0,
+      "value": "Terrorblade, le démon marauder"
+    }
+  ],
+  "npc_dota_hero_terrorblade.quote": [
+    {
+      "type": 0,
+      "value": "Avec Terrorlade, rien n'est comme il semble. Après avoir évoqué de puissantes illusions pour briser leurs défenses, le Demon Marauder peut échanger la santé avec des ennemis et des amis pour éviter la mort ou affaiblir ses ennemis."
+    }
+  ],
+  "npc_dota_hero_tidehunter.description": [
+    {
+      "type": 0,
+      "value": "Le Tidehunter connu sous le nom de Léviathan était autrefois le champion des îles coulées, mais ses motivations sont aussi mystérieuses que celles de son peuple. Nous connaissons tous l'importance des voies d'expédition des planchers dus, comment les empires peuvent augmenter et tomber en fonction de qui contrôle l'eau libre. On sait beaucoup moins des voies sous-marines et de la façon dont les tribus belligérantes de la diaspora meranthique ont creusé des habitations à travers des escarmouches sous-dessous sans fin. Dans les traités fragiles entre le MR et les hommes, nous pouvons apercevoir l'étendue des empires noyés, mais leur politique semble complexe et opaque. Il semblerait que Léviathan fatigué de si petites conflits, et parte seul, loyal uniquement à son dieu abyssal, Maelrawn le tentaculaire. Il traque les bas-fonds maintenant à la recherche d'hommes ou de meranthes qui s'éloignent sur son chemin, et avec un déteste particulier pour l'amiral Kunkka, qui a longtemps été son ennemi juré pour des raisons perdues dans les tranchées les plus profondes de la mer."
+    }
+  ],
+  "npc_dota_hero_tidehunter.name": [
+    {
+      "type": 0,
+      "value": "Léviathan, le tidehunter"
+    }
+  ],
+  "npc_dota_hero_tidehunter.quote": [
+    {
+      "type": 0,
+      "value": "Talking devant son équipe, Tidehunter est toujours à la recherche du bon moment pour frapper. Quand le moment arrive, il déchaîne son ultime massif et dévastateur, ouvrant la voie à ses alliés pour tuer leurs ennemis stupéfaits."
+    }
+  ],
+  "npc_dota_hero_tinker.description": [
+    {
+      "type": 0,
+      "value": "La race diminutive de Boush the Tinker est connue pour son intelligence, sa ruse et sa relation épineuse avec la magie. En fierté, ils survivent par leur esprit et n'utilisent que les pouvoirs de la nature qui peuvent être débloqués par des méthodologies rationnelles. Même cette tolérance a entraîné beaucoup de problèmes, comme Boush peut en témoigner. Autrefois un chercheur clé de la loi naturelle, Boush le Tinker a mené une vaste enquête intellectuelle sur le fonctionnement de la nature, fondant un laboratoire souterrain dans les déchets détruits et brumeux du Plateau Violet. Alors que les mages brûlants pour les dangers qu'ils visitent sur le monde, Boush et ses briseurs associés ont ouvert un portail à un royaume au-delà de la compréhension et ont inauguré des cauchemars qui leur sont propres. Une brume noire s'élevait de l'intérieur caverneux du plateau de violet, le dépassant dans l'obscurité permanente dont les sons d'horreur émanent perpétuellement. Boush s'est échappé avec seulement ses esprits et les engins qu'il a portés, le seul bricoleur pour survivre à l'incident du plateau de violet."
+    }
+  ],
+  "npc_dota_hero_tinker.name": [
+    {
+      "type": 0,
+      "value": "Boush, le bricoleur"
+    }
+  ],
+  "npc_dota_hero_tinker.quote": [
+    {
+      "type": 0,
+      "value": "Tinker démolie les ennemis avec des essaims de machines et une multitude de gadgets mortels. S'il peut rassembler les ressources dont il a besoin, le pouvoir qui rafraîchit instantanément ses capacités lui permet de diriger son équipe de chaque front."
+    }
+  ],
+  "npc_dota_hero_tiny.description": [
+    {
+      "type": 0,
+      "value": "En prenant vie comme un morceau de pierre, les origines de Tiny sont un mystère sur lequel il spécule continuellement. C'est un géant en pierre maintenant, mais qu'est-ce qu'il était? Un éclatement brisé dans le talon d'un golem? Un fragment balayé d'un atelier de gargouille-sculpteur? Un fragment du visage oraculaire de Garthos? Une profonde curiosité le conduit, et il voyage dans le monde à la recherche de ses origines, sa filiation, son peuple. Alors qu'il erre, il prend du poids et de la taille; Les forces qui métisent les rochers moindres, font plutôt grandir et se développent de minuscules."
+    }
+  ],
+  "npc_dota_hero_tiny.name": [
+    {
+      "type": 0,
+      "value": "Minuscule, le géant en pierre"
+    }
+  ],
+  "npc_dota_hero_tiny.quote": [
+    {
+      "type": 0,
+      "value": "Adisant à une taille et à une force énormes à mesure que la bataille progresse, le pouvoir de Tiny peut rapidement devenir terrifiant. Il jette des héros et se glisse sur ses ennemis, ou les étourdonne sous une avalanche. S'il rassemble sa pleine force, il peut démolir la base de l'ennemi avec facilité."
+    }
+  ],
+  "npc_dota_hero_treant.description": [
+    {
+      "type": 0,
+      "value": "Lorsque tout ce qui a fleuri avait finalement terminé leur mot à dire, la curiosité avait surmonté la prudence. Il a été décidé: un protecteur solitaire serait envoyé dans le monde entier et chargé de se promener jusqu'à ce que les glaciers se produisent une fois de plus, d'observer les terres changeantes et ses créatures, et de découvrir quels dangers inconnus pourraient menacer leur sol sacré."
+    }
+  ],
+  "npc_dota_hero_treant.name": [
+    {
+      "type": 0,
+      "value": "Rooftrellen, le protecteur triplé"
+    }
+  ],
+  "npc_dota_hero_treant.quote": [
+    {
+      "type": 0,
+      "value": "Treant Protector est toujours l'allié bienveillant, germant une armure régénérant pour ses cohortes et leurs fortifications. Émergeant invisible parmi les arbres, il lie les ennemis de prolifération alors qu'il tient la santé des ennemis et dans les alliés voisins."
+    }
+  ],
+  "npc_dota_hero_troll_warlord.description": [
+    {
+      "type": 0,
+      "value": "Autant que les trolls adorent argumenter, imaginez à quel point il est rare qu'un troll soit conduit de son propre genre pour être trop difficile de s'entendre. Tel était le sort de Jah'rakal, un troll de marchand de profondeur dans le Hoven. Il était si trompé qu'il était, si amer et abrasif, que même d'autres trolls trouvaient son entreprise intolérable. Après une explosion particulièrement vitriol dans laquelle il a revendiqué la part du lion du butin de leur dernier raid, ses cohortes ont finalement cassé. Ils se sont tournés contre lui, l'ont battu avec des clubs et l'ont conduit du campement. Enragé à son bannissement, il est revenu le lendemain, armé d'acier, et les a tous tués, un par un. Il a ensuite juré un serment de sang: il serait après une force de combat à lui-même. Maintenant, il parcourt le monde comme le seigneur de guerre troll, amer et en colère, le haut commandant impérial d'une armée d'une seule."
+    }
+  ],
+  "npc_dota_hero_troll_warlord.name": [
+    {
+      "type": 0,
+      "value": "Jah'rakal, The Troll Warlord"
+    }
+  ],
+  "npc_dota_hero_troll_warlord.quote": [
+    {
+      "type": 0,
+      "value": "Instantanément capable d'échanger entre les attaques à distance et la mêlée, Troll Warlord est une force formidable à n'importe quelle distance. Des haches à la main, il peut frapper une tempête de lames tournantes. Il élimine les ennemis avec des attaques de plus en plus rapides et peut accélérer les agressions de ses alliés où qu'ils soient."
+    }
+  ],
+  "npc_dota_hero_tusk.description": [
+    {
+      "type": 0,
+      "value": "A peine le vaincu a repris conscience que les cris pour deux ou rien ne sont allés. La défense était satisfaite de la perspective, mais personne ne pouvait penser à un pari plus grand que celui qu'il vient de conquérir. Horrifié par les dommages à sa taverne et désespéré d'éviter une autre bagarre, le barket avait une idée. Aussi habile qu'il ait été, Ymir n'avait jamais participé à une vraie bataille, ne s'est jamais testée contre la mort aveugle et le chaos de la guerre. Il a proposé un pari pour le combattant: recherchez la plus grande bataille qu'il a pu trouver, survivre et la gagner pour le côté qu'il a choisi. Les enjeux? La prochaine série de boissons."
+    }
+  ],
+  "npc_dota_hero_tusk.name": [
+    {
+      "type": 0,
+      "value": "Ymir, la défense"
+    }
+  ],
+  "npc_dota_hero_tusk.quote": [
+    {
+      "type": 0,
+      "value": "Tusk est toujours impatient de commencer un combat. Capable de coincer instantanément un ennemi avec un mur d'éclats de glace, il se rassemble avec ses alliés et roule dans des ennemis à l'intérieur d'une boule de neige massive, le mettant à portée pour atterrir son coup de poing signature."
+    }
+  ],
+  "npc_dota_hero_undying.description": [
+    {
+      "type": 0,
+      "value": "Il se souvient faiblement d'armures et de bannières et de parents sinistres à ses côtés. Il se souvient d'une bataille: la douleur et la peur alors que les mains pâles le déchiraient de sa selle. Il se souvient de la terreur alors qu'ils le jetaient dans le fosse de bâillement du Dieu mort aux côtés de ses frères, pour entendre le chant et être consommé dans le néant. Dans l'obscurité ci-dessous, le temps les a laissés. Pensée les a laissés. La santé mentale les a laissés. La faim, cependant, ne l'a pas fait. Ils se sont tournés les uns les autres avec des ongles divisés et des dents brisées. Puis il est venu: distant au début, une note fragile au bord de la perception, rejointe par une autre, puis une autre, incontournable et sans fin. Le refrain est devenu un mur vivant de son pulsant dans son esprit jusqu'à ce qu'aucune autre pensée n'ait survécu. Avec le chant le consommant, il ouvrit les bras au Dieu mort et accueilla son oblitération. Pourtant, la destruction n'était pas ce pour quoi il avait été choisi. Le Dieu mort a exigé la guerre. Dans le ventre du grand rien, il a obtenu un nouvel objectif: répandre le chant à travers la terre, pour rallier les morts sans sommeil contre les vivants. Il devait devenir le éternel, le Herald du Dieu mort, se lever, tomber et se relever à nouveau chaque fois que son corps lui a échoué. Pour pénétrer par la mort sans fin, que le chant pourrait ne jamais se terminer."
+    }
+  ],
+  "npc_dota_hero_undying.name": [
+    {
+      "type": 0,
+      "value": "Éternel, le chant tout-puissant"
+    }
+  ],
+  "npc_dota_hero_undying.quote": [
+    {
+      "type": 0,
+      "value": "Pousser dans la bataille, éternel oblige les ennemis à décider de fuir la colère ou d'être déchiré par lui. Il draine la force de ses ennemis et invoque une horde de morts-vivants. Lorsqu'il devient finalement un golem de chair d'obstacle, ses ennemis peuvent déjà être submergés."
+    }
+  ],
+  "npc_dota_hero_ursa.description": [
+    {
+      "type": 0,
+      "value": "Ulfsaar le guerrier est le membre le plus féroce d'une tribu d'Ursine, protectrice de sa terre et de son peuple. Pendant les longs hivers, tandis que les mères dorment et soignent leurs oursons, les mâles patrouillent les terres au-dessus - comme des défenseurs vigilants infatigables de leurs anciennes manières. Entendant des rumeurs sombres mais croissantes d'un mal propagée, Ulfsaar est parti au-delà des limites de sa patrie boisée sauvage, avec l'intention de retrouver et de détruire la menace à sa source, avant de pouvoir mettre en danger son peuple. C'est une fière créature avec un esprit fort brillant, tout à fait digne de confiance, un allié et un défenseur fidèle."
+    }
+  ],
+  "npc_dota_hero_ursa.name": [
+    {
+      "type": 0,
+      "value": "Ulfsaar, le guerrier ursa"
+    }
+  ],
+  "npc_dota_hero_ursa.quote": [
+    {
+      "type": 0,
+      "value": "Avec chaque coup de griffes, Ursa augmente la vulnérabilité de sa cible à sa prochaine attaque. Capable d'augmenter brièvement à quel point il peut frapper rapidement et capable de ralentir les proies à proximité, il déchire rapidement ses ennemis."
+    }
+  ],
+  "npc_dota_hero_vengefulspirit.description": [
+    {
+      "type": 0,
+      "value": "Même le Skywrath le plus satisfait est une créature de mauvaise humeur, naturellement encline à se venger de la moindre insulte. Mais l'esprit vengeur est l'essence de la vengeance. Autrefois un skywrath fier et sauvage Scion, Shendelzare était d'abord successivement pour l'humastly eyrie jusqu'à ce que la trahison d'une sœur lui vole de son droit d'aînesse. Tiré dans un filet d'un assassin, Shendelzare s'est déchiré librement uniquement au prix de ses ailes, boitant dans l'humiliation ultime: à pied. Avec ses ailes brisées, elle savait que le skywrath ne l'accepterait jamais comme souverain; Et dans le plus haut gords de l'Eyrie, inaccessible, sauf par un vol ailé, sa sœur était intouchable. Ne voulant pas vivre comme un paralysant sans vol, et désirant une vengeance bien plus que la puissance terrestre, la princesse déchue a conduit une bonne affaire avec la déesse Scree'auk: elle a cédé son corps brisé pour une forme impérissable d'énergie spirituelle, motivée par la vengeance, capable de faire Grands dommages dans le plan matériel. Elle peut passer l'éternité sans vol, mais elle se vengera."
+    }
+  ],
+  "npc_dota_hero_vengefulspirit.name": [
+    {
+      "type": 0,
+      "value": "Shendelzare, l'esprit vengeur"
+    }
+  ],
+  "npc_dota_hero_vengefulspirit.quote": [
+    {
+      "type": 0,
+      "value": "La présence de Vengeful Spirit se fait sentir à tout moment, qu'elle soit vivante ou morte. Capable d'échanger des positions avec n'importe quel héros à proximité, d'étourdir les ennemis et de réduire l'efficacité de son tueur si elle tombe, elle apporte constamment de la confusion et du chaos à ses ennemis."
+    }
+  ],
+  "npc_dota_hero_venomancer.description": [
+    {
+      "type": 0,
+      "value": "Dix-sept ans plus tard, quelque chose a remué à l'endroit où il était tombé, jetant l'accumulation de l'humus: Venomancer. Lesale l'herboriste ne plus - mais Lesale le Deathbringer. Son esprit était presque effacé, et sa chair avait été consommée et remplacée par un nouveau type de matière - une fusion du venin du reptile par le tégument toxique de l'orchidée. Les jungles acides de Jidi connaissaient un nouveau maître, devant lequel même les prédateurs les plus vicieux ont rapidement appris à s'incliner ou à creuser pour leur vie. L'île Lurid s'est avérée trop confinante, et une faim humaine au cœur du Venomancer a conduit LaSale à la recherche de nouveaux poisons - et de nouveaux décès à apporter."
+    }
+  ],
+  "npc_dota_hero_venomancer.name": [
+    {
+      "type": 0,
+      "value": "Lesale Deathbringer, le Venomancer"
+    }
+  ],
+  "npc_dota_hero_venomancer.quote": [
+    {
+      "type": 0,
+      "value": "Venomancer apporte la mort lente à ses ennemis. Springant une armée sans fin d'observateurs de toxines pour défendre son territoire, si les ennemis s'approchent de sa sortie d'un nuage massif de poison persistant pour affaiblir les ennemis."
+    }
+  ],
+  "npc_dota_hero_viper.description": [
+    {
+      "type": 0,
+      "value": "Le malvolent malveillant d'un sorcier sadique qui a capturé et espérait le l'apprivoiser, Viper était curieusement heureux d'avoir été issu des Nether souterrains scellés et inchangés ont atteint le fait que sa race avait vécu pendant des millions d'années, après que le glissement tectonique ait scellé les Netherdrakes dans les délais en Cavernes lumineuses. Viper a passé un certain temps à se soumettre aux enchaînes de l'assistant, dans l'espoir d'apprendre ce qu'il pourrait des magiques sombres que le Mage a pratiqué. Mais il s'est vite rendu compte que peu de sorts étaient aussi mortels que les toxines qui étaient son droit d'aînesse. Exsuder un acide qui a rapidement mangé les barreaux de sa cage, le Netherdrake s'est glissé sans ses confins, crache du poison dans les yeux du vieux lanceur de sorts, et a grimpé pour faire savoir au monde qu'il avait un nouveau maître."
+    }
+  ],
+  "npc_dota_hero_viper.name": [
+    {
+      "type": 0,
+      "value": "Viper, le Netherdrake"
+    }
+  ],
+  "npc_dota_hero_viper.quote": [
+    {
+      "type": 0,
+      "value": "Lançant un poison mortel à distance, Viper représente une grave menace pour qui il cible. Alors que ses différentes toxines rongent la santé d'un ennemi et ralentissent leur mouvement, Viper fait simplement ce qu'il fait de mieux: il continue d'ajouter plus de poison."
+    }
+  ],
+  "npc_dota_hero_visage.description": [
+    {
+      "type": 0,
+      "value": "Perché au sommet de l'entrée du labyrinthe étroit, asseyez les formes imminentes des gargouilles qui ricanent, les chemins dans l'au-delà pour toujours dans leur regard. Bêtes et oiseaux, hommes et monstres, toutes les créatures qui meurent et qui choisissent de voyager au-delà de l'on doivent passer un jour sous leur vue. Pour un esprit non attaché, la décision de parcourir le voile de la mort est irrévocable. Quand le hasard arrive, et par artisanat ou rusé, une âme agitée s'échappe de leurs enfers et de leurs cieux, c'est le redoutable visage de gargouille, la forme limitée de l'esprit éternel Necro'lic, qui est envoyé pour les récupérer. Impitoyable et efficace, sans entrave par les principes de la mort et de la fatigue, le visage traque sa proie sans pitié ni fin, détruisant volontiers tout ce qui peut abriter l'essence fugitive. Ce qui affiche les lois de l'au-delà ne se reposera peut-être jamais, car bien qu'il soit vrai que les morts peuvent être relancés, ce n'est qu'une question de temps avant que Visage ne trouve et ne les renvoie à leur place."
+    }
+  ],
+  "npc_dota_hero_visage.name": [
+    {
+      "type": 0,
+      "value": "Visage, la forme liée de Necro'lic"
+    }
+  ],
+  "npc_dota_hero_visage.quote": [
+    {
+      "type": 0,
+      "value": "Alors que ses familiers mortels recouvrent le terrain, Visage se masque dans Armour et cherche la prochaine bataille. Une fois près d'une escarmouche, il rassemble l'énergie de l'âme des dégâts infligés aux combattants à proximité avant de le libérer dans une attaque dévastatrice. Alors que ses familiers mortels recouvrent le terrain, Visage se masque dans Armour et cherche la prochaine bataille. Une fois près d'une escarmouche, il rassemble l'énergie de l'âme des dégâts infligés aux combattants à proximité avant de le libérer dans une attaque dévastatrice. Visage (description du jeu)"
+    }
+  ],
+  "npc_dota_hero_void_spirit.description": [
+    {
+      "type": 0,
+      "value": "Avec une perspective étendue sur l'existence, INAI se concentre attentivement sur un moment au-delà duquel il ne peut pas voir, lorsque les tissus de plusieurs réalités sont destinés à colliter. Maintenant, il sort de l'éther pour résoudre personnellement la bataille des anciens et préparer ses alliés à ce qu'il considère comme un plus grand conflit à venir."
+    }
+  ],
+  "npc_dota_hero_void_spirit.name": [
+    {
+      "type": 0,
+      "value": "Vide esprit"
+    }
+  ],
+  "npc_dota_hero_void_spirit.quote": [
+    {
+      "type": 0,
+      "value": "Pruité des secrets qui briseraient un esprit mortel, l'esprit vide émerge de son temple caché pour prendre la garde sur plusieurs zones du champ de bataille à la fois. Capable d'entrer et de sortir du plan mortel à volonté, il dépasse facilement les adversaires de frapper partout où il le souhaite, faisant appel aux pouvoirs de l'éther de le protéger en cas de besoin."
+    }
+  ],
+  "npc_dota_hero_warlock.description": [
+    {
+      "type": 0,
+      "value": "En tant que commissaire en chef et chef des acquisitions pour les archives des Arcanes de l'Ultimyr Academy, Demnok Lannik était infatigable dans sa poursuite de tomes perdus, rares et interdits. Aucun temple maudit n'était si inquiétant, aucun chemin de caverne si perfide, que toute préoccupation pour sa propre survie ne pourrait le dissuader de pénétrer si des rumeurs laissaient entendre qu'une brochure de tradition primordiale pourrait encore survivre dans ses profondeurs. Cependant, si souvent ses enquêtes ont déclenché la colère des entités protectrices, qu'il a finalement jugé nécessaire de maîtriser les arts de la magie. Il s'est penché sur l'apprentissage de la sorcellerie avec la même obsession approfondie qui a marqué sa quête d'incunabula, devenant le démoniste le plus puissant de l'Académie en moins de temps que la plupart des praticiens nécessaires pour terminer un cours de premier cycle. Presque comme une réflexion après coup, il a taillé un personnel de Dreadwood et y a convoqué un esprit captif des enfers extérieurs. Et anticipant le jour où il aura récupéré tous les derniers sorts de sorts perdus, il a commencé à écrire son propre Grimoire noir. Ce sera sans aucun doute instructif."
+    }
+  ],
+  "npc_dota_hero_warlock.name": [
+    {
+      "type": 0,
+      "value": "Demnok Lannik, The Warlock"
+    }
+  ],
+  "npc_dota_hero_warlock.quote": [
+    {
+      "type": 0,
+      "value": "Invoquant son golem démoniaque, Warlock apporte une ruine aux ennemis et détruit leurs défenses. Pourtant, même sans son golem, ses sorts sombres peuvent encore faire des ravages, que ce soit des alliés guérissants et des ennemis nuisibles avec un mot, ou des ennemis liant ensemble pour partager leur agonie."
+    }
+  ],
+  "npc_dota_hero_weaver.description": [
+    {
+      "type": 0,
+      "value": "Les Guardians sont venus, avec leurs ciseaux, et le monde de Weaver a été réalisé, coupé de la tapisserie cosmique, qu'ils récupèrent sans lui. Skitskurr s'est retrouvé seul, à part son espèce, un état qui aurait tourmenté pour tout autre tisserand. Mais Skitskurr s'est réjoui, pour l'instant il était libre. Libre de créer pour lui-même, de recommencer. Les matières premières dont il avait besoin pour tisser une nouvelle réalité était tout autour de lui. Tout ce qu'il avait à faire était de déchirer ce vieux monde aux coutures."
+    }
+  ],
+  "npc_dota_hero_weaver.name": [
+    {
+      "type": 0,
+      "value": "Skitskurr, le tisserand"
+    }
+  ],
+  "npc_dota_hero_weaver.quote": [
+    {
+      "type": 0,
+      "value": "Weaver n'a aucun mal à échapper aux ennemis pour se positionner pour une autre grève. En glissant dans et hors de vue, il évite la mort en se rembobinant à une position antérieure et à un état de santé. Son arsenal de compétences insaisissables garantit qu'il est toujours une nuisance critique pour ses ennemis."
+    }
+  ],
+  "npc_dota_hero_windrunner.description": [
+    {
+      "type": 0,
+      "value": "Les forêts occidentales gardent bien leurs secrets. L'un d'eux est Lyralalei, maître archer du bois, et favorisé le parrain du vent. Connu maintenant sous le nom de Windrangeur, la famille de Lyrarali a été tuée dans une tempête le soir de sa naissance - leur maison soufflée par le coup de vent, le contenu éparpillé aux vents. Seul le nouveau-né a survécu dans le domaine des débris de la mort et de la destruction. Dans le calme après la tempête, le vent lui-même a pris note de l'enfant chanceux qui pleurait dans l'herbe. Le vent a fait pitié de l'enfant et l'a donc soulevée dans le ciel et l'a déposée sur une porte dans un village voisin. Dans les années qui ont suivi, le vent est revenu de temps en temps à la vie de l'enfant, en regardant à distance pendant qu'elle perforait ses compétences. Maintenant, après de nombreuses années de formation, Windranges tire ses flèches fidèles à leurs cibles. Elle se déplace avec une vitesse aveuglante, comme si elle était acquise par un vent dans le dos. Avec une rafale de flèches, elle tue ses ennemis, étant devenue, presque, une force de la nature elle-même."
+    }
+  ],
+  "npc_dota_hero_windrunner.name": [
+    {
+      "type": 0,
+      "value": "Lyralalei, le Windrantrait"
+    }
+  ],
+  "npc_dota_hero_windrunner.quote": [
+    {
+      "type": 0,
+      "value": "Évasive et rapide, le Winble Windranger recherche toujours l'angle droit pour attaquer. Qu'elle ouvre la voie avec un match nul de son pouvoir mortel ou enchaîner les ennemis pour les pivoter de flèches, elle est toujours en mouvement."
+    }
+  ],
+  "npc_dota_hero_winter_wyvern.description": [
+    {
+      "type": 0,
+      "value": "Comme beaucoup de grands poètes, Auroth veut juste du temps pour écrire, mais la vie de l'hiver Wyvern est pleine d'interruptions. Les épopées des Eldwurms ont une histoire longue et colorée, mais certaines craignent que les érudits de dragon restants ne soient pas aussi prolifiques qu'ils l'étaient autrefois, avec peu de lignes ajoutées aux eldwurm Eddas depuis le dernier âge de la grandeur. Auroth déplore: \"Nous oublions qu'il y a plus dans la vie que le triomphe et la domination sur les ennemis. Nous devons également vivre notre vie dans la poursuite de l'expression créative.\" Elle se lance dans des expéditions de recherche, collectant des livres pour l'inspiration. Mais toutes ces recherches peuvent être terriblement distrayantes, et elle passe moins de temps à écrire qu'elle ne devrait. Bien qu'elle sache qu'elle devrait se cacher dans son antre, ajoutant aux Eddas, elle se retrouve engagée dans des batailles épiques contre de puissants ennemis. Elle détruit les châteaux, fait des raids des bibliothèques anciennes ... et si elle se trouve à elle-même dans le processus, elle se dit que ce n'est qu'un effet secondaire de ses recherches. Le fait est que, bien que ses compétences et son pouvoir sur le champ de bataille soient légendaires, ses travaux savants ont jusqu'à présent été à peine des éloges littéraires. Mais elle ne se contente pas de se présenter en tant que protagoniste de la tradition héroïque. Elle souhaite également le créer."
+    }
+  ],
+  "npc_dota_hero_winter_wyvern.name": [
+    {
+      "type": 0,
+      "value": "Auroth, le Wyvern d'hiver"
+    }
+  ],
+  "npc_dota_hero_winter_wyvern.quote": [
+    {
+      "type": 0,
+      "value": "L'hiver Wyvern traque le ciel, ralentissant les ennemis avec un froid brûlant alors qu'elle plane sur le champ de bataille. Si l'ennemi est assez stupide pour se rassembler, elle les maudit pour attaquer l'un des leurs alors qu'elle fait exploser le rassemblement avec des éclats glacés."
+    }
+  ],
+  "npc_dota_hero_wisp.description": [
+    {
+      "type": 0,
+      "value": "Comme les grands coureurs jumeaux sombres et légers, et encore un autre voyageur ancien dont la véritable histoire est perdue dans les âges, Io the Wisp est un fondamental de l'univers - une force plus âgée que le temps, un vagabond des royaumes bien au-delà de la compréhension mortelle. L'IO n'est rien de moins que la somme de toutes les forces attractives et répulsives dans le champ des matériaux, une manifestation sensible de la charge qui lie les particules ensemble. Ce n'est que dans la déformation contrôlée de ces forces que la présence de l'IO peut être ressentie sur le plan physique. Une force coopérative bienveillante, IO lie son étrange magnétisme à d'autres afin que la puissance des alliés puisse être améliorée. Ses motifs impénétrables, sa force inimaginable, Io se déplacent à travers le plan physique, l'expression parfaite des mystères de l'univers."
+    }
+  ],
+  "npc_dota_hero_wisp.name": [
+    {
+      "type": 0,
+      "value": "Io, le wisp"
+    }
+  ],
+  "npc_dota_hero_wisp.quote": [
+    {
+      "type": 0,
+      "value": "IO a un talent pour rendre les alliés plus efficaces. Un compagnon puissant, l'attache du Wisp accélère les alliés et arrête les ennemis. Capable de lier et de se téléporter à travers le champ de bataille avec un allié, IO peut rendre un allié dangereux encore plus meurtrier."
+    }
+  ],
+  "npc_dota_hero_witch_doctor.description": [
+    {
+      "type": 0,
+      "value": "Une silhouette raide atteint des atteages à l'avant - un devenus de fonctionnalités et de membres, bizarres de la démarche, sillonnant sans relâche le champ de bataille à la recherche de ce point faible vital où ses talents peuvent faire le plus de bien et le plus de mal. Qu'il s'agisse de brisé ou de malade, il n'est pas clair, mais tout ne peut douter de la puissance transportée dans son physique tordu. Un long personnel frappe la Terre alors que Zharvakko le sorcier avance, déployant un arsenal terrifiant de fétiches, d'hexateurs et de sorts. C'est un corps de connaissances magiques apprises et perfectionnées au cours de plusieurs vies dans les hautes terres de l'île d'Arktura, maintenant exercée avec une précision de précision contre ses ennemis. Zharvakko peut être votre meilleur ami ou votre pire ennemi - des alliés de la santé et des déchets à tous ceux qui s'opposent à lui."
+    }
+  ],
+  "npc_dota_hero_witch_doctor.name": [
+    {
+      "type": 0,
+      "value": "Zharvakko, le sorcier"
+    }
+  ],
+  "npc_dota_hero_witch_doctor.quote": [
+    {
+      "type": 0,
+      "value": "Le sorcier est ce que son équipe a besoin de lui. Que ce soit aider son équipe avec des ennemis de guérison progressifs, de superbes et de maudire pour assurer un tuer, ou de détruire les ennemis lui-même avec une danse par son puissant ultime, peu peuvent égaler la polyvalence de Witch Doctor."
+    }
+  ],
+  "npc_dota_hero_zuus.description": [
+    {
+      "type": 0,
+      "value": "Seigneur du ciel, Père des dieux, Zeus traite tous les héros comme s'ils étaient ses enfants exubérants et rebelles. Après avoir été pris sans nombre de temps au milieu de rendez-vous avec d'innombrables femmes mortelles, sa femme divine lui a finalement donné un ultimatum: `` Si vous aimez tellement les mortels, allez en devenir un. Si vous pouvez faire vos preuves fidèles, revenez à moi comme mon mari immortel. Sinon, allez mourir parmi vos créatures. Zeus a trouvé sa logique (et sa magie) irréfutable et a accepté son plan. Depuis, il est sur son meilleur comportement, étant quelque peu plus important de l'immortalité que de mortels. Mais pour faire ses preuves dignes de son conjoint éternel, il doit continuer à poursuivre la victoire sur le champ de bataille."
+    }
+  ],
+  "npc_dota_hero_zuus.name": [
+    {
+      "type": 0,
+      "value": "Zeus, le Seigneur du Ciel"
+    }
+  ],
+  "npc_dota_hero_zuus.quote": [
+    {
+      "type": 0,
+      "value": "Personne ne peut se cacher de Zeus, qu'il appelle un boulon pour révéler son environnement, envoyer un arc traversant ses ennemis les plus proches, ou invoquer une terrifiante volée de foudre sur tous les ennemis. Partout où se trouvent ses ennemis, Zeus les trouvera."
+    }
+  ]
+}

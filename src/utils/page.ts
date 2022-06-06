@@ -45,14 +45,19 @@ export const withLocale =
     (callback: GetServerSideProps): GetServerSideProps =>
     async (context) => {
         const props = await callback(context)
-        const { data: localeMessages } = await apiClient.get(`locales/${context.locale}.json`)
-
+        const { data: gameMessages } = await apiClient.get(`locales/${context.locale}.json`)
+        const { data: heroesMessages } = await apiClient.get(
+            `locales/heroes/${context.locale}.json`,
+        )
         // @ts-ignore
         if (props.props) {
             // @ts-ignore
             props.props.locale = context.locale
             // @ts-ignore
-            props.props.localeMessages = localeMessages
+            props.props.localeMessages = {
+                ...gameMessages,
+                ...heroesMessages,
+            }
         }
 
         return props

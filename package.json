@@ -13,15 +13,16 @@
     "dev:next": "next dev",
     "dev:path": "pathpida --ignorePath .gitignore --watch",
     "build:path": "pathpida --ignorePath .gitignore",
-    "build:i18n": "yarn i18n:extract && yarn i18n:compile",
+    "build:i18n": "yarn i18n:extract && yarn i18n:translate && run-p i18n:compile:*",
     "prebuild": "yarn build:path && yarn build:i18n",
     "build": "next build",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint",
-    "i18n:translate": "set GOOGLE_APPLICATION_CREDENTIALS=./content/google-translate-key.json&&ts-node ./scripts/translate.ts",
     "i18n:extract": "formatjs extract \"src/**/*.{js,jsx,ts,tsx}\" --ignore=\"**/*.d.ts\"  --format simple --id-interpolation-pattern [sha512:contenthash:base64:6] --out-file content/locales/ru.json",
-    "i18n:compile": "formatjs compile-folder --ast --format simple content/locales public/locales"
+    "i18n:translate": "set GOOGLE_APPLICATION_CREDENTIALS=./content/google-translate-key.json&&ts-node ./scripts/translate.ts",
+    "i18n:compile:game": "formatjs compile-folder --ast --format simple content/locales public/locales",
+    "i18n:compile:heroes": "formatjs compile-folder --ast --format simple content/locales/heroes public/locales/heroes"
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} ./prisma/seed.ts"

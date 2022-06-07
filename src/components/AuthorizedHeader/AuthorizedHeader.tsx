@@ -6,6 +6,7 @@ import { FormattedMessage } from 'react-intl'
 
 import { toggleMuiTheme } from '../../models/ui'
 import { pagesPath } from '../../utils/$path'
+import { LanguageSelect } from '../LanguageSelect/LanguageSelect'
 import { SettingsMenu } from './components/SettingsMenu/SettingsMenu'
 import AdbIcon from '@mui/icons-material/Adb'
 import Brightness4Icon from '@mui/icons-material/Brightness4'
@@ -30,7 +31,6 @@ const pages = [
     },
 ]
 
-// TODO: add localization switcher
 export const AuthorizedHeader: FC<Props> = memo((props) => {
     const { data } = useSession()
     const theme = useTheme()
@@ -75,7 +75,8 @@ export const AuthorizedHeader: FC<Props> = memo((props) => {
                     </Button>
                 ))}
             </Stack>
-            <IconButton sx={{ ml: 1 }} onClick={handleMUIThemeToggle} color="inherit">
+            <LanguageSelect />
+            <IconButton onClick={handleMUIThemeToggle} color="inherit">
                 {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
             {/* TODO: check that at server session info may be null */}

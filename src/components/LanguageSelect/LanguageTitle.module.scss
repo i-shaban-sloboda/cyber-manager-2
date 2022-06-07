@@ -1,0 +1,7 @@
+.base {
+    padding-inline: 16px;
+
+    & > * {
+        pointer-events: none;
+    }
+}

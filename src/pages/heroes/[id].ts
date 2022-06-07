@@ -26,7 +26,17 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
 export const getStaticProps: GetStaticProps<Props, Params> = async ({ params, locale }) => {
     const heroId = parseInt(params?.id as string, 10)
     const hero = await heroesController.getById(heroId)
-    const { data: localeMessages } = await apiClient.get(`locales/${locale}.json`)
+    const { data: gameMessages } = await apiClient.get(`locales/${locale}.json`)
+    const { data: heroesMessages } = await apiClient.get(`locales/heroes/${locale}.json`)
 
-    return { props: { hero, locale, localeMessages } }
+    return {
+        props: {
+            hero,
+            locale,
+            localeMessages: {
+                ...gameMessages,
+                ...heroesMessages,
+            },
+        },
+    }
 }

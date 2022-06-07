@@ -9,11 +9,21 @@ export default Heroes
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
     const scope = fork()
-    const { data: localeMessages } = await apiClient.get(`locales/${locale}.json`)
+    const { data: gameMessages } = await apiClient.get(`locales/${locale}.json`)
+    const { data: heroesMessages } = await apiClient.get(`locales/heroes/${locale}.json`)
 
     await allSettled(requestHeroesFx, { scope })
 
     const effector = serialize(scope)
 
-    return { props: { effector, locale, localeMessages } }
+    return {
+        props: {
+            effector,
+            locale,
+            localeMessages: {
+                ...gameMessages,
+                ...heroesMessages,
+            },
+        },
+    }
 }

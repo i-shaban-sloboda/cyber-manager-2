@@ -26,7 +26,7 @@ export const Heroes: NextPage<Props> = memo((props) => {
             seoDescription="Heroes page"
             className={styles.base}
         >
-            <Typography variant="h3">
+            <Typography variant="h3" sx={{ ml: 5, mr: 5 }}>
                 <FormattedMessage
                     defaultMessage="Привет {name}, ты находишься на странице списка героев!"
                     values={{ name: session?.data?.user?.name }}

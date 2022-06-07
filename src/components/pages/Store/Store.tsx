@@ -13,7 +13,7 @@ export const Store: NextPage<Props> = memo((props) => {
 
     return (
         <PageLayout seoTitle="Cyber Manager 2: STORE" seoDescription="Store page">
-            <Typography variant="h3">
+            <Typography variant="h3" sx={{ ml: 5, mr: 5 }}>
                 <FormattedMessage
                     defaultMessage="Привет {name}, ты находишься на странице магазина!"
                     values={{ name: session?.data?.user?.name }}

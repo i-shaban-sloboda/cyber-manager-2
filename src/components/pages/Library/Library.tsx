@@ -13,7 +13,7 @@ export const Library: NextPage<Props> = memo((props) => {
 
     return (
         <PageLayout seoTitle="Cyber Manager 2: LIBRARY" seoDescription="Library page">
-            <Typography variant="h3">
+            <Typography variant="h3" sx={{ ml: 5, mr: 5 }}>
                 <FormattedMessage
                     defaultMessage="Привет {name}, ты находишься в библиотеке!"
                     values={{ name: session?.data?.user?.name }}

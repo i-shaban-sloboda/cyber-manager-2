@@ -16,7 +16,7 @@ export const ProfileSettings: NextPage<Props> = memo((props) => {
             seoTitle="Cyber Manager 2: PROFILE SETTINGS"
             seoDescription="Profile settings page"
         >
-            <Typography variant="h3">
+            <Typography variant="h3" sx={{ ml: 5, mr: 5 }}>
                 <FormattedMessage
                     defaultMessage="Привет {name}, ты находишься на странице профайла!"
                     values={{ name: session?.data?.user?.name }}

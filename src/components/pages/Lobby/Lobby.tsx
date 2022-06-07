@@ -36,7 +36,7 @@ export const Lobby: NextPage<Props> = (props) => {
             seoDescription="Lobby page"
             className={styles.base}
         >
-            <Typography variant="h3" sx={{ alignSelf: 'center' }}>
+            <Typography variant="h3" sx={{ alignSelf: 'center', ml: 5, mr: 5 }}>
                 <FormattedMessage
                     defaultMessage="Привет {name}, ты находишься в гостинной!"
                     values={{ name: session?.data?.user?.name }}

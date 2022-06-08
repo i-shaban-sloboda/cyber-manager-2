@@ -30,6 +30,8 @@ export const Hero: NextPage<Props> = memo(({ hero }) => {
                     values={{ name: session?.data?.user?.name, hero: hero?.name }}
                 />
             </Typography>
+            {/*<FormattedMessage id={`${hero?.name}.description`} />*/}
+            {/*<FormattedMessage id={`${hero?.name}.quote`} />*/}
         </PageLayout>
     )
 })

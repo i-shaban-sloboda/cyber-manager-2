@@ -16,8 +16,7 @@ export const getStaticPaths: GetStaticPaths<Params> = async () => {
         paths: heroes
             .map(({ id }) => ({ params: { id: id.toString() } }))
             .reduce((result, heroProps) => {
-                result.concat(locales.map((locale) => ({ ...heroProps, locale })))
-                return result
+                return [...result, ...locales.map((locale) => ({ ...heroProps, locale }))]
             }, [] as Array<{ params: Params; locale?: string }>),
         fallback: false,
     }

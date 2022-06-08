@@ -2,16 +2,24 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+yarn
+```
+
+then init db and seed it with mock data:
+
+```bash
+yarn prisma:init
+```
+
+then run the development server:
 
 ```bash
 yarn dev
 ```
 
-Then init db and seed it with mock data:
-```bash
-yarn prisma:init
-```
 Open [http://localhost:3000/](http://localhost:3000/) with your browser to see the result.
 
 ## Prisma studio

@@ -12,6 +12,11 @@ const nextConfig = {
         // a non-locale prefixed path e.g. `/hello`
         defaultLocale: 'ru',
     },
+    eslint: {
+        // Warning: This allows production builds to successfully complete even if
+        // your project has ESLint errors.
+        ignoreDuringBuilds: true,
+    },
     env: {
         // workaround for Amplify build
         NEXTAUTH_URL: process.env.NEXTAUTH_URL,
